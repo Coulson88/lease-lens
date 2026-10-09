@@ -1,0 +1,189 @@
+{
+  "doc_id": "3do",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 26.6,
+  "usage": {
+    "input_tokens": 58665,
+    "output_tokens": 3968
+  },
+  "chars": 163726,
+  "fields": {
+    "landlord": {
+      "value": "Seaport Plaza Associates, LLC, a California limited liability company",
+      "normalised": "Seaport Plaza Associates, LLC",
+      "quote": "Landlord: SEAPORT PLAZA ASSOCIATES, LLC, a California limited liability company",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        7837,
+        7916
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "The 3DO Company, a California corporation",
+      "normalised": "The 3DO Company",
+      "quote": "Tenant: The 3DO Company, a California corporation",
+      "confidence": "high",
+      "note": "Guarantor is also named The 3DO Company but as a Delaware corporation; the tenant is described as a California corporation.",
+      "span": [
+        7918,
+        7967
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "100 Cardinal Way and 200 Cardinal Way, Redwood City, CA (Seaport Plaza; the 100 Building and the 200 Building, both to be constructed by Landlord)",
+      "normalised": "100 and 200 Cardinal Way, Redwood City, CA",
+      "quote": "Premises (consisting of the 100 Building and the 200 Building): Approximately 159,350 rentable square feet",
+      "confidence": "high",
+      "note": "Addresses come from the Basic Lease Information (100 Cardinal Way and 200 Cardinal Way, Redwood City, CA). No suite or floor is given because the Premises are two whole buildings.",
+      "span": [
+        8507,
+        8613
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 159,350 rentable square feet (79,675 in each of the two buildings)",
+      "normalised": "159350",
+      "quote": "Premises (consisting of the 100 Building and the 200 Building): Approximately 159,350 rentable square feet",
+      "confidence": "medium",
+      "note": "The figure is approximate. Section 1 says the Building Architect will establish the final rentable area. Rent is not payable on area above 160,944 rsf.",
+      "span": [
+        8507,
+        8613
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "Conditional: the date Landlord delivers the fully executed Lease to Tenant after both parties have signed (the Executed Lease Delivery Date). No fixed date is stated, and the lease date of July 12, 1999 is for identification only.",
+      "normalised": null,
+      "quote": "The \"Commencement Date\" shall be the date Landlord delivers to Tenant a fully executed original copy of this Lease after Landlord and Tenant have fully executed this Lease",
+      "confidence": "low",
+      "note": "The Term commences on this date. The Rent Commencement Date is separate: Dec 1, 2000, subject to Landlord Delay and force majeure extension, or earlier if Tenant occupies and conducts business.",
+      "span": [
+        15014,
+        15185
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "The last day of the 144th full calendar month following the Rent Commencement Date (12-year term). The Rent Commencement Date is Dec 1, 2000 unless extended for Landlord Delay or force majeure, or made earlier by Tenant occupancy. If the Buildings have different Rent Commencement Dates, the first Building's date governs.",
+      "normalised": null,
+      "quote": "Expiration Date: The last day of the 144th full calendar month following the Rent Commencement Date",
+      "confidence": "low",
+      "note": "The date is conditional on the Rent Commencement Date. If that date is Dec 1, 2000 and is not extended, expiry would be about Nov 30, 2012. This is my calculation, not a stated date, and the lease calls for written confirmation of the dates.",
+      "span": [
+        9413,
+        9512
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$406,342.50 per month for Months 1-12 after the Rent Commencement Date ($2.55 per rsf per month x 159,350 rsf). The lease is triple net.",
+      "normalised": "406342.50",
+      "quote": "Months 01 - 12: $2.55 per rentable square foot per month",
+      "confidence": "medium",
+      "note": "Calculated as $2.55 x 159,350 rsf. It will change if the final rentable area differs from the approximate figure. Rent is not payable on area above 160,944 rsf.",
+      "span": [
+        9608,
+        9664
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule with annual increases per rsf per month: $2.55 (Months 1-12), $2.63, $2.71, $2.79, $2.87, $2.96, $3.04, $3.14, $3.23, $3.33, $3.43, and $3.53 (Months 133-144).",
+      "normalised": "Annual fixed steps from $2.55 to $3.53 per rsf per month over 144 months",
+      "quote": "Months 133 - 144: $3.53 per rentable square foot per month",
+      "confidence": "medium",
+      "note": "Steps take effect on each anniversary of the Rent Commencement Date (Section 3.1).",
+      "span": [
+        10246,
+        10304
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "An Extension Option exists (Section 41, Extension Option). The text of Section 41 and Exhibit D is not in the lease provided, so the number and length of extensions are not stated. Other sections refer to an Extension Term, an Extension Period and Fair Market Base Rental.",
+      "normalised": null,
+      "quote": "41. Extension Option",
+      "confidence": "low",
+      "note": "Terms are missing from the provided text. Section 12.2(c) also refers to a Tenant's Extension Option exercised at Fair Market Base Rental.",
+      "span": [
+        11741,
+        11761
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": null,
+      "normalised": null,
+      "quote": null,
+      "confidence": "low",
+      "note": "An Extension Option is referenced, but the notice period is in Section 41, which is not in the provided text. Not found.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "No discretionary early termination right is given to Tenant. It has only contingent termination rights: (1) construction-related rights under Section 2.3 (Landlord fails to start base building work within 180 days, construction stops for more than 150 days, or the Base Building Work is not complete by the June 1, 2001 Outside Date); (2) casualty (Section 12.3); (3) condemnation (Section 13); (4) Hazardous Materials, if more than 20% of the Premises is unusable for 12 months (Section 5.2(h)); and (5) service interruption of 180 days (Section 9.2). No termination fee is stated.",
+      "normalised": "No voluntary termination option; only contingent rights (construction delay, casualty, condemnation, hazardous materials, service failure)",
+      "quote": "then Tenant may deliver a notice to Landlord (\"Cessation of Construction Termination Notice\") electing to terminate this Lease effective on Landlord's receipt of such notice;",
+      "confidence": "medium",
+      "note": "Section 42 (Guaranty and Conditions to Termination of Guaranty) concerns the guaranty and not termination of the lease. Its text is not provided.",
+      "span": [
+        17400,
+        17574
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "Two letters of credit: $816,000.00 (L/C #1, including the cash proceeds thereof) and $5,240,000.00 (L/C #2), totalling $6,056,000.00.",
+      "normalised": "6056000",
+      "quote": "(a) $816,000.00 Letter of Credit (including the cash proceeds thereof, as provided in Section 37 of this Lease), and",
+      "confidence": "medium",
+      "note": "The $6,056,000 total is my sum of the two amounts. Section 4 also mentions a $408,000 cash deposit portion under Section 37(b). Sections 37 and 38 are not in the provided text, so the cash/L/C split is unclear.",
+      "span": [
+        10673,
+        10789
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    }
+  }
+}

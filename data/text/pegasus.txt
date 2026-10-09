@@ -1,0 +1,2829 @@
+EX-10.24
+4
+exh10-24.txt
+OFFICE LEASE
+
+EXHIBIT 10.24
+
+LEASE AGREEMENT
+
+between
+
+RYAN COMPANIES US, INC.,
+a Minnesota corporation,
+as "Landlord"
+
+and
+
+PEGASUS SOLUTIONS COMPANIES,
+a Delaware corporation
+as "Tenant"
+
+at
+
+Pegasus Corporate Center
+Northsight - Scottsdale, Arizona
+
+TABLE OF CONTENTS
+
+SECTION PAGE
+
+1. PREMISES.................................................. 3
+
+2. TERM; POSSESSION.......................................... 3
+
+3. RENT; SECURITY DEPOSIT.................................... 5
+
+4. RENTAL TAXES.............................................. 13
+
+5. USE AND COMPLIANCE WITH LAWS.............................. 13
+
+6. TENANT IMPROVEMENTS & ALTERATIONS......................... 16
+
+7. MAINTENANCE AND REPAIRS................................... 18
+
+8. TENANT'S PERSONAL PROPERTY TAXES.......................... 19
+
+9. UTILITIES AND SERVICES.................................... 19
+
+10. EXCULPATION AND INDEMNIFICATION........................... 20
+
+11. INSURANCE................................................. 21
+
+12. DAMAGE OR DESTRUCTION..................................... 24
+
+13. CONDEMNATION.............................................. 25
+
+14. ASSIGNMENT AND SUBLETTING................................. 27
+
+15. DEFAULT AND REMEDIES...................................... 29
+
+16. INTEREST.................................................. 31
+
+17. WAIVER.................................................... 31
+
+18. ENTRY, INSPECTION AND CLOSURE............................. 32
+
+19. SURRENDER AND HOLDING OVER................................ 32
+
+20. ENCUMBRANCES.............................................. 33
+
+21. ESTOPPEL CERTIFICATES AND FINANCIAL STATEMENTS............ 33
+
+22. NOTICES................................................... 34
+
+23. ATTORNEYS' FEES........................................... 35
+
+24. QUIET POSSESSION.......................................... 35
+
+25. SECURITY MEASURES......................................... 35
+
+26. FORCE MAJEURE............................................. 36
+
+27. RULES AND REGULATIONS..................................... 36
+
+28. LANDLORD'S LIABILITY...................................... 36
+
+29. CONSENTS AND APPROVALS.................................... 36
+
+30. WAIVER OF RIGHT TO JURY TRIAL............................. 36
+
+31. BROKERS................................................... 36
+
+32. INTENTIONALLY OMITTED..................................... 37
+
+33. ENTIRE AGREEMENT.......................................... 37
+
+34. MISCELLANEOUS............................................. 37
+
+35. AUTHORITY................................................. 38
+
+36. RESTRICTION ON OTHER TENANTS.............................. 38
+
+Exhibits:
+---------
+Exhibit A: The Premises
+Exhibit B: Construction Rider
+Exhibit C: Building Rules
+Exhibit D: Additional Provisions
+Exhibit E: Pro Forma Total Project Cost
+Exhibit F: Base Building Description
+
+BASIC LEASE INFORMATION
+
+Lease Date: For identification purposes only, the date of
+the Lease is September 14, 2001.
+
+Landlord: RYAN COMPANIES US, INC., a Minnesota corporation
+
+Tenant: PEGASUS SOLUTIONS COMPANIES, a Delaware
+corporation
+
+Guarantor: PEGASUS SOLUTIONS, INC., a Delaware corporation
+
+Project: Pegasus Corporate Center - Northsight
+
+Building Address: 14000 North Pima Road, Scottsdale, Arizona 85260
+
+Rentable Area of Approximately 140,000 rentable square feet
+Building:
+
+Premises: Suite Number: 100
+Rentable Area: approximately 110,000 rentable
+square feet (subject to Tenant's right to adjust
+the size of the Premises under Section 1.2 of
+the Lease)
+
+Term: One hundred twenty (120) full calendar months
+(plus any partial month at the beginning of the
+Term)
+
+Scheduled Commencement
+Date: January 1, 2003
+
+Expiration Date: The last day of the one hundred twentieth
+(120th) full calendar month in the Term
+
+Base Rent: As calculated pursuant to Section 3.1 of the
+Lease
+
+Security Deposit
+(letter of credit): $1,200,000
+
+Tenant's Share : Approximately 79%
+
+Operating Costs Expense $7.25 per rentable square foot for all areas of
+Stops: the Premises other than the "Constant Use Area"
+(as delineated on Exhibit A), the expense stop
+for which will be $5.50 per rentable square foot
+
+Landlord's Address for Ryan Companies US, Inc.
+Payment of Rent: 900 Second Avenue South, Suite 700
+Minneapolis, MN 55402
+
+Business Hours: Between 7:00 a.m. and 7:00 p.m., Monday through
+Friday, and between 8:00 a.m. and 1:00 p.m. on
+Saturday
+
+Landlord's Address Ryan Companies US, Inc.
+For Notices: 900 Second Avenue South, Suite 700
+Minneapolis, MN 55402
+
+With copy to:
+
+Ryan Companies US, Inc.
+3131 East Camelback Road, Suite 220
+Phoenix, AZ 85016
+Attention: John L. Strittmatter
+
+Tenant's Address Prior to Commencement Date:
+For Notices: Pegasus Solution Corporation
+7500 North Dreamy Draw Drive
+Suite 120
+Phoenix, AZ 85020
+Attention: Steve Greenspan, Director of Real
+Estate
+
+After Commencement Date:
+The Premises
+
+Broker(s): CB Richard Ellis
+Attention: Chuck Nixon
+2415 East Camelback Road
+First Floor
+Phoenix, AZ 85016
+
+Property Manager: Ryan Properties, Inc.
+
+Additional Provisions: See Exhibit D
+
+The Basic Lease Information set forth above is part of the Lease. In
+the event of any conflict between any provision in the Basic Lease
+Information and the Lease, the Lease shall control.
+
+THIS LEASE is made as of the Lease Date set forth in the Basic Lease
+Information, by and between the Landlord identified in the Basic Lease
+Information ("Landlord"), and the Tenant identified in the Basic Lease
+Information ("Tenant"). Landlord and Tenant hereby agree as follows:
+
+1. PREMISES.
+
+1.1 Landlord hereby leases to Tenant, and Tenant hereby leases from
+Landlord, upon the terms and subject to the conditions of this Lease, the
+office space identified in the Basic Lease Information as the Premises (the
+"Premises"), in the Building located at the address specified in the Basic
+Lease Information (the "Building"). The approximate configuration and
+location of the Premises including the location of the reserved, covered and
+visitor parking spaces and the patio area set aside for Tenant's exclusive
+use (the area of which will not subject Tenant to any additional charge for
+rent) are shown on Exhibit A. Landlord and Tenant agree that the rentable
+area of the Premises for all purposes under this Lease shall be the Rentable
+Area specified in the Basic Lease Information, subject to Landlord's final
+measurement and recalculation of Base Rent and Tenant's Share prior to the
+Commencement Date, subject to Tenant's written approval not to be
+unreasonably withheld or delayed. Landlord's measurement will utilize the
+BOMA Standard Method for Measuring Floor Area in Office Buildings, ANSI
+Z 65.1-1996. The Building and the parcel(s) of land on which the Building
+is situated including, but not limited to, parking lot(s) and other common
+areas (collectively, the "Property"), are part of the Project identified in
+the Basic Lease Information (the "Project").
+
+1.2 Tenant shall have the right to increase or decrease the size of the
+Premises by up to ten thousand (10,000) rentable square feet upon written
+notice to Landlord, which shall be given no later than ninety (90) days
+after the date of this Lease.
+
+2. TERM; POSSESSION.
+
+2.1 The term of this Lease (the "Term") (and the date when Tenant's
+obligations hereunder, except as otherwise expressly provided herein,
+commence) shall commence on the Commencement Date as described below and,
+unless sooner terminated, shall expire on the Expiration Date set forth in
+the Basic Lease Information (the "Expiration Date"). The "Commencement
+Date" shall be the earlier of (a) the date on which Landlord tenders
+possession of the Premises to Tenant, with all of Landlord's construction
+obligations "Substantially Completed" as provided in the Construction Rider
+attached as Exhibit B (the "Construction Rider"); or (b) the date on which
+Tenant lawfully takes possession of the Premises for the purpose of
+commencing business. In no event shall the Commencement Date occur prior to
+January 1, 2003 without Tenant's prior written consent. Landlord will give
+Tenant thirty (30) days notice of the expected date of Substantial
+Completion. The parties anticipate that the Commencement Date will occur on
+or about the Scheduled Commencement Date set forth in the Basic Lease
+Information (the "Scheduled Commencement Date"); provided, however, that
+except as otherwise provided in this Lease Landlord shall not be liable for
+any claims, damages or liabilities if the Premises are not ready for
+occupancy by the Scheduled Commencement Date. Tenant shall not interfere
+with construction of the Premises or do anything that could delay
+Substantial Completion or the Scheduled Commencement Date, and shall at all
+times act diligently and cooperate with Landlord to the fullest extent
+possible to prevent the occurrence of Tenant Delay. If the Premises are not
+ready for occupancy by the Scheduled Commencement Date for any reason other
+than Tenant's Default under this Lease, Landlord shall diligently complete
+construction at the earliest practicable date. When the Commencement Date
+has been established, Landlord and Tenant shall confirm the Commencement
+Date and the Expiration Date in writing.
+
+2.2 Notwithstanding any provision in this Lease to the contrary:
+
+(a) If Substantial Completion does not occur on or before January
+1, 2003, as such date may be extended by reason of Tenant Delay or Force
+Majeure, then Landlord shall reimburse Tenant, or credit against the Base
+Rent next due, an amount equal to any penalties, holdover premiums or other
+amounts incurred by Tenant under leases of other premises in Maricopa
+County, Arizona, excepting all sums due for "pre-holdover" rent, as a result
+of Tenant's failure to vacate prior to January 1, 2003 all or any of the
+space subject to such leases, provided however that Landlord shall not be
+obligated to pay any such amounts in excess of $100,000.
+
+(b) If Substantial Completion does not occur on or before
+February 1, 2003 (the "Adjusted Delivery Date"), as such date may be
+extended by reason of Tenant Delay or Force Majeure, then Tenant's sole and
+exclusive remedy will be to receive two (2) days of free rent credit for
+each day after the Adjusted Delivery Date until the date of Substantial
+Completion and, in addition thereto, another $1,000 of rent credit for each
+day of delay beginning thirty (30) days after the Adjusted Delivery Date
+until the date of Substantial Completion; and
+
+(c) If Substantial Completion does not occur on or before April 1,
+2003 for any reason other than Tenant Delay, and regardless of Force
+Majeure, then Tenant shall have the right to cancel this Lease by notice
+given to Landlord on or before ten (10) days thereafter, except that the
+foregoing election of remedies shall not prevent Tenant from seeking
+specific performance of Landlord's obligations under this Lease, or prevent
+Tenant's recovery of an amount equal to the rent credits to which Tenant
+would have been entitled but for Tenant's cancellation.
+
+For each day of delay caused by Tenant Delay or Force Majeure, and for
+each day of delay in the issuance after June 1, 2002 of a building permit
+from the City of Scottsdale for the Tenant Improvements, Landlord's
+performance dates (including without limitation the Adjusted Delivery Date
+and Landlord's obligations under the Construction Rider attached as
+Exhibit B) shall be extended for an equivalent period of time. Landlord
+shall notify Tenant of each event of Tenant Delay or Force Majeure within
+ten (10) days (or earlier if reasonably possible) after the event occurs
+that will delay Landlord's performance.
+
+Tenant may enter:
+
+(i) the Data Center at any time within ninety (90) days prior
+to the Scheduled Commencement Date
+
+(ii) the Call Center and other parts of the Constant Use Area
+at any time within sixty (60) days prior to the Scheduled Commencement Date;
+and
+
+(iii) all other areas of the Premises at any time within
+thirty (30) days prior to the Scheduled Commencement Date, provided however
+that Landlord secures a building permit from the City of Scottsdale for the
+Tenant Improvements no later than June 1, 2002, all without the payment of
+Base Rent or other sums under this Lease, subject to the other requirements
+and covenants of this Lease, for the sole purpose of installing Tenant's
+furniture, fixtures and equipment, including cabling, wiring, conduit and
+other electrical and telecom installations. If the Building Permit from the
+City of Scottsdale is issued after such date, then Landlord shall make the
+foregoing areas of the Premises available to Tenant as soon as reasonably
+practical. Prior to such entry of the Premises, Tenant shall provide
+evidence reasonably satisfactory to Landlord that Tenant's insurance, as
+described in Section 11.1 - Tenant's Insurance of the Lease, shall be in
+effect as of the time of such entry. Tenant shall use reasonable care in
+connection with such entry, and shall not interfere with construction of the
+Premises or other activity of Landlord.
+
+Tenant agrees that Landlord, except for any uninsured loss caused by
+the negligence or willful acts of Landlord or its employees, agents,
+contractors or vendors, shall not be liable in any way for any injury, loss
+or damage which may occur to any of Tenant's property placed upon or
+installed in the Premises prior to the Commencement Date, the same being at
+Tenant's sole risk, and Tenant shall be liable for all injury, loss or
+damage to persons or property arising as a result of such entry into the
+Premises by Tenant or its Representatives.
+
+Upon Substantial Completion, Landlord and Tenant shall compile a
+Punchlist identifying the work still to be done to the Premises ("Punchlist
+Item"). Within fifteen (15) days after delivery of the Punchlist, Landlord
+shall commence work on the Punchlist Items and diligently pursue them to
+completion. Punchlist Items shall not defer Substantial Completion or
+Tenant's obligation to commence paying Base Rent and Operating Costs.
+Punchlist Items shall mean details of design, construction, installation and
+adjustments to the Tenant Improvements that do not materially interfere with
+Tenant's use and enjoyment of the Premises as intended.
+
+Tenant shall have the exclusive right of possession of the Premises
+throughout the Term, seven (7) days a week, twenty-four (24) hours a day,
+subject to casualty, condemnation, Force Majeure or other events beyond the
+control of Landlord.
+
+3. RENT; SECURITY DEPOSIT.
+
+3.1 Base Rent. Tenant shall pay to Landlord annual Base Rent
+calculated as set forth below, without prior notice or demand, monthly in
+one-twelfth (1/12) installments on the first day of each and every calendar
+month during the Term, except that Base Rent for the first full calendar
+month in which Base Rent is payable shall be paid upon Tenant's execution of
+this Lease and Base Rent for any partial month at the beginning of the Term
+shall be paid on the Commencement Date. Base Rent for any partial month at
+the beginning or end of the Term shall be prorated based on the actual
+number of days in the month.
+
+Annual Base Rent for years 1 - 5 shall be equal to:
+
+[Total Project Cost x Rental Constant x Tenant's Share] + Structural Reserve
++ Vacancy Factor + $7.25 per rentable square foot ($5.50 in the Constant Use
+Area).
+
+(a) "Total Project Cost" is defined as the total of:
+
+(i) the costs and expenses, direct and indirect, identified
+and referred to in Exhibit E incurred by Landlord in the design, development
+and construction of the Building, including the Allowance for the Tenant
+Improvements (the "Project Construction Costs"),
+
+(ii) a real estate development fee of $400,000,
+
+(iii) a contractor's fee equal to eight percent (8%) of the
+Project Construction Costs, and
+
+(iv) the cost of acquisition of the Site and all costs of
+carry thereon up to the Commencement Date that are identified and referred
+to in Exhibit E.
+
+Total Project Cost is set forth in the pro forma attached as
+Exhibit E. The pro forma is inclusive of all Total Project Costs, and the
+cost of the Building shell and the parking structure will not exceed the
+cost in the pro forma without Tenant's consent not to be unreasonably
+withheld.
+
+(b) "Rental Constant" equals ten and fifty hundredths of one
+percent (10.50%) not including a Vacancy Factor or Structural Reserve.
+
+(c) "Structural Reserve" of $0.05 per square foot of Rentable Area
+of the Building.
+
+(d) "Vacancy factor" shall equal 2% of the total rentable square
+feet of the Building.
+
+Annual Base Rent for years 6 - 10 will be [Annual Base Rent for
+year 5 minus $7.25 per rentable square foot ($5.50 in the Constant Use
+Area)] x 115% + $7.25 per rentable square foot ($5.50 in the Constant Use
+Area).
+
+3.2 Additional Rent: Operating Costs and Taxes.
+
+(a) Definitions.
+
+(1) "Operating Costs" means all Taxes and those costs
+referred to below of managing, operating, maintaining and repairing the
+Property as a class A office building. Operating Costs for any calendar
+year during which average occupancy of the Building is less than one hundred
+percent (100%) shall be calculated based upon the Operating Costs that would
+have been incurred if the Building had an average occupancy of ninety-five
+percent (95%) during the entire calendar year.
+
+(A) operation, maintenance and repair of the Property
+(including maintenance, repair and replacement of glass,
+the roof covering or membrane, the parking lot and
+driveways (including periodic treatment or resurfacing as
+needed), sidewalks, exterior light fixtures, common
+signage, other common areas and elements, regular
+painting of the exterior of the Building and
+landscaping). The terms "repair" or "repairs" shall
+include reasonable replacements or renewals when
+necessary.
+
+(B) utilities and services (including telecommunications
+facilities and equipment, recycling programs and trash
+removal), and associated supplies and materials.
+
+(C) compensation (including employment taxes and fringe
+benefits) for persons who perform duties in connection
+with the operation, management, maintenance and repair of
+the Building, such compensation to be appropriately
+allocated for persons who also perform duties unrelated
+to the Building.
+
+(D) property (including coverage for earthquake and flood if
+carried by Landlord), liability, rental income and other
+insurance relating to the Property, and expenditures for
+deductible amounts paid under such insurance.
+
+(E) licenses, permits and inspections.
+
+(F) complying with the requirements of any law, statute,
+ordinance or governmental rule or regulation or any
+orders pursuant thereto (collectively "Laws").
+
+(G) amortization of capital improvements required to comply
+with Laws which are either adopted or become effective
+after the Commencement Date, or which are intended to
+reduce Operating Costs or improve the utility, efficiency
+or capacity of any Building System, with interest on the
+unamortized balance at the rate paid by Landlord on funds
+borrowed to finance such capital improvements (or, if
+Landlord finances such improvements out of Landlord's
+funds without borrowing, the rate that Landlord would
+have paid to borrow such funds, as reasonably determined
+by Landlord but no greater than Landlord's general cost
+of funds), over such useful life as Landlord shall
+reasonably determine.
+
+(H) an office in the Project for the management of the
+Property, including expenses of furnishing and equipping
+such office and the rental value of any space occupied
+and used solely for such purposes.
+
+(I) property management fees equal to three percent (3%) of
+Base Rent and Additional Rent.
+
+(J) accounting, legal and other professional services
+incurred for the operation of the Property and the
+calculation of Operating Costs and Taxes.
+
+(K) a reasonable allowance for depreciation on machinery and
+equipment used to maintain the Property (including window
+coverings and carpeting in common areas).
+
+(L) contesting the validity or applicability of any Laws that
+may adversely affect the Operating Costs of the Property.
+
+(M) the Building's share of any shared or common area
+maintenance fees and expenses (including costs and
+expenses of operating, managing, owning and maintaining
+the common areas of the Project).
+
+(N) any other cost, expenditure, fee or charge, whether or
+not hereinbefore described, which in accordance with
+generally accepted accounting principles would be
+considered an expense of managing, operating, maintaining
+and repairing the Property.
+
+Operating Costs shall not include:
+
+(i) capital improvements (except as otherwise provided
+above).
+
+(ii) costs of special services rendered to individual tenants
+(including Tenant) for which a special charge is made.
+
+(iii) interest and principal payments on loans or
+indebtedness secured by the Building (except as otherwise provided above).
+
+(iv) costs of improvements for Tenant or other tenants of the
+Building.
+
+(v) costs of services or other benefits of a type which are
+not available to Tenant but which are available to other tenants or
+occupants, and costs for which Landlord is reimbursed by other tenants of
+the Building other than through payment of tenants' shares of increases in
+Operating Costs and Taxes.
+
+(vi) leasing commissions, attorneys' fees and other expenses
+incurred in connection with leasing space in the Building or enforcing such
+leases.
+
+(vii) depreciation or amortization, other than as
+specifically enumerated in the definition of Operating Costs above.
+
+(viii) costs, fines or penalties incurred due to Landlord's
+violation of any Law.
+
+(ix) income, estate and inheritance taxes levied against
+Landlord.
+
+(x) taxes paid by any tenant.
+
+(xi) costs of leasing space in the Building, including
+leasing commissions and leasehold improvement costs.
+
+(xii) the cost of utilities separately metered to any tenant
+or resulting from excess consumption.
+
+(xiii) the cost of special services provided to any tenant
+that are not generally available to all tenants.
+
+(xiv) repairs and maintenance paid by proceeds of insurance
+or by proceeds of condemnation or eminent domain proceedings.
+
+(xv) any costs incurred in connection with or directly
+related to the original construction of the Project.
+
+(xvi) the cost of correcting defects in or inadequacies of
+the initial design or construction of the Project, or repair and/or
+replacement of any of the original materials or equipment required as a
+result of such defects or inadequacies.
+
+(xvii) any expense resulting from the negligence of Landlord,
+its agents, servants, contractors, vendors or employees, or any expense
+incurred as a direct result of Landlord's failure to use reasonable efforts
+to minimize expenses to the extent possible without detracting from the
+standards of a first class, Class A, institutional grade office building.
+
+(xviii) the cost of any repair to remedy damage caused by or
+resulting from the negligence of any other tenant(s) in the Building,
+including their agents, servants, contractors, vendors or employees.
+
+(xix) repairs or other work occasioned by casualty or the
+exercise of the right of eminent domain.
+
+(xx) expenses incurred in build-out, renovation or other
+improvement or decoration, painting or redecoration of any tenant space
+within the Building.
+
+(xxi) any items for which Landlord is reimbursed by insurance
+or otherwise compensated, including direct reimbursement by any tenant or
+occupant of the Building.
+
+(xxii) costs incurred due to the violation by Landlord or any
+tenant or other occupant of any term or condition of any lease or rental
+arrangement covering space in the Building.
+
+(xxiii) costs, fines, or fees incurred by Landlord due to
+violations of any federal, state or local law, statutes or ordinances, or
+any rule, regulation, judgment or decree of any governmental authority.
+
+(xxiv) any costs or expenses associated with the removal,
+cleanup or remediation of any hazardous material, including mold, from the
+Project, any restoration in connection therewith or compliance with any
+applicable local, state or federal laws, judgments, ordinances, orders,
+rules, regulations, codes or other governmental restrictions, guidelines or
+requirements, any amendments or successors thereto, replacements thereof or
+publications promulgated pursuant thereto pertaining to any waste, material
+or substance (whether in the form of a liquid, a solid or a gas and whether
+or not airborne), which is or is deemed to be a pollutant or a contaminant
+or which is or is deemed to be hazardous, toxic ignitable, reactive,
+corrosive, dangerous, harmful or injurious or which presents a risk to the
+public health or to the environment (collectively, "Environmental
+Regulations").
+
+(xxv) the cost of compliance with any applicable local, state
+or federal laws, judgments, ordinances, orders, rules, regulations and
+standards of public authorities and insurance rating bureaus having
+jurisdiction over the Project, including Environmental Regulations, and all
+local zoning and building codes.
+
+(xxvi) the cost of any work or services performed for any
+facility other than the Project.
+
+(xxvii) any costs representing an amount paid to a person,
+firm, corporation or other entity related to Landlord which is in excess of
+the amount which would have been paid in the absence of such relationship.
+
+(xxviii) Landlord's general overhead.
+
+(xxix) the cost of acquiring sculptures or other art objects
+and the cost of decorative monuments.
+
+(xxx) any expense for which Landlord is entitled to be
+reimbursed by any tenant (including Tenant) as an additional charge in
+excess of Base Rent and such tenant's share of Operating Expenses.
+
+(xxxi) any rental concessions to, or lease buy-outs of,
+Tenant or any other tenant in the Building or any other costs incurred on
+behalf of any tenants (including Tenant) with respect to other buildings.
+
+(2) "Taxes" means: all real property taxes and general,
+special or district assessments or other governmental impositions, of
+whatever kind, nature or origin, imposed on or by reason of the ownership or
+use of the Property; any state, county or municipal governmental property
+lease excise tax or the equivalent thereof; taxes and assessments of every
+kind and nature whatsoever levied or assessed in addition to, in lieu of or
+in substitution for existing or additional real or personal property taxes
+on the Property or the personal property described above; and the reasonable
+cost of contesting by appropriate proceedings the amount or validity of any
+taxes, assessments or charges described above. "Taxes" shall include all
+Taxes either payable in, or attributable to, each calendar year or portion
+thereof during the Term.
+
+(3) "Tenant's Share" means the Rentable Area of the Premises
+divided by the Rentable Area of the Building, as set forth in the Basic
+Lease Information as may be adjusted pursuant to Section 1.1 or 1.2 hereof.
+If the Rentable Area of the Premises is increased by Tenant's leasing of
+additional space hereafter, Tenant's Share shall be increased accordingly.
+
+(b) Additional Rent.
+
+(1) Tenant shall pay Landlord as "Additional Rent" for each
+calendar year or portion thereof during the Term, excepting only the first
+eighteen (18) months of the Term (the "CAM Forgiveness Period"), Tenant's
+Share of Operating Costs for such period in excess of the "Operating Costs
+Expense Stops." Notwithstanding the foregoing or any other provision to the
+contrary in this Lease, for purposes of calculating Additional Rent the
+annual increase of those Operating Costs reasonably controllable by Landlord
+shall not exceed four percent (4%) non-cumulative. Without limitation, the
+cost of utilities, Taxes, insurance, licenses, permits and compliance with
+Laws (subject to the limitations in Section 3.2(a)(1)(G)) shall not be
+considered "reasonably controllable" by Landlord.
+
+(2) Prior to the end of the CAM Forgiveness Period and each
+calendar year thereafter, Landlord shall notify Tenant of Landlord's
+estimate of Operating Costs and Tenant's Additional Rent for the remaining
+and following calendar year, as applicable. Following the end of the CAM
+Forgiveness Period Tenant shall be obligated to pay to Landlord on the first
+day of each calendar month thereafter one-twelfth (1/12th) of the estimated
+Additional Rent. If Landlord thereafter reasonably estimates that Operating
+Costs for a calendar year will vary from Landlord's prior estimate, Landlord
+may, by notice to Tenant, reasonably revise the estimate for such year (and
+Additional Rent shall thereafter be payable based on the revised estimate).
+
+(3) As soon as reasonably practicable after the end of the
+first year in which Additional Rent is due and each calendar year
+thereafter, Landlord shall furnish Tenant a reconciliation statement with
+respect to such year, showing Operating Costs and Additional Rent for the
+year, and the total payments made by Tenant with respect thereto. Unless
+Tenant raises any objections to Landlord's statement within ninety (90) days
+after receipt of the same, such statement shall presumptively be deemed
+correct and Tenant shall have no right thereafter to dispute such statement
+or any item therein or the computation of Additional Rent based thereon,
+subject only to Tenant's right of audit. If Tenant does object to such
+statement, then Landlord shall provide Tenant with reasonable verification
+of the figures shown on the statement and the parties shall negotiate in
+good faith to resolve any disputes. Any objection of Tenant to Landlord's
+statement and resolution of any dispute shall not postpone the time for
+payment of any amounts due Tenant or Landlord based on Landlord's statement,
+nor shall any failure of Landlord to deliver Landlord's statement in a
+timely manner relieve Tenant of Tenant's obligation to pay any amounts due
+Landlord based on Landlord's statement.
+
+(4) If Tenant's Additional Rent as finally determined for any
+calendar year exceeds the total payments made by Tenant on account thereof,
+Tenant shall pay Landlord the deficiency within thirty (30) days of Tenant's
+receipt of Landlord's statement. If the total payments made by Tenant on
+account thereof exceed Tenant's Additional Rent as finally determined for
+such year, Tenant's excess payment shall be credited toward the rent next
+due from Tenant under this Lease. For any partial calendar year at the
+beginning or end of the Term, Additional Rent shall be prorated on the basis
+of a 365-day year by computing Tenant's Share of Operating Costs for the
+entire year and then prorating such amount for the number of days during
+such year included in the Term. Notwithstanding the termination of this
+Lease, Landlord shall pay to Tenant or Tenant shall pay to Landlord, as the
+case may be, within fifteen (15) days after Tenant's receipt of Landlord's
+final statement for the calendar year in which this Lease terminates, the
+difference between Tenant's Additional Rent for that year, as finally
+determined by Landlord, and the total amount previously paid by Tenant on
+account thereof.
+
+(5) Tenant shall have the right at any time during Landlord's
+normal business hours and upon reasonable prior notice to Landlord, which
+shall not be given later than the first anniversary of Tenant's receipt of
+Landlord's reconciliation statement for the preceding year, to audit
+Landlord's books and records with respect to such reconciliation statement,
+at Tenant's sole expense. Should the audit disclose an overcharge to Tenant
+or an underpayment to Landlord, whatever the amount, the party that
+overcharged or underpaid shall reimburse the other party within fifteen (15)
+days after the results of the audit are known to Landlord and Tenant. If
+the audit discloses an overcharge to Tenant of five percent (5%) or more,
+Landlord will reimburse Tenant for the reasonable cost of the audit.
+
+3.3 Payment of Rent. All amounts payable or reimbursable by Tenant
+under this Lease, including late charges and interest (collectively,
+"Rent"), shall constitute rent and shall be payable and recoverable as rent
+in the manner provided in this Lease. All sums payable to Landlord on
+demand under the terms of this Lease shall be payable within ten (10) days
+after notice from Landlord of the amounts due. All rent shall be paid
+without offset, recoupment or deduction in lawful money of the United States
+of America to Landlord at Landlord's Address for Payment of Rent as set
+forth in the Basic Lease Information, or to such other person or at such
+other place as Landlord may from time to time designate.
+
+3.4 Security Deposit. Tenant shall provide Landlord security in
+accordance with Exhibit D (the "Security Deposit") for the performance of
+Tenant's obligations under this Lease. If Landlord shall so use any portion
+of the Security Deposit, Tenant shall replenish the Security Deposit to its
+prior level within fifteen (15) days after Landlord's written demand.
+Landlord may (but shall have no obligation to) use the Security Deposit or
+any portion thereof to cure any Event of Default by Tenant under this Lease.
+Landlord shall return to Tenant the Security Deposit or the balance thereof
+then held by Landlord and not applied as provided above, as and when the
+Security Deposit (or any portion thereof) is no longer required by
+Exhibit D. Landlord shall not be required to pay interest on the Security
+Deposit (including the proceeds of any letter of credit) to Tenant.
+Landlord shall safeguard and maintain the Security Deposit separate and
+apart from any other property of Landlord.
+
+4. RENTAL TAXES. Tenant shall pay to Landlord with each installment of Base
+Rent, Operating Costs, Taxes, Additional Rent, or other Rent, the amount of
+any gross receipts, transaction privilege, sales, excise or similar tax,
+exclusive of any income tax, payable by Landlord on account of this Lease or
+Tenant's payment of such items to, or on behalf of, Landlord.
+
+5. USE AND COMPLIANCE WITH LAWS.
+
+5.1 Use. The Premises shall be used and occupied for a call center and
+a data/communications transmission center and for business office purposes,
+and for no other use or purpose. Tenant shall comply with all present and
+future Laws relating to Tenant's use or occupancy of the Premises (and make
+any repairs, alterations or improvements as required to comply with all such
+Laws), and shall observe the "Building Rules" (as defined in Section 27 -
+Rules and Regulations). Tenant shall not do, bring, keep or sell anything
+in or about the Premises that is prohibited by, or that will cause a
+cancellation of or an increase in the existing premium for, any insurance
+policy covering the Property or any part thereof. Tenant shall not permit
+the Premises to be occupied or used in any manner that will constitute waste
+or a nuisance, or disturb the quiet enjoyment of or otherwise annoy other
+tenants in the Building. Tenant shall not, without the prior consent of
+Landlord, (i) bring into the Building or the Premises anything that may
+cause substantial noise, odor or vibration, overload the floors in the
+Premises or the Building or any of the heating, ventilating and air-
+conditioning ("HVAC"), mechanical, elevator, plumbing, electrical, fire
+protection, life safety, security or other systems in the Building
+("Building Systems"), or jeopardize the structural integrity of the Building
+or any part thereof; or (ii) connect to any electrical circuit in the
+Premises any equipment or other load with aggregate electrical power
+requirements in excess of 80% of the rated capacity of the circuit Tenant
+shall give Landlord reasonable prior written notice of any connection or
+usage that is likely to exceed such capacity.
+
+5.2 Hazardous Materials.
+
+(a) Definitions.
+
+(1) "Hazardous Materials" shall mean any substance: (A) that
+now or in the future is regulated or governed by, requires investigation or
+remediation under, or is defined as a hazardous waste, hazardous substance,
+pollutant or contaminant under any governmental statute, code, ordinance,
+regulation, rule or order, and any amendment thereto, including the
+Comprehensive Environmental Response Compensation and Liability Act, 42
+U.S.C. S9601 et seq., and the Resource Conservation and Recovery Act, 42
+U.S.C. S6901 et seq., or (B) that is toxic, explosive, corrosive, flammable,
+radioactive, carcinogenic, dangerous or otherwise hazardous, including
+gasoline, diesel fuel, petroleum hydrocarbons, polychlorinated biphenyls
+(PCBs), asbestos, radon and urea formaldehyde foam insulation.
+
+(2) "Environmental Requirements" shall mean all present and
+future Laws, orders, permits, licenses, approvals, authorizations and other
+requirements of any kind applicable to Hazardous Materials.
+
+(3) "Handled by Tenant" and "Handling by Tenant" shall mean
+and refer to any installation, handling, generation, storage, use, disposal,
+discharge, release, abatement, removal, transportation, or any other
+activity of any type by Tenant or its agents, employees, contractors,
+licensees, sublessees or representatives (collectively, "Representatives")
+or its guests, customers, invitees, or visitors (collectively, "Visitors")
+in violation of any Environmental Requirements, at or about the Premises in
+connection with or involving Hazardous Materials.
+
+(4) "Environmental Losses" shall mean all costs and expenses
+of any kind, damages, including foreseeable and unforeseeable consequential
+damages, fines and penalties incurred in connection with any violation of
+and compliance with Environmental Requirements and all losses of any kind
+attributable to the diminution of value, loss of use or adverse effects on
+marketability or use of any portion of the Premises or Property.
+
+(b) Tenant's Covenants. Except for those substances used in
+connection with the businesses expressly allowed under this Lease and which
+are properly packaged, contained, stored, used, transported and disposed of
+in accordance with all Environmental Requirements, no Hazardous Materials
+shall be Handled by Tenant at or about the Premises or Property without
+Landlord's prior written consent, which consent may be granted, denied, or
+conditioned upon compliance with Landlord's requirements, all in Landlord's
+absolute discretion. Notwithstanding the foregoing, normal quantities and
+use of those Hazardous Materials customarily used in the conduct of general
+office activities, such as copier fluids and cleaning supplies ("Permitted
+Hazardous Materials"), may be used and stored at the Premises without
+Landlord's prior written consent, provided that Tenant's activities at or
+about the Premises and Property and the Handling by Tenant of all Hazardous
+Materials shall comply at all times with all Environmental Requirements. At
+the expiration or termination of the Lease, Tenant shall promptly remove
+from the Premises and Property all Hazardous Materials Handled by Tenant at
+the Premises or the Property. Tenant shall keep Landlord fully and promptly
+informed of all Handling by Tenant of Hazardous Materials other than
+Permitted Hazardous Materials. Tenant shall be responsible and liable for
+the compliance with all of the provisions of this Section by all of Tenant's
+Representatives and Visitors, and all of Tenant's obligations under this
+Section (including its indemnification obligations under paragraph (e)
+below) shall survive the expiration or termination of this Lease.
+
+(c) Compliance. Tenant shall at Tenant's expense promptly take
+all actions required by any governmental agency or entity in connection with
+or as a result of the Handling by Tenant of Hazardous Materials at or about
+the Premises or Property, including inspection and testing, performing all
+cleanup, removal and remediation work required with respect to those
+Hazardous Materials, complying with all closure requirements and post-
+closure monitoring, and filing all required reports or plans. All of the
+foregoing work and all Handling by Tenant of all Hazardous Materials shall
+be performed in a good, safe and workmanlike manner by consultants qualified
+and licensed to undertake such work and in a manner that will not interfere
+with any other tenant's quiet enjoyment of the Property or Landlord's use,
+operation, leasing and sale of the Property. Tenant shall deliver to
+Landlord prior to delivery to any governmental agency, or promptly after
+receipt from any such agency, copies of all permits, manifests, closure or
+remedial action plans, notices, and all other documents relating to the
+Handling by Tenant of Hazardous Materials at or about the Premises or
+Property. If any lien attaches to the Premises or the Property in
+connection with or as a result of the Handling by Tenant of Hazardous
+Materials, and Tenant does not cause the same to be released, by payment,
+bonding or otherwise, within ten (10) days after the attachment thereof,
+Landlord shall have the right but not the obligation to cause the same to be
+released and any sums expended by Landlord (plus Landlord's administrative
+costs) in connection therewith shall be payable by Tenant on demand.
+
+(d) Landlord's Rights. Landlord shall have the right, but not the
+obligation, to enter the Premises at any reasonable time upon reasonable
+advance notice (i) to confirm Tenant's compliance with the provisions of
+this Section 5.2, and (ii) to perform Tenant's obligations under this
+Section if Tenant has failed to do so after reasonable notice to Tenant.
+Landlord shall also have the right to engage qualified Hazardous Materials
+consultants to inspect the Premises and review the Handling by Tenant of
+Hazardous Materials, including review of all permits, reports, plans, and
+other documents regarding same. Tenant shall pay to Landlord on demand the
+costs of Landlord's consultants' fees and all costs incurred by Landlord in
+performing Tenant's obligations under this Section. Landlord shall use
+reasonable efforts to minimize any interference with Tenant's business
+caused by Landlord's entry into the Premises, but Landlord shall not be
+responsible for any interference caused thereby.
+
+(e) Tenant's Indemnification. Tenant agrees to indemnify, defend,
+protect and hold harmless Landlord and its partners or members and its or
+their partners, members, directors, officers, shareholders, employees and
+agents from all Environmental Losses and all other claims, actions, losses,
+damages, liabilities, costs and expenses of every kind, including reasonable
+attorneys', experts' and consultants' fees and costs, incurred at any time
+and arising from or in connection with the Handling by Tenant of Hazardous
+Materials at or about the Property or Tenant's failure to comply in full
+with all Environmental Requirements with respect to the Premises.
+
+(f) Landlord's Representations. Landlord represents to Tenant
+that the Building and related improvements (and, based solely on Landlord's
+actual knowledge without due diligence, the underlying land) do not contain
+any Hazardous Material, excepting insubstantial amounts, if any, in
+quantities not having any materially adverse effect on the environment or on
+health and safety or as a result of Landlord's failure to comply in full
+with all Environmental Requirements in Landlord's development of the
+Project. Landlord is making no further representation to Tenant in respect
+to the Site except that Landlord has not released any Hazardous Material
+onto the Site.
+
+5.3 Americans With Disabilities Act. The parties agree that the
+liabilities and obligations of Landlord and Tenant under that certain
+federal statute commonly known as the Americans With Disabilities Act as
+well as the regulations and accessibility guidelines promulgated thereunder
+as each of the foregoing is supplemented or amended from time to time
+(collectively, the "ADA") shall be apportioned as follows:
+
+(a) Excepting any noncompliance under (c) below, Landlord will
+cause the Project to be built in substantial conformance with the ADA, and
+if any part of the Building or the Project, including, but not limited to,
+Common Areas, exterior and interior routes of ingress and egress, off-street
+parking and all rules and regulations applicable to the Premises, fails to
+comply with the ADA, such nonconformity shall be promptly made to comply by
+Landlord. Landlord shall also cause its manager of the Building and the
+Project (the "Manager") to comply with the ADA in its operation of the
+Building and the Project.
+
+(b) Except as otherwise provided in (c) below, from and after the
+Commencement Date of the Lease, Tenant covenants and agrees to conduct its
+operations within the Premises in compliance with the ADA. Except as
+provided in (a) above and (c) below, if any of the Premises following the
+Commencement Date or following Tenant's occupancy of any additional space in
+the Building fails to comply with the ADA, such nonconformity shall be
+promptly made to comply by Tenant. In the event that Tenant elects to
+undertake any alterations to, for or within the Premises, including initial
+build-out work, Tenant agrees to cause such alterations to be performed in
+compliance with the ADA.
+
+(c) Notwithstanding the foregoing, Tenant shall cause all parts of
+the Premises, the Building or the Project designed by Tenant or its own
+architects, space planners and designers ("Tenant Design") to comply with
+the ADA, and Landlord shall have no responsibility therefor or liability for
+any noncompliance resulting from Tenant Design.
+
+6. TENANT IMPROVEMENTS & ALTERATIONS.
+
+6.1 Landlord and Tenant shall perform their respective obligations with
+respect to design and construction of any improvements to be constructed and
+installed in the Premises (the "Tenant Improvements"), as provided in the
+Construction Rider. Except for any Tenant Improvements to be constructed by
+Tenant as provided in the Construction Rider, Tenant shall not make any
+alterations, improvements or changes to the Premises, including installation
+of any security system or telephone or data communication wiring,
+("Alterations") costing in each instance more than $50,000, without
+Landlord's prior written consent, which will not be unreasonably withheld.
+Any such Alterations shall be completed by Tenant at Tenant's sole cost and
+expense: (i) with due diligence, in a good and workmanlike manner; (ii) in
+compliance with plans and specifications approved by Landlord; (iii) in
+compliance with the construction rules and regulations promulgated by
+Landlord from time to time; (iv) in accordance with all applicable Laws
+(including all work, whether structural or non-structural, inside or outside
+the Premises, required to comply fully with all applicable Laws and
+necessitated by Tenant's work); and (v) subject to all conditions which
+Landlord may in Landlord's reasonable discretion impose. Such conditions
+may include requirements for Tenant to: (i) provide payment or performance
+bonds or additional insurance (from Tenant or Tenant's contractors,
+subcontractors or design professionals); (ii) use contractors or
+subcontractors reasonably approved by Landlord; and (iii) remove all or part
+of the Alterations prior to or upon expiration or termination of the Term,
+as designated by Landlord if Landlord at the time such Alterations were
+approved by Landlord (or if approval was not required, then at the time
+Tenant delivered to Landlord written description of such Alterations),
+Landlord notified Tenant that the Alterations must be removed upon
+expiration or termination of the Term. If any work outside the Premises, or
+any work on or adjustment to any of the Building Systems, is required in
+connection with or as a result of Tenant's work, such work shall be
+performed at Tenant's expense by contractors designated by Landlord.
+Landlord's right to review and approve (or withhold approval of) Tenant's
+plans, drawings, specifications, contractor(s) and other aspects of
+construction work proposed by Tenant is intended solely to protect Landlord,
+the Property and Landlord's interests. No approval or consent by Landlord
+shall be deemed or construed to be a representation or warranty by Landlord
+as to the adequacy, sufficiency, fitness or suitability thereof or
+compliance thereof with applicable Laws or other requirements. Except as
+otherwise provided in Landlord's consent, all Alterations shall upon
+installation become part of the realty and be the property of Landlord.
+
+6.2 Before making any Alterations for which Landlord's approval is
+required, Tenant shall submit to Landlord for Landlord's prior approval
+reasonably detailed final plans and specifications prepared by a licensed
+architect or engineer, a copy of the construction contract, including the
+name of the contractor and all subcontractors proposed by Tenant to make the
+Alterations and a copy of the contractor's license. Before making any
+Alternations for which Landlord's approval is not required, Tenant shall
+submit to Landlord before construction or installation a description of the
+Alterations to be carried out, and if available, copies of the final plans
+and specifications. Tenant shall obtain all applicable permits,
+authorizations and governmental approvals and deliver copies of the same to
+Landlord before commencement of any Alterations.
+
+6.3 Tenant shall keep the Premises and the Property free and clear of
+all liens arising out of any work performed, materials furnished or
+obligations incurred by Tenant. If any such lien attaches to the Premises
+or the Property, and Tenant does not cause the same to be released by
+payment, bonding or otherwise within thirty (30) days after the attachment
+thereof, Landlord shall have the right but not the obligation to cause the
+same to be released, and any sums expended by Landlord (plus Landlord's
+administrative costs) in connection therewith shall be payable by Tenant on
+demand with interest thereon from the date of expenditure by Landlord at the
+Interest Rate (as defined in Section 16.2 - Interest). Tenant shall give
+Landlord at least ten (10) days' notice prior to the commencement of any
+Alterations and cooperate with Landlord in posting and maintaining notices
+of non-responsibility in connection therewith.
+
+6.4 Subject to the provisions of Section 5 - Use and Compliance with
+Laws and the foregoing provisions of this Section, Tenant may install and
+maintain furnishings, equipment, movable partitions, business equipment and
+other trade fixtures ("Trade Fixtures") in the Premises, provided that the
+Trade Fixtures do not become an integral part of the Premises or the
+Building. Tenant shall promptly repair any damage to the Premises or the
+Building caused by any installation or removal of such Trade Fixtures.
+
+6.5 Keep the Premises and the Building free from any mechanics',
+materialmens', contractors' or other liens arising from, or any claims for
+damages growing out of, any work performed, materials furnished or
+obligations incurred by or on behalf of Tenant. Tenant shall indemnify and
+hold harmless Landlord from and against any such lien, or claim or action
+thereon, and reimburse Landlord promptly upon demand therefor by Landlord
+for costs of suit and reasonable attorneys' fees incurred by Landlord in
+connection with any such lien, claim or action.
+
+6.6 Tenant will not be required to remove any Tenant Alterations at the
+end of the Term or upon Tenant's vacation of the Premises unless Landlord
+advises Tenant prior to Tenant's Construction of the Alterations that Tenant
+shall be required to remove such Alterations and repair all damage to the
+Premises resulting from removal.
+
+7. MAINTENANCE AND REPAIRS.
+
+7.1 Landlord agrees that the Premises shall be in a good and tenantable
+condition, at the time possession is tendered to Tenant. Any defects other
+than latent defects and Punchlist items will be corrected by Landlord if
+brought to Landlord's attention in writing prior to the second anniversary
+of the Commencement Date. Any latent defects in the structure of the
+Building or the Common Areas discovered by Tenant thereafter will be
+corrected by Landlord. During the Term, Tenant at Tenant's expense shall
+repair and maintain the interior of the Premises, including the interior
+walls, floor coverings, ceiling (ceiling tiles and grid), Tenant
+Improvements, Alterations, fire extinguishers, outlets and fixtures, and any
+appliances (including dishwashers, hot water heaters and garbage disposers)
+in the Premises, as well as the patio area set aside for Tenant's exclusive
+use, in a first class condition, and keep the Premises and the patio area in
+a clean, safe and orderly condition.
+
+7.2 Landlord shall maintain or cause to be maintained in reasonably
+good order, condition and repair all of the Project other than the Premises,
+the patio area set aside for Tenant's use and Tenant's reception
+area/furniture in the lobby, and other space leased to tenants, including
+the structural portions of the roof, foundations, floors and exterior walls
+of the Building, the Building Systems, and the public and common areas of
+the Property, such as elevators, stairs, corridors and restrooms; provided,
+however, that Tenant shall pay the cost of repairs for any damage occasioned
+by Tenant's use of the Premises or the Property or any act or omission of
+Tenant or Tenant's Representatives or Visitors, to the extent (if any) not
+covered by Landlord's property insurance. Except as required by law,
+Landlord shall be under no obligation to inspect the Premises. Tenant shall
+report in writing to Landlord within a reasonable period of time after
+discovery any defective condition known to Tenant which Landlord is required
+to repair.
+
+7.3 Landlord hereby reserves the right, at any time and from time to
+time, without liability to Tenant, and without constituting an eviction,
+constructive or otherwise, or entitling Tenant to any abatement of rent or
+to terminate this Lease or otherwise releasing Tenant from any of Tenant's
+obligations under this Lease:
+
+(a) To make alterations, additions, repairs, improvements to or in
+or to decrease the size of area of, all or any part of the Building, the
+fixtures and equipment therein, and the Building Systems so long as such
+alterations, additions, repairs and improvements do not decrease or
+materially reconfigure the lobby area or Tenant's reception area of the
+Building or alter the size of the Premises or otherwise materially interfere
+with Tenant's use and enjoyment of the Premises, excepting only temporary
+inconvenience or interference reasonably necessary and unavoidable as a
+result of the necessity of such alterations, additions, repairs or
+improvements;
+
+(b) Subject to Tenant's rights under Section 4 of Exhibit D, to
+change the Building's name or street address;
+
+(c) Subject to Tenant's rights under Section 4 of Exhibit D, to
+install and maintain any and all signs on the exterior and interior of the
+Building;
+
+(d) To reduce, increase, enclose or otherwise change at any time
+and from time to time the size, number, location, lay-out and nature of the
+common areas (excepting the lobby and Tenant's reception area therein) and
+other tenancies and premises in the Property and to create additional
+rentable areas through use or enclosure of common areas, so long as such
+does not materially interfere with Tenant's use and enjoyment of the
+Premises; and
+
+(e) If any governmental authority promulgates or revises any Law
+or imposes mandatory or voluntary controls or guidelines on Landlord or the
+Property relating to the use or conservation of energy or utilities or the
+reduction of automobile or other emissions or reduction or management of
+traffic or parking on the Property (collectively "Controls"), to comply with
+such Controls, whether mandatory or voluntary, or make any alterations to
+the Property related thereto.
+
+8. TENANT'S PERSONAL PROPERTY TAXES. Tenant shall pay prior to delinquency
+all taxes levied by any governmental authority on Tenant's personal property
+including, but not limited to, unsecured personal property taxes.
+
+9. UTILITIES AND SERVICES.
+
+9.1 Description of Services. Landlord shall furnish to the Premises:
+reasonable amounts of heat, ventilation and air-conditioning during the
+Business Hours specified in the Basic Lease Information ("Business Hours")
+on weekdays and Saturday except public holidays ("Business Days");
+reasonable amounts of electricity; and janitorial services five days a week
+(except public holidays). Landlord agrees that all HVAC will substantially
+conform with ASHRAE 96 Standards. Landlord shall also provide the Building
+with normal fluorescent lamp replacement, window washing, elevator service,
+and common area toilet room supplies. Any additional utilities or services
+that Landlord may agree to provide (including lamp or tube replacement for
+other than Building Standard lighting fixtures) shall be at Tenant's sole
+expense.
+
+Notwithstanding the foregoing, the area of the Premises delineated
+on Exhibit A as the Constant Use Area, which is expected to consist of the
+first floor of the Building (subject to mutual modification by the parties),
+will be separately metered, and its own Operating Costs Expense Stop of
+$5.50 per rentable square foot will be included in and be a part of the Base
+Rent but will not include a charge for electricity. Instead, Landlord will
+bill Tenant and Tenant shall reimburse Landlord for Landlord's out-of-pocket
+costs for all amounts of electricity used in the Constant Use Area or by the
+activities conducted therein, which billed sums Tenant shall pay to Landlord
+as Additional Rent within fifteen (15) days after Landlord sends Tenant an
+invoice therefor.
+
+9.2 Payment for Additional Utilities and Services.
+
+(a) Upon request by Tenant in accordance with the procedures
+established by Landlord from time to time for furnishing HVAC service to the
+Premises (other than the Constant Use Area) at times other than Business
+Hours on Business Days, Landlord shall furnish such service to Tenant and
+Tenant shall pay for such services on an hourly basis at a rate of $4.00 per
+hour per zone, which may increase annually by Landlord's actual increase in
+cost but not greater than three percent (3%) annually and accrue until paid,
+and which increases Landlord shall not charge except at three-year intervals
+during the Term. Such increases shall in no event exceed Landlord's actual
+costs thereof.
+
+(b) If the temperature otherwise maintained in any portion of the
+Premises (other than electricity for the Constant Use Area) by the HVAC
+systems of the Building is affected as a result of (i) any lights, machines
+or equipment used by Tenant in the Premises, or (ii) the occupancy of the
+Premises, excluding the Constant Use Area, by more than one person per 150
+square feet of rentable area, then Landlord shall have the right to install
+any machinery or equipment reasonably necessary to restore the temperature,
+including modifications to the standard air-conditioning equipment. The
+cost of any such equipment and modifications, including the cost of
+installation and any additional cost of operation and maintenance of the
+same, shall be reimbursed by Tenant to Landlord upon demand.
+
+(c) If Tenant's usage of electricity (other than electricity for
+the Constant Use Area), water or any other utility service exceeds the use
+of such utility that is typical, normal and customary for other tenants of
+the Building, Landlord may determine the amount of such excess use by any
+reasonable means (including the installation at Landlord's request but at
+Tenant's expense of a separate meter or other measuring device) and charge
+Tenant for the cost of such excess usage. In addition, Landlord may impose
+a reasonable charge for the use of any additional or unusual janitorial
+services required by Tenant because of any unusual Tenant Improvements or
+Alterations, the carelessness of Tenant or the nature of Tenant's business
+(including hours of operation), or because of Tenant's use of the patio
+reserved for Tenant.
+
+9.3 Interruption of Services. In the event of an interruption in or
+failure or inability to provide any services or utilities to the Premises or
+Building for any reason (a "Service Failure"), such Service Failure shall
+not, regardless of its duration, impose upon Landlord any liability
+whatsoever, constitute an eviction of Tenant, constructive or otherwise,
+entitle Tenant to an abatement of rent or to terminate this Lease or
+otherwise release Tenant from any of Tenant's obligations under this Lease,
+except that if a Service Failure is due to a cause intrinsic to the Building
+including one of the Building Systems or to an act or omission of Landlord,
+rather than an extrinsic cause such as, but not limited to, a brownout or
+blackout, Tenant shall be entitled to a fair and reasonable abatement of
+Rent commencing on the second day such a Service Failure materially and
+adversely interferes with Tenant's use and enjoyment of the Premises.
+
+10. EXCULPATION AND INDEMNIFICATION.
+
+10.1 Landlord's Indemnification of Tenant. Landlord shall indemnify,
+protect, defend and hold Tenant and its affiliates, harmless for, from and
+against any claims, actions, liabilities, damages, costs or expenses,
+including reasonable attorneys' fees and costs incurred in defending against
+the same ("Claims") asserted by any third party against Tenant or its
+affiliates for loss, injury or damage, to the extent such loss, injury or
+damage is caused by the willful misconduct or negligent acts or omissions of
+Landlord or its employees, contractors, vendors or authorized
+representatives, or by any breach or default under this Lease by Landlord.
+
+10.2 Tenant's Indemnification of Landlord. Tenant shall indemnify,
+protect, defend and hold Landlord and Landlord's authorized representatives
+harmless from and against Claims asserted by third parties arising from (a)
+the acts or omissions of Tenant or Tenant's Representatives or Visitors in
+or about the Property, or (b) any construction or other work undertaken by
+Tenant on the Premises (including any design defects), or (c) any breach or
+default or occurrence of Tenant Delay under this Lease by Tenant, or (d) any
+loss, injury or damage, howsoever and by whomsoever caused, to any person or
+property, occurring in or about the Premises during the Term, excepting only
+Claims described in this clause (d) to the extent they are caused by the
+willful misconduct or negligent acts or omissions of Landlord or its
+authorized representatives including Landlord's contractors, subcontractors,
+vendors, invitees and employees.
+
+10.3 Damage to Tenant and Tenant's Property. Except as otherwise
+provided in Section 10.1, Landlord shall not be liable to Tenant for any
+loss, injury or other damage to Tenant or to Tenant's property in or about
+the Premises or the Property from any cause (including defects in the
+Property or in any equipment in the Property; fire, explosion or other
+casualty; bursting, rupture, leakage or overflow of any plumbing or other
+pipes or lines, sprinklers, tanks, drains, drinking fountains or washstands
+in, above, or about the Premises or the Property; or acts of other tenants
+in the Property). Except as otherwise provided in Section 10.1, Tenant
+hereby waives all claims against Landlord for any such loss, injury or
+damage and the cost and expense of defending against claims relating
+thereto, but only to the extent such loss, injury or damage is covered by
+insurance, including any loss, injury or damage caused by Landlord's
+negligence (active or passive) or willful misconduct. Notwithstanding any
+other provision of this Lease to the contrary, in no event shall Landlord be
+liable to Tenant for any punitive or consequential damages or damages for
+loss of business by Tenant except to the extent covered by insurance.
+
+10.4 Survival. The obligations of the parties under this Section 10
+shall survive the expiration or termination of this Lease.
+
+11. NSURANCE.
+
+11.1 Tenant's Insurance.
+
+(a) Liability Insurance. Tenant shall maintain in full force
+throughout the Term, commercial general liability insurance providing
+coverage on an occurrence form basis with limits of not less than Two
+Million Dollars ($2,000,000.00) each occurrence for bodily injury and
+property damage combined, Two Million Dollars ($2,000,000.00) annual general
+aggregate, and Two Million Dollars ($2,000,000.00) products and completed
+operations annual aggregate. Tenant's liability insurance policy or
+policies shall: (i) include premises and operations liability coverage,
+products and completed operations liability coverage, broad form property
+damage coverage including completed operations, blanket contractual
+liability coverage including, to the maximum extent possible, coverage for
+the indemnification obligations of Tenant under this Lease, and personal and
+advertising injury coverage; (ii) provide that the insurance company has the
+duty to defend all insureds under the policy; (iii) provide that defense
+costs are paid in addition to and do not deplete any of the policy limits;
+(iv) cover liabilities arising out of or incurred in connection with
+Tenant's use or occupancy of the Premises or the Property; (v) extend
+coverage to cover liability for the actions of Tenant's Representatives and
+Visitors; and (vi) designate separate limits for the Property. Each policy
+of liability insurance required by this Section shall: (i) contain a cross
+liability endorsement or separation of insureds clause; (ii) provide that
+any waiver of subrogation rights or release prior to a loss does not void
+coverage; (iii) provide that it is primary to and not contributing with, any
+policy of insurance carried by Landlord covering the same loss; (iv) provide
+that any failure to comply with the reporting provisions shall not affect
+coverage provided to Landlord, its partners, property managers and
+Mortgagees; and (v) name Landlord, its partners, the Property Manager
+identified in the Basic Lease Information (the "Property Manager"), and such
+other parties in interest as Landlord may from time to time reasonably
+designate to Tenant in writing, as additional insureds. Such additional
+insureds shall be provided at least the same extent of coverage as is
+provided to Tenant under such policies. All endorsements effecting such
+additional insured status shall be at least as broad as additional insured
+endorsement form number CG 20 11 11 85 promulgated by the Insurance Services
+Office.
+
+(b) Property Insurance. Tenant shall at all times maintain in
+effect with respect to any Alterations and Tenant's Trade Fixtures and
+personal property, commercial property insurance providing coverage, on an
+"all risk" or "special form" basis, in an amount equal to the full
+replacement cost of the covered property. Tenant may carry such insurance
+under a blanket policy, provided that such policy provides coverage
+equivalent to a separate policy. During the Term, the proceeds from any
+such policies of insurance shall be used for the repair or replacement of
+the Alterations, Trade Fixtures and personal property so insured. Landlord
+shall be provided coverage under such insurance to the extent of its
+insurable interest and, if requested by Landlord, both Landlord and Tenant
+shall sign all documents reasonably necessary or proper in connection with
+the settlement of any claim or loss under such insurance. Landlord will
+have no obligation to carry insurance on any Alterations or on Tenant's
+Trade Fixtures or personal property.
+
+(c) Requirements For All Policies. Each policy of insurance
+required under this Section 11.1 shall: (i) be in a form, and written by an
+insurer, reasonably acceptable to Landlord, (ii) be maintained at Tenant's
+sole cost and expense, and (iii) require at least thirty (30) days' written
+notice to Landlord prior to any cancellation, nonrenewal or modification of
+insurance coverage. Insurance companies issuing such policies shall have
+rating classifications of "A" or better and financial size category ratings
+of "VII" or better according to the latest edition of the A.M. Best Key
+Rating Guide. All insurance companies issuing such policies shall be
+admitted carriers licensed to do business in the state where the Property is
+located. Any deductible amount under such insurance shall not exceed
+$50,000 (subject to an increase of two percent (2%) per annum). Tenant
+shall provide to Landlord, upon request, evidence that the insurance
+required to be carried by Tenant pursuant to this Section, including any
+endorsement effecting the additional insured status, is in full force and
+effect and that premiums therefor have been paid.
+
+(d) Updating Coverage. Tenant shall increase the amounts of
+insurance as required by any Mortgagee, and, not more frequently than once
+every three (3) years, as recommended by Landlord's insurance broker, if, in
+the commercially reasonable opinion of either of them, the amount of
+insurance then required under this Lease is not adequate. Any limits set
+forth in this Lease on the amount or type of coverage required by Tenant's
+insurance shall not limit the liability of Tenant under this Lease.
+
+(e) Certificates of Insurance. Prior to occupancy of the Premises
+by Tenant, and not less than thirty (30) days prior to expiration of any
+policy thereafter, Tenant shall furnish to Landlord a certificate of
+insurance reflecting that the insurance required by this Section is in
+force, accompanied by an endorsement showing the required additional
+insureds satisfactory to Landlord in substance and form. Notwithstanding
+the requirements of this paragraph, Tenant shall at Landlord's request
+provide to Landlord a certified copy of each insurance policy required to be
+in force at any time pursuant to the requirements of this Lease or its
+Exhibits, but if Tenant's policy covers other property, or provides coverage
+that is not expressly required of Tenant under this Article 11, the coverage
+pertaining to the other properties or other coverage may be extracted and
+omitted. Landlord agrees that all certificates or policies provided to
+Landlord shall be maintained in confidence and shall not be disclosed to
+third parties other than to Landlord's lenders and insurance agents which
+have agreed in writing to maintain such information in confidence.
+
+11.2 Landlord's Insurance. During the Term, Landlord shall maintain in
+effect insurance on the Building with insurers meeting the requirements in
+Section 11.1(c) above, on an "all risk" or "special form" basis, including
+debris removal and demolition, insuring the Building and the Tenant
+Improvements against loss by fire or other casualty in an amount equal to
+the full replacement cost thereof, excluding land. Landlord may, but shall
+not be obligated to, carry insurance against additional perils and/or in
+greater amounts.
+
+11.3 Mutual Waiver of Right of Recovery & Waiver of Subrogation.
+Landlord and Tenant each hereby waive any right of recovery against each
+other and the partners, managers, members, shareholders, officers, directors
+and authorized representatives of each other for any loss or damage that is
+covered by any policy of property insurance maintained by either party (or
+required by this Lease to be maintained) with respect to the Premises or the
+Property or any operation therein, regardless of cause, including negligence
+(active or passive) of the party benefiting from the waiver. If any such
+policy of insurance relating to this Lease or to the Premises or the
+Property does not permit the foregoing waiver or if the coverage under any
+such policy would be invalidated as a result of such waiver, the party
+maintaining such policy shall obtain from the insurer under such policy a
+waiver of all right of recovery by way of subrogation against either party
+in connection with any claim, loss or damage covered by such policy.
+
+12. DAMAGE OR DESTRUCTION.
+
+12.1 Landlord's Duty to Repair.
+
+(a) If all or a substantial part of the Premises are rendered
+untenantable or inaccessible by damage to all or any part of the Property
+from fire or other casualty then, unless either party is entitled to and
+elects to terminate this Lease pursuant to Sections 12.2 - Landlord's Right
+to Terminate and 12.3 - Tenant's Right to Terminate, Landlord shall, at its
+expense, repair and restore the Premises and/or the Property, as the case
+may be, to substantially their former condition to the extent permitted by
+then applicable Laws; provided, however, that in no event shall Landlord
+have any obligation for repair or restoration beyond the extent of insurance
+for such repair or restoration, or for any of Tenant's personal property,
+Trade Fixtures or Alterations.
+
+(b) If Landlord is required or elects to repair damage to the
+Premises and/or the Property and Landlord does not exercise any right of
+termination provided for herein, this Lease shall continue in effect, but
+Tenant's Base Rent and Additional Rent and other obligations shall be abated
+with regard to any portion of the Premises that Tenant is prevented from
+using by reason of such damage or its repair from the date of the casualty
+until substantial completion of Landlord's repair of the affected portion of
+the Premises as required under this Lease. In no event shall Landlord be
+liable to Tenant by reason of any injury to or interference with Tenant's
+business or property arising from fire or other casualty or by reason of any
+repairs to any part of the Property necessitated by such casualty, but the
+foregoing shall not bar recourse to the proceeds of any insurance carried by
+Landlord, Tenant or any other party, provided that the foregoing shall not
+increase the insurance obligations of either party.
+
+12.2 Landlord's Right to Terminate. Landlord may elect to terminate
+this Lease following damage by fire or other casualty under the following
+circumstances:
+
+(a) If the Premises and the Property cannot be substantially
+repaired and restored under applicable Laws within one (1) year from the
+date of the casualty;
+
+(b) If the Building is damaged or destroyed to the extent that the
+cost to repair and restore the Building would exceed forty percent (40%) of
+the full replacement cost of the Building, whether or not the Premises are
+at all damaged or destroyed; or
+
+(c) If the fire or other casualty occurs during the last year of
+the Term.
+
+If any of the circumstances described in subparagraphs (a), (b), or (c) of
+this Section 12.2 occurs or arises, Landlord shall give Tenant notice as
+soon as is reasonably practicable after the date of the casualty, but no
+later than sixty (60) days thereafter, specifying whether Landlord elects to
+terminate this Lease as provided above and, if not, Landlord's estimate of
+the time required to complete Landlord's repair obligations under this
+Lease.
+
+12.3 Tenant's Right to Terminate. If all or a substantial part of the
+Premises is rendered untenantable or inaccessible by damage to all or any
+part of the Property from fire or other casualty, and Landlord does not
+elect to terminate as provided above, then Tenant may elect to terminate
+this Lease if the reasonable estimated time required to complete Landlord's
+repair obligations under this Lease is greater than six (6) months after
+issuance of the necessary building permit, not to exceed one (1) year from
+the date of casualty, in which event Tenant may elect to terminate this
+Lease by giving Landlord notice of such election to terminate within
+forty-five (45) days after the fire or casualty.
+
+12.4 Waiver of Statutory Rights. Tenant waives any statutory right to
+terminate this Lease or abate Rent because of any damage or destruction to
+the Premises due to fire or other casualty.
+
+13. CONDEMNATION.
+
+13.1 Definitions.
+
+(a) "Award" shall mean all compensation, sums, or anything of
+value awarded, paid or received on a total or partial Condemnation.
+
+(b) "Condemnation" shall mean (i) a permanent taking (or a
+temporary taking for a period extending beyond the end of the Term) pursuant
+to the exercise of the power of condemnation or eminent domain by any public
+or quasi-public authority, private corporation or individual having such
+power ("Condemnor"), whether by legal proceedings or otherwise, or (ii) a
+voluntary sale or transfer by Landlord to any such authority, either after
+official notice of condemnation by such authority or while legal proceedings
+for condemnation are pending.
+
+(c) "Date of Condemnation" shall mean the earlier of the date that
+title to the property taken is vested in the Condemnor or the date the
+Condemnor has the right to possession of the property being condemned.
+
+13.2 Effect on Lease.
+
+(a) If the Premises are totally taken by Condemnation, this Lease
+shall terminate as of the Date of Condemnation. If a portion but not all of
+the Premises is taken by Condemnation, this Lease shall remain in effect;
+provided, however, that if the portion of the Premises remaining after the
+Condemnation will be unsuitable for Tenant's continued use, then upon notice
+to Landlord within thirty (30) days after Landlord notifies Tenant of the
+Condemnation, Tenant may terminate this Lease effective as of the Date of
+Condemnation.
+
+(b) If twenty-five percent (25%) or more of the Project or of the
+parcel(s) of land on which the Building is situated or of the floor area in
+the Building is taken by Condemnation, or if as a result of any Condemnation
+(including a taking of a substantial portion of the parking areas that
+interferes with or adversely affects Tenant's use and enjoyment of the
+Premises) the Building is no longer reasonably suitable for use as an office
+building, or for Tenant's intended use thereof, whether or not any portion
+of the Premises is taken, Landlord may elect to terminate this Lease,
+effective as of the Date of Condemnation, by notice to Tenant within sixty
+(60) days after Landlord's receipt of information on the extent of the
+taking.
+
+(c) If all or a portion of the Premises or any substantial part of
+the parking areas are temporarily taken by a Condemnor for a period not
+extending beyond the end of the Term, this Lease shall remain in full force
+and effect, except if such Condemnation of the Building or parking areas
+deprives or materially interferes with Tenants occupancy, use or enjoyment
+of any material part of the Premises for a period longer than 180 days. In
+such event, Tenant shall have the right to terminate this Lease upon written
+notice to Landlord delivered within the earlier of sixty (60) days after
+Tenant has been notified or Tenant has reasonably determined that such
+temporary taking will be longer than 180 days. During any temporary taking
+all Base Rent and Additional Rent shall be equitably abated during such time
+as Tenant is deprived of the use, enjoyment or occupancy of the Premises or
+such use, enjoyment or occupancy is materially interfered with.
+
+13.3 Restoration. If upon any Condemnation this Lease is not
+terminated as provided in Section 13.2 - Effect on Lease, Landlord, at its
+expense, shall diligently proceed to repair and restore the Premises to
+substantially its former condition (to the extent permitted by then
+applicable Laws) and/or repair and restore the Building to an
+architecturally complete office building; provided, however, that Landlord's
+obligations to so repair and restore shall be limited to the amount of any
+Award received by Landlord and not required to be paid to any Mortgagee (as
+defined in Section 20.2 below). In no event shall Landlord have any
+obligation to repair or replace any improvements in the Premises beyond the
+amount of any Award received by Landlord for such repair or to repair or
+replace any of Tenant's personal property, Trade Fixtures, or Alterations.
+In the event the Award is not sufficient and Landlord will not undertake
+repair or restoration of the Building, then Landlord shall notify Tenant in
+writing no later than fifteen (15) days after the amount of the Award is
+determined, and Tenant shall have the right to terminate this Lease upon
+written notice to Landlord, which shall be given within thirty (30) days
+after Tenant's receipt of Landlord's notice. If Landlord does not deliver
+to Tenant written notice that Landlord will not repair and rebuild within
+the fifteen-day period, then Landlord shall proceed diligently to repair and
+restore the Building as provided above.
+
+13.4 Abatement and Reduction of Rent. If any portion of the Premises
+is taken in a Condemnation or is rendered permanently or temporarily
+untenantable by repairs necessitated by the Condemnation, and this Lease is
+not terminated, the Base Rent and Additional Rent payable under this Lease
+shall be proportionally reduced as of the Date of Condemnation based upon
+the percentage of rentable square feet in the Premises so taken or rendered
+permanently untenantable. In addition, if this Lease remains in effect
+following a Condemnation and Landlord proceeds to repair and restore the
+Premises, the Base Rent and Additional Rent payable under this Lease shall
+be abated during the period of such repair or restoration to the extent such
+repairs prevent Tenant's use of the Premises.
+
+13.5 Awards. Any Award made shall be paid to Landlord, and Tenant
+hereby assigns to Landlord, and waives all interest in or claim to, any such
+Award, including any claim for the value of the unexpired Term; provided,
+however, that Tenant shall be entitled to receive, or to prosecute a
+separate claim for, an Award for a temporary taking of the Premises or a
+portion thereof by a Condemnor where this Lease is not terminated (to the
+extent such Award relates to the unexpired Term), or an Award or portion
+thereof separately designated for relocation expenses or the interruption of
+or damage to Tenant's business or as compensation for Tenant's personal
+property, Trade Fixtures or Alterations.
+
+14. ASSIGNMENT AND SUBLETTING.
+
+14.1 Landlord's Consent Required. Tenant shall not assign this Lease
+or any interest therein, or sublet or license or permit the use or occupancy
+of the Premises or any part thereof by or for the benefit of anyone other
+than Tenant or a Tenant Affiliate, or in any other manner transfer all or
+any part of Tenant's interest under this Lease (each and all a "Transfer"),
+without the prior written consent of Landlord, which consent (subject to the
+other provisions of this Section 14) shall not be unreasonably withheld or
+delayed. The term "Tenant Affiliate" shall mean an entity controlling,
+controlled by, or under common control with Tenant, or a successor to Tenant
+by reason of merger or consolidation or other corporate reorganization. If
+Tenant is a business entity, any direct or indirect transfer of fifty
+percent (50%) or more of the ownership interest of the entity (whether in a
+single transaction or in the aggregate through a series of more than one
+related transaction(s)) shall be deemed a Transfer. Notwithstanding the
+foregoing, none of the provisions of this Section 14.1 shall prohibit Tenant
+from mortgaging, pledging or otherwise encumbering the leasehold created by
+this Lease, nor any Transfer of this Lease to any person holding any
+mortgage or security interest in the leasehold or to any person acquiring
+the leasehold by foreclosure or by deed in lieu of foreclosure.
+Furthermore, no transfer of fifty percent (50%) or more of the outstanding
+stock of Tenant's parent, so long as it is a public company, shall
+constitute a Transfer as such term is used in this Section14.1. Landlord
+also shall execute and deliver any commercially reasonable waivers or
+releases of Landlord's liens if requested by any bank or other lender that
+provides financing to Tenant, and that is secured in whole or in part, by
+any of Tenant's assets or personal property located on the Premises.
+
+14.2 Reasonable Consent.
+
+(a) Prior to any proposed Transfer, Tenant shall submit in writing
+to Landlord (i) the name and legal composition of the proposed assignee,
+subtenant, user or other transferee (each a "Proposed Transferee"); (ii) the
+nature of the business proposed to be carried on in the Premises; (iii) a
+current balance sheet, income statements for the last two years or such
+other reasonable financial and other information concerning the Proposed
+Transferee as Landlord may request; and (iv) a copy of the proposed
+assignment, sublease or other agreement governing the proposed Transfer.
+Within fifteen (15) Business Days after Landlord receives all such
+information it shall notify Tenant whether it approves or disapproves such
+Transfer or if it elects to proceed under Section 14.7 - Landlord's Right to
+Space.
+
+(b) Tenant acknowledges and agrees that, among other circumstances
+for which Landlord could reasonably withhold consent to a proposed Transfer,
+it shall be reasonable for Landlord to withhold consent where (i) the
+Proposed Transferee does not intend itself to occupy the entire portion of
+the Premises assigned or sublet, (ii) Landlord reasonably disapproves of the
+Proposed Transferee's business operating ability or history, reputation or
+creditworthiness or the character of the business to be conducted by the
+Proposed Transferee at the Premises, (iii) the Proposed Transferee is a
+governmental agency or unit or an existing tenant in the Project,
+(iv) ) Landlord or Landlord's agent is actively negotiating with the
+Proposed Transferee over space other than the Premises that is currently
+available and vacant, or (v) Landlord otherwise determines that the proposed
+Transfer would have the effect of decreasing the value of the Building or
+increasing the expenses associated with operating, maintaining and repairing
+the Property. In no event may Tenant publicly offer or advertise all or any
+portion of the Premises for assignment or sublease at a rental less than
+that then sought by Landlord for a direct lease (non-sublease) of comparable
+space in the Project.
+
+14.3 Excess Consideration. If Landlord consents to the Transfer,
+Tenant shall pay to Landlord as additional rent, within ten (10) days after
+receipt by Tenant, one-half (1/2) of any consideration paid by any
+transferee (the "Transferee") for the Transfer, including, in the case of a
+sublease, one-half (1/2) of the excess of the rent and other consideration
+payable by the subtenant over the amount of Base Rent and Additional Rent
+payable hereunder applicable to the subleased space, after deduction of
+brokerage and other subleasing costs.
+
+14.4 No Release Of Tenant. No consent by Landlord to any Transfer
+including, without limitation, a Transfer to a Tenant Affiliate, shall
+relieve Tenant of any obligation to be performed by Tenant under this Lease,
+whether occurring before or after such consent, assignment, subletting or
+other Transfer. Each Transferee shall be jointly and severally liable with
+Tenant (and Tenant shall be jointly and severally liable with each
+Transferee) for the payment of rent (or, in the case of a sublease, rent in
+the amount set forth in the sublease) and for the performance of all other
+terms and provisions of this Lease. The consent by Landlord to any Transfer
+shall not relieve Tenant or any such Transferee from the obligation to
+obtain Landlord's express prior written consent to any subsequent Transfer
+by Tenant or any Transferee. The acceptance of rent by Landlord from any
+other person (whether or not such person is an occupant of the Premises)
+shall not be deemed to be a waiver by Landlord of any provision of this
+Lease or to be a consent to any Transfer.
+
+14.5 Effectiveness of Transfer. Prior to the date on which any
+permitted Transfer (whether or not requiring Landlord's consent) becomes
+effective, Tenant shall deliver to Landlord a counterpart of the fully
+executed Transfer document and Landlord's standard form (which shall contain
+only reasonable terms and conditions) of Consent to Assignment or Consent to
+Sublease executed by Tenant and the Transferee in which each of Tenant and
+the Transferee confirms its obligations pursuant to this Lease. Failure or
+refusal of a Transferee to execute any such instrument shall not release or
+discharge the Transferee from liability as provided herein. The voluntary,
+involuntary or other surrender of this Lease by Tenant, or a mutual
+cancellation by Landlord and Tenant, shall not work a merger, and any such
+surrender or cancellation shall, at the option of Landlord, either terminate
+all or any existing subleases or operate as an assignment to Landlord of any
+or all of such subleases.
+
+14.6 Assignment of Sublease Rents. As collateral security for the
+payment and performance of Tenant's obligation under this Lease, Tenant
+hereby absolutely and irrevocably assigns to Landlord any and all rights to
+receive rent and other consideration from any sublease and agrees that
+Landlord, as assignee or as attorney-in-fact for Tenant for purposes hereof,
+or a receiver for Tenant appointed on Landlord's application may (but shall
+not be obligated to) collect such rents and other consideration and apply
+the same toward Tenant's obligations to Landlord under this Lease; provided,
+however, that Landlord grants to Tenant at all times prior to occurrence of
+any breach or default by Tenant a revocable license to collect such rents
+(which license shall automatically and without notice be and be deemed to
+have been revoked and terminated immediately upon any Event of Default).
+
+15. DEFAULT AND REMEDIES.
+
+15.1 Events of Default by Tenant. The occurrence of any of the
+following shall constitute an "Event of Default" by Tenant:
+
+(a) Tenant fails to make any payment of rent when due, or any
+amount required to replenish the Security Deposit, if payment in full is not
+received by Landlord within ten (10) days after written notice to Tenant
+that it is due.
+
+(b) Tenant fails to take occupancy of the Premises and open for
+business within sixty (60) days after the Commencement Date or abandons the
+Premises for more than 180 days.
+
+(c) Tenant fails timely to deliver any subordination document,
+estoppel certificate or financial statement requested by Landlord within the
+applicable time period specified in Sections 20 - Encumbrances - and 21 -
+Estoppel Certificates and Financial Statements - below.
+
+(d) Tenant violates the restrictions on Transfer set forth in
+Section 14 - Assignment and Subletting.
+
+(e) Tenant ceases doing business as a going concern; makes an
+assignment for the benefit of creditors; is adjudicated an insolvent, files
+a petition (or files an answer admitting the material allegations of a
+petition) seeking relief under any state or federal bankruptcy or other
+statute, law or regulation affecting creditors' rights; all or substantially
+all of Tenant's assets are subject to judicial seizure or attachment and are
+not released within ninety (90) days, or Tenant consents to or acquiesces in
+the appointment of a trustee, receiver or liquidator for Tenant or for all
+or any substantial part of Tenant's assets.
+
+(f) Tenant fails, within ninety (90) days after the commencement
+of any proceedings against Tenant seeking relief under any state or federal
+bankruptcy or other statute, law or regulation affecting creditors' rights,
+to have such proceedings dismissed, or Tenant fails, within ninety (90) days
+after an appointment, without Tenant's consent or acquiescence, of any
+trustee, receiver or liquidator for Tenant or for all or any substantial
+part of Tenant's assets, to have such appointment vacated.
+
+(g) Tenant fails to perform or comply with any provision of this
+Lease other than those described in (a) through (f) above, and does not
+fully cure such failure within thirty (30) days after notice to Tenant or,
+if such failure cannot be cured within such thirty (30)-day period, Tenant
+fails within such thirty (30)-day period to commence, and thereafter
+diligently proceed with, all actions necessary to cure such failure as soon
+as reasonably possible.
+
+15.2 Landlord's Remedies. Upon the occurrence of an Event of Default,
+Landlord shall have the following rights and remedies, which shall not be
+exclusive but cumulative and in addition to any other rights and remedies
+now or hereafter allowed by law or in equity, and which may be exercised
+without further notice or demand:
+
+(a) Landlord may cure the Event of Default at Tenant's expense
+upon notice that is reasonable and practicable under the circumstances. If
+Landlord pays any sum or incurs any expense in curing the Event of Default,
+Tenant shall reimburse Landlord upon demand for the amount of such payment
+or expense with interest at the Interest Rate from the date the sum is paid
+or the expense is incurred until Landlord is reimbursed by Tenant.
+
+(b) Landlord may (1) re-enter the Premises in the manner provided
+by law, (2) declare this Lease at an end and terminated in writing, (3) sue
+for the Rent due and to become due under this Lease, and for any damages
+sustained by Landlord and (4) continue this Lease in effect and relet the
+Premises on such terms and conditions as Landlord may deem reasonably
+advisable, with Tenant remaining liable for Rent and all other sums coming
+due or payable under this Lease, plus the reasonable costs of obtaining
+possession of the Premises and the reasonable costs of reletting the
+Premises, including broker's commissions, and the costs of any repairs and
+alterations necessary to prepare the Premises for reletting, less any
+rentals received from any reletting. Landlord shall use reasonable efforts
+to mitigate damages and relet the Premises. Recovery of future Rent from
+Tenant will be discounted by applying the Federal Reserve rate of the
+Federal Reserve Bank in San Francisco in effect at the time of award, plus
+one percent (1%).
+
+(c) Landlord may also from time to time, whether before or after
+re-entry, terminate this Lease as to a portion, portions or the entirety of
+the Premises, and as to any such portion relet by Landlord to a third party
+in a bona fide, arms-length transaction, Landlord may recover from Tenant,
+together with all other damages (including without limitation the reasonable
+costs of obtaining possession and of reletting), an amount equal to the
+difference, if any, between the future Rent payable for such portion,
+portions or the entirety of the Premises under this Lease (using the then
+applicable Base Rent and Additional Rent) less the greater of (i) the rent
+to be paid by the tenant under the new lease for such portion(s) of the
+Premises and (ii) the fair market rental value of the relet portion(s) of
+the Premises at the time of reletting. Any recovery of future Rent from
+Tenant under this section shall be discounted by applying the Federal
+Reserve rate of the Federal Reserve Bank in San Francisco in effect at the
+time of the award plus one percent (1%).
+
+(d) Except as provided in Section 14.1 above, Landlord may
+exercise its statutory lien rights and remove Tenant's property from the
+Premises, which may be stored by Landlord in a public warehouse or elsewhere
+at the sole cost and for the account of Tenant and sold pursuant to law. If
+Landlord does not elect to store any or all of Tenant's property left in the
+Premises, Landlord may consider such property to be abandoned by Tenant, and
+Landlord may thereupon dispose of such property in any manner deemed
+appropriate by Landlord. Any proceeds realized by Landlord on the disposal
+of any such property shall be applied first to offset all expenses of
+storage and sale, then credited against Tenant's outstanding obligations to
+Landlord under this Lease, and any balance remaining after satisfaction of
+all obligations of Tenant under this Lease shall be delivered to Tenant.
+
+(e) No action of Landlord shall be construed as an election to
+terminate this Lease or to accept a surrender of the Premises unless written
+notice of such intention be given to Tenant. Tenant shall pay all
+reasonable attorneys' fees, costs and expenses incurred by Landlord in
+enforcing Tenant's obligations under this Lease.
+
+(f) Acceptance of payment of Rent or partial payment of Rent or
+other partial performance, with or without Landlord's knowledge of an Event
+of Default by Tenant, or failure of Landlord to take action on account of an
+Event of Default by Tenant or to enforce its rights under this Lease shall
+not be deemed a waiver of any Event of Default by Tenant.
+
+15.3 Landlord's Default.
+
+(a) If Landlord defaults under this Lease, Tenant shall give
+Landlord written notice of the default and Landlord shall have (a) ten (10)
+days to cure the default, if the default can be cured by the payment of
+money, and (b) thirty (30) days to cure the default, if the default cannot
+be cured by the payment of money, but if a non-monetary default cannot
+reasonably be cured within such 30-day period, and if Landlord is proceeding
+with due diligence to cure the default, Landlord will have such additional
+time as may be reasonably necessary to cure the default so long as Landlord
+promptly commences to cure the default within the 30-day period; except,
+however, if such default deprives Tenant of the use, enjoyment and occupancy
+of a material part of the Premises for a period of more than 180 days, or if
+such default is not susceptible of cure within such period of time,
+resulting in such deprivation, Tenant may, at its option, upon thirty (30)
+days prior written notice to Landlord and to any Mortgagee, terminate this
+Lease.
+
+(b) If Landlord's default continues beyond the cure periods set
+forth above, Tenant may pursue its rights and remedies under this Lease and
+Arizona law, excepting only the right of offset, deduction or termination of
+this Lease, unless such remedy is expressly conferred by this Lease. In
+addition, Tenant may cure a default on Landlord's behalf if Landlord fails
+to cure within the applicable grace period after notice, and the costs
+expended by Tenant in doing so shall be paid by Landlord upon demand
+together with interest at the Interest Rate.
+
+16. INTEREST. Any payment from Tenant to Landlord not paid ten (10) days
+after due shall at Landlord's option bear interest from the date due until
+paid to Landlord by Tenant at the rate of fifteen percent (15%) per annum or
+the legal rate of interest in Arizona, whichever is less (the "Interest
+Rate"). Acceptance of any late charge and/or interest shall not constitute
+a waiver of Tenant's default with respect to the overdue sum or prevent
+Landlord from exercising any of its other rights and remedies under this
+Lease.
+
+17. WAIVER. No provisions of this Lease shall be deemed waived by Landlord
+unless such waiver is in a writing signed by Landlord. The waiver by
+Landlord of any breach of any provision of this Lease shall not be deemed a
+waiver of such provision or of any subsequent breach of the same or any
+other provision of this Lease. No delay or omission in the exercise of any
+right or remedy of Landlord upon any default by Tenant shall impair such
+right or remedy or be construed as a waiver. Landlord's acceptance of any
+payments of rent due under this Lease shall not be deemed a waiver of any
+default by Tenant under this Lease (including Tenant's recurrent failure to
+timely pay rent) other than Tenant's nonpayment of the accepted sums, and no
+endorsement or statement on any check or payment or in any letter or
+document accompanying any check or payment shall be deemed an accord and
+satisfaction. Landlord's consent to or approval of any act by Tenant
+requiring Landlord's consent or approval shall not be deemed to waive or
+render unnecessary Landlord's consent to or approval of any subsequent act
+by Tenant.
+
+18. ENTRY, INSPECTION AND CLOSURE. Upon reasonable oral or written notice
+to Tenant (and without notice in emergencies), Landlord and its authorized
+representatives may enter the Premises at all reasonable times to:
+(a) determine whether the Premises are in good condition, (b) determine
+whether Tenant is complying with its obligations under this Lease,
+(c) perform any maintenance or repair of the Premises or the Building that
+Landlord has the right or obligation to perform, (d) install or repair
+improvements for other tenants where access to the Premises is required for
+such installation or repair, (e) serve, post or keep posted any notices
+required or allowed under the provisions of this Lease, (f) show the
+Premises to prospective brokers, agents, buyers, transferees, Mortgagees or,
+in the case of prospective tenants, no earlier than one (1) year prior to
+the Expiration Date, or (g) do any other act or thing necessary for the
+safety or preservation of the Premises or the Building. When reasonably
+necessary Landlord may temporarily close entrances, doors, corridors,
+elevators or other facilities in the Building without liability to Tenant by
+reason of such closure. Landlord shall conduct its activities under this
+Section in a manner that will minimize inconvenience to Tenant without
+incurring additional expense to Landlord. In no event shall Tenant be
+entitled to an abatement of rent on account of any entry by Landlord, and
+Landlord shall not be liable in any manner for any inconvenience, loss of
+business or other damage to Tenant or other persons arising out of
+Landlord's entry on the Premises in accordance with this Section. No action
+by Landlord pursuant to this paragraph shall constitute an eviction of
+Tenant, constructive or otherwise, entitle Tenant to an abatement of rent or
+to terminate this Lease or otherwise release Tenant from any of Tenant's
+obligations under this Lease.
+
+19. SURRENDER AND HOLDING OVER.
+
+19.1 Surrender. Upon the expiration or termination of this Lease,
+Tenant shall surrender the Premises and all Tenant Improvements and
+Alterations to Landlord broom-clean and in their original condition, except
+for reasonable wear and tear, damage from casualty or condemnation and any
+changes resulting from approved Alterations; provided, however, that prior
+to the expiration or termination of this Lease Tenant shall remove from the
+Premises Tenant's personal property, (other than cabling and telephone
+equipment) and any Trade Fixtures and all Alterations that Landlord has
+elected to require Tenant to remove as provided in Section 6.1 - Tenant
+Improvements & Alterations, and repair any damage caused by such removal.
+If such removal is not completed before the expiration or termination of the
+Term, Landlord shall have the right (but no obligation) to remove the same,
+and Tenant shall pay Landlord on demand for all costs of removal and storage
+thereof and for the rental value of the Premises for the period from the end
+of the Term through the end of the time reasonably required for such
+removal. Landlord shall also have the right to retain or dispose of all or
+any portion of such property if Tenant does not pay all such costs and
+retrieve the property within ten (10) days after notice from Landlord (in
+which event title to all such property described in Landlord's notice shall
+be transferred to and vest in Landlord). Tenant waives all Claims against
+Landlord for any damage or loss to Tenant resulting from Landlord's removal,
+storage, retention, or disposition of any such property. Upon expiration or
+termination of this Lease or of Tenant's possession, whichever is earliest,
+Tenant shall surrender all keys to the Premises or any other part of the
+Building and shall deliver to Landlord all keys for or make known to
+Landlord the combination of locks on all safes, cabinets and vaults that may
+be located in the Premises. Tenant's obligations under this Section shall
+survive the expiration or termination of this Lease.
+
+19.2 Holding Over. If Tenant (directly or through any Transferee or
+other successor-in-interest of Tenant) remains in possession of the Premises
+after the expiration or termination of this Lease, Tenant's continued
+possession shall be at the sufferance of Landlord. In such event, Tenant
+shall continue to comply with or perform all the terms and obligations of
+Tenant under this Lease, except that the monthly Base Rent during Tenant's
+holding over shall be one hundred thirty-three percent (133%) of the Base
+Rent payable in the last full month prior to the termination hereof unless
+Tenant's holdover is with Landlord's written consent and waiver of such
+increase. Tenant shall indemnify, defend and hold Landlord harmless from
+and against Landlord's damages as a result of a prospective tenant
+rescinding or refusing to enter into the prospective lease of the Premises
+by reason Tenant's failure to surrender the Premises within ninety (90) days
+after the expiration or termination of this Lease.
+
+20. ENCUMBRANCES.
+
+20.1 Subordination. This Lease is expressly made subject and
+subordinate to any mortgage, deed of trust, ground lease, development
+agreement, underlying lease or other encumbrance affecting any part of the
+Property or any interest of Landlord therein which is now existing or
+hereafter executed or recorded ("Encumbrance"); provided, however, that such
+subordination shall only be effective if the holder of the Encumbrance
+agrees that this Lease shall survive the termination of the Encumbrance by
+lapse of time, foreclosure or otherwise so long as no Event of Default has
+occurred under this Lease. Provided the conditions of the preceding
+sentence are satisfied, Tenant shall execute and deliver to Landlord, within
+fifteen (15) days after written request therefor by Landlord and in a form
+reasonably requested by Landlord, any additional documents evidencing the
+subordination of this Lease with respect to any such Encumbrance and the
+nondisturbance agreement by the holder of any such Encumbrance. If the
+interest of Landlord in the Property is transferred pursuant to or in lieu
+of proceedings for enforcement of any Encumbrance, Tenant shall immediately
+and automatically attorn to the new owner, and this Lease shall continue in
+full force and effect as a direct lease between the transferee and Tenant on
+the terms and conditions set forth in this Lease, provided the holder of the
+Encumbrance or the transferee, as applicable, has executed a non-disturbance
+agreement for the benefit of Tenant, agreeing that the holder or transferee
+will recognize the leasehold created hereby and agree to perform all
+obligations to be performed by the Landlord hereunder following any transfer
+to the new owner.
+
+20.2 Mortgagee Protection. Tenant agrees to give any holder of any
+Encumbrance covering any part of the Property ("Mortgagee"), by registered
+mail, a copy of any notice of default served upon Landlord, provided that
+prior to such notice Tenant has been notified in writing (by way of notice
+of assignment of rents and leases, or otherwise) of the name and address of
+such Mortgagee. If Landlord shall have failed to cure such default within
+thirty (30) days from the effective date of such notice of default, then the
+Mortgagee shall have an additional fifteen (15) days within which to cure
+such default or if such default cannot be cured within that time, then such
+additional time as may be necessary to cure such default (including the time
+necessary to foreclose or otherwise terminate its Encumbrance, if necessary
+to effect such cure), and except as provided in Section 15.3(a) above,
+Tenant shall not pursue any remedy against Landlord so long as such cure is
+being diligently pursued.
+
+21. ESTOPPEL CERTIFICATES AND FINANCIAL STATEMENTS.
+
+21.1 Estoppel Certificates. Within fifteen (15) business days after
+written request therefor, Tenant shall execute and deliver to Landlord, in a
+form provided by or satisfactory to Landlord, a certificate stating that
+this Lease is binding upon Tenant, describing any amendments or
+modifications hereto, acknowledging that this Lease, subject to the
+provisions of Section 20.1 above, is subordinate or prior, as the case may
+be, to any Encumbrance and stating any other information Landlord may
+reasonably request, including the Term, the monthly Base Rent, the date to
+which Rent has been paid, the amount of any security deposit or prepaid
+rent, and, based on Tenant's actual knowledge, whether either party hereto
+is in default under the terms of the Lease, and whether Landlord has
+completed its construction obligations hereunder (if any). Tenant
+irrevocably constitutes, appoints and authorizes Landlord as Tenant's
+special attorney-in-fact for such purpose to complete, execute and deliver
+such certificate if Tenant fails timely to execute and deliver such
+certificate as provided above. Any person or entity purchasing, acquiring
+an interest in or extending financing with respect to the Property shall be
+entitled to rely upon any such certificate. If Tenant fails to deliver such
+certificate within ten (10) days after Landlord's second written request
+therefor, Tenant shall be liable to Landlord for any damages incurred by
+Landlord including any profits or other benefits from any financing of the
+Property or any interest therein which are lost or made unavailable as a
+result, directly or indirectly, of Tenant's failure or refusal to timely
+execute or deliver such estoppel certificate.
+
+21.2 Financial Statements. Within ten (10) days after written request
+therefor, but not more than once a year, and in the case of year-end
+statements, not prior to the following April 15th, Tenant shall deliver to
+Landlord a copy of the financial statements (including at least a year end
+balance sheet and a statement of profit and loss) of Tenant (and of each
+guarantor of Tenant's obligations under this Lease) for each of the three
+most recently completed years, prepared in accordance with generally
+accepted accounting principles (and, if such is Tenant's normal practice,
+audited by an independent certified public accountant), all then available
+subsequent interim statements, and such other financial information as may
+reasonably be requested by Landlord or reasonably required by any Mortgagee.
+In each case, Tenant's financial results may be consolidated with the
+financial information for the parent company guarantor of this Lease.
+
+22. NOTICES. Any notice, demand, request, consent or approval that either
+party desires or is required to give to the other party under this Lease
+shall be in writing and shall be served personally, delivered by messenger
+or courier service, or delivered by U.S. certified mail, return receipt
+requested, postage prepaid, addressed to the other party at the party's
+address for notices set forth in the Basic Lease Information. Any notice
+required pursuant to any Laws may be incorporated into, given concurrently
+with or given separately from any notice required under this Lease. Notices
+shall be deemed to have been given and be effective upon receipt whether
+sent by the independent service for delivery or by mail in accordance with
+this Section. Either party may change its address for notices hereunder,
+effective fifteen (15) days after notice to the other party complying with
+this Section. If Tenant sublets the Premises, notices from Landlord shall
+be effective on the subtenant when given to Tenant pursuant to this Section.
+
+23. ATTORNEYS' FEES. In the event of any dispute between Landlord and
+Tenant in any way related to this Lease, and whether involving contract
+and/or tort claims, the non-prevailing party shall pay to the prevailing
+party all reasonable attorneys' fees and costs and expenses of any type,
+without restriction by statute, court rule or otherwise, incurred by the
+prevailing party in connection with any action or proceeding (including any
+appeal and the enforcement of any judgment or award), whether or not the
+dispute is litigated or prosecuted to final judgment (collectively, "Fees").
+The "prevailing party" shall be determined based upon an assessment of which
+party's major arguments or positions taken in the action or proceeding could
+fairly be said to have prevailed (whether by compromise, settlement,
+abandonment by the other party of its claim or defense, final decision,
+after any appeals, or otherwise) over the other party's major arguments or
+positions on major disputed issues. Any Fees incurred in enforcing a
+judgment shall be recoverable separately from any other amount included in
+the judgment and shall survive and not be merged in the judgment. The Fees
+shall be deemed an "actual pecuniary loss" within the meaning of Bankruptcy
+Code Section 365(b)(1)(B), and notwithstanding the foregoing, all Fees
+incurred by either party in any bankruptcy case filed by or against the
+other party, from and after the order for relief until this Lease is
+rejected or assumed in such bankruptcy case, will be "obligations of the
+debtor" as that phrase is used in Bankruptcy Code Section 365(d)(3).
+
+24. QUIET POSSESSION. Subject to Tenant's full and timely performance of
+all of Tenant's obligations under this Lease and subject to the terms of
+this Lease, including Section 20 - Encumbrances, Tenant shall have the quiet
+possession of the Premises throughout the Term as against any persons or
+entities lawfully claiming by, through or under Landlord.
+
+25. SECURITY MEASURES. Except as required under the Final Construction
+Documents, Landlord may, but shall be under no obligation to, implement
+security measures for the Property, such as the registration or search of
+all persons entering or leaving the Building, requiring identification for
+access to the Building, evacuation of the Building for cause, suspected
+cause, or for drill purposes, the issuance of magnetic pass cards or keys
+for Building or elevator access and other actions that Landlord deems
+necessary or appropriate to prevent any threat of property loss or damage,
+bodily injury or business interruption; provided, however, that such
+measures shall be implemented in a way as not to inconvenience tenants of
+the Building unreasonably. If Landlord uses an access card system, Landlord
+may require Tenant to pay Landlord a deposit for each after-hours Building
+access card issued to Tenant, in the amount specified in the Basic Lease
+Information. Tenant shall be responsible for any loss, theft or breakage of
+any such cards, which must be returned by Tenant to Landlord upon expiration
+or earlier termination of the Lease. Landlord may retain the deposit for
+any card not so returned. Landlord shall at all times have the right to
+change, alter or reduce any such security services or measures. Tenant
+shall cooperate and comply with, and cause Tenant's Representatives and
+Visitors to cooperate and comply with, such security measures. Landlord,
+its agents and employees shall have no liability to Tenant or its
+Representatives or Visitors for the implementation or exercise of, or the
+failure to implement or exercise, any such security measures or for any
+resulting disturbance of Tenant's use or enjoyment of the Premises.
+
+26. FORCE MAJEURE. "Force Majeure" shall mean Landlord's inability to
+obtain equipment, building materials, or the building permit for the
+building shell within the timeframe in the Construction Schedule due to City
+of Scottsdale delays, despite the timely and diligent effort by Landlord or
+its contractors to obtain such equipment, materials and building permit,
+acts of God, fire, earthquake, flood, rainfall or other extraordinary
+weather-caused delays which interfere with construction, vandalism, any
+moratorium on the issuance of governmental approvals or utility service
+connections or other similar government actions, strikes, union labor
+disputes or other union work stoppages, freight embargoes or inability to
+obtain basic materials, supplies or fuels, extraordinary delays in the
+issuance of other governmental permits or approvals, or other events beyond
+the reasonable control of Landlord or its contractors.
+
+27. RULES AND REGULATIONS. Tenant shall be bound by and shall comply with
+the rules and regulations attached to and made a part of this Lease as
+Exhibit C to the extent those rules and regulations are not in conflict with
+the terms of this Lease, as well as any reasonable rules and regulations
+hereafter adopted by Landlord for all tenants of the Building, upon notice
+to Tenant thereof (collectively, the "Building Rules"). Landlord shall not
+be responsible to Tenant or to any other person for any violation of, or
+failure to observe, the Building Rules by any other tenant or other person.
+
+28. LANDLORD'S LIABILITY. The term "Landlord," as used in this Lease, shall
+mean only the owner or owners of the Building at the time in question. In
+the event of any conveyance of title to the Building, then from and after
+the date of such conveyance, the transferor Landlord shall be relieved of
+all liability with respect to Landlord's obligations to be performed under
+this Lease after the date of such conveyance. Notwithstanding any other
+term or provision of this Lease, the liability of Landlord for its
+obligations under this Lease is limited solely to Landlord's interest in the
+Building as the same may from time to time be encumbered, and no personal
+liability shall at any time be asserted or enforceable against any other
+assets of Landlord or against Landlord's partners or members or its or their
+respective partners, shareholders, members, directors, officers or managers
+on account of any of Landlord's obligations or actions under this Lease.
+
+29. CONSENTS AND APPROVALS. The review and/or approval by Landlord of any
+item or matter to be reviewed or approved by Landlord under the terms of
+this Lease or any Exhibits or Addenda hereto shall not be construed as a
+voucher by Landlord of the accuracy or sufficiency of any such item or
+matter or the quality or suitability of such item for its intended use.
+
+30. WAIVER OF RIGHT TO JURY TRIAL. Landlord and Tenant waive their
+respective rights to trial by jury of any contract or tort claim,
+counterclaim, cross-complaint, or cause of action in any action, proceeding,
+or hearing brought by either party against the other on any matter arising
+out of or in any way connected with this Lease, the relationship of Landlord
+and Tenant, or Tenant's use or occupancy of the Premises, including any
+claim of injury or damage or the enforcement of any remedy under any current
+or future law, statute, regulation, code, or ordinance.
+
+31. BROKERS. Landlord shall pay the fee or commission of the broker or
+brokers identified in the Basic Lease Information (the "Broker") in
+accordance with Landlord's separate written agreement with the Broker, if
+any. Tenant warrants and represents to Landlord that in the negotiating or
+making of this Lease neither Tenant nor anyone acting on Tenant's behalf has
+dealt with any broker or finder who might be entitled to a fee or commission
+for this Lease other than the Broker. Tenant shall indemnify, defend and
+hold Landlord harmless from and against any claim or claims, including
+costs, expenses and attorney's fees incurred by Landlord asserted by any
+other broker or finder for a fee or commission based upon any dealings with
+or statements made by Tenant or Tenant's Representatives.
+
+32. [Intentionally omitted]
+
+33. ENTIRE AGREEMENT. This Lease, including the Exhibits and any Addenda
+attached hereto, and the documents referred to herein, if any, constitute
+the entire agreement between Landlord and Tenant with respect to the leasing
+of space by Tenant in the Building, and supersede all prior or
+contemporaneous agreements, understandings, proposals and other
+representations by or between Landlord and Tenant, whether written or oral,
+all of which are merged herein. Neither Landlord nor Landlord's agents have
+made any representations or warranties with respect to the Premises, the
+Building, the Project or this Lease except as expressly set forth herein,
+and no rights, easements or licenses shall be acquired by Tenant by
+implication or otherwise unless expressly set forth herein. The submission
+of this Lease for examination does not constitute an option for the Premises
+and this Lease shall become effective as a binding agreement only upon
+execution and delivery thereof by Landlord to Tenant.
+34. MISCELLANEOUS. This Lease may not be amended or modified except by a
+writing signed by Landlord and Tenant. Subject to Section 14 - Assignment
+and Subletting and Section 28 - Landlord's Liability, this Lease shall be
+binding on and shall inure to the benefit of the parties and their
+respective successors, assigns and legal representatives. The determination
+that any provisions hereof may be void, invalid, illegal or unenforceable
+shall not impair any other provisions hereof and all such other provisions
+of this Lease shall remain in full force and effect. The unenforceability,
+invalidity or illegality of any provision of this Lease under particular
+circumstances shall not render unenforceable, invalid or illegal other
+provisions of this Lease, or the same provisions under other circumstances.
+This Lease shall be construed and interpreted in accordance with the laws
+(excluding conflict of laws principles) of the State of Arizona. The
+provisions of this Lease shall be construed in accordance with the fair
+meaning of the language used and shall not be strictly construed against
+either party, even if such party drafted the provision in question. When
+required by the context of this Lease, the singular includes the plural.
+Wherever the term "including" is used in this Lease, it shall be interpreted
+as meaning "including, but not limited to" the matter or matters thereafter
+enumerated. The captions contained in this Lease are for purposes of
+convenience only and are not to be used to interpret or construe this Lease.
+If more than one person or entity is identified as Tenant hereunder, the
+obligations of each and all of them under this Lease shall be joint and
+several. Time is of the essence with respect to this Lease, except as to
+the conditions relating to the delivery of possession of the Premises to
+Tenant. Landlord and Tenant shall record a memorandum of this Lease in the
+Official Records of Maricopa County, Arizona, concurrently with the
+execution of this Lease..
+
+35. AUTHORITY. If either party to this Lease is a corporation, partnership,
+limited liability company or other form of business entity, each of the
+persons executing this Lease on behalf of such party warrants and represents
+to the other that it is a duly organized and validly existing entity, that
+has full right and authority to enter into this Lease and that the persons
+signing on its behalf is authorized to do so and has the power to bind such
+party to this Lease. Each party shall provide to the other upon request
+with evidence reasonably satisfactory to the other confirming the foregoing
+representations.
+
+36. RESTRICTION ON OTHER TENANTS. During the Term of this Lease, except for
+the Premises leased to Tenant, Landlord shall not authorize or permit any
+space in the Project to be used for the operation of a telephone or
+communications center, without the prior written consent of Tenant.
+
+[SIGNATURES ON FOLLOWING PAGE]
+
+IN WITNESS WHEREOF, Landlord and Tenant have entered into this Lease as
+of the date first above written.
+
+TENANT: LANDLORD:
+
+PEGASUS SOLUTIONS COMPANIES, RYAN COMPANIES US, INC.,
+a Delaware corporation a Minnesota corporation
+
+By: ________________________ By: ___________________
+
+Name: Its:
+---------------- -------------------
+Title:
+----------------
+
+By: ________________________
+
+Name:
+----------------
+Title:
+----------------
+
+EXHIBIT A
+
+ATTACHED TO AND FORMING A PART OF
+LEASE AGREEMENT
+DATED AS OF September 14, 2001
+BETWEEN
+RYAN COMPANIES US, INC., AS LANDLORD,
+AND
+PEGASUS SOLUTIONS COMPANIES, AS TENANT
+
+THE PREMISES
+
+[Floor plan showing location
+and configuration of Premises
+to be inserted.]
+
+INITIALS:
+
+Landlord ______
+Tenant ______
+
+EXHIBIT B
+
+ATTACHED TO AND FORMING A PART OF
+LEASE AGREEMENT
+DATED AS OF September 14, 2001
+BETWEEN
+RYAN COMPANIES US, INC., AS LANDLORD,
+AND
+PEGASUS SOLUTIONS COMPANIES, AS TENANT
+
+CONSTRUCTION RIDER
+
+1. Base Building. Unless earlier completed, Landlord shall with
+reasonable diligence construct, at Landlord's sole cost and expense, the
+core and shell of the Building (the "Base Building") and achieve substantial
+completion thereof by such date as will allow Landlord to achieve
+Substantial Completion of the Tenant Improvements as required hereunder.
+The Base Building will include the improvements described in the Base
+Building Description attached as Exhibit G hereto.
+
+2. Tenant Improvements. Landlord shall cause Ryan Companies US,
+Inc., as the general contractor, to construct and install with reasonable
+diligence the additional improvements and fixtures provided for in this
+Construction Rider ("Tenant Improvements"). The general contractor shall
+receive a total fee of eight percent (8%) of the cost of the Tenant
+Improvements for profit and overhead, plus its general conditions and sales
+or excise taxes ("Markups"). The Markups shall be a charge against the
+Allowance. Tenant designates Steven Greenspan to act as Tenant's
+Representative with respect to all approvals, directions and authorizations
+pursuant to this Construction Rider. Landlord designates John Strittmatter
+to act as Landlord's Representative with respect to all approvals,
+directions and authorizations pursuant to this Construction Rider.
+
+2.1. Plans. The Tenant Improvements shall be constructed
+substantially as shown on the conceptual space plan ("Space Plan") for the
+Premises prepared by Kraus Thomas, who has been designated by Tenant as the
+architect for the Premises ("Architect").
+
+As soon as may be reasonably practicable after execution and
+delivery of the Lease, the Architect will prepare and deliver to Tenant
+detailed plans and specifications sufficient to permit the construction of
+the Tenant Improvements by Landlord ("Construction Documents"). Landlord
+will provide Tenant with a cost estimate for the work shown in the
+Construction Documents. Tenant shall respond to the Construction Documents
+and cost estimate within three (3) days after receipt thereof, specifying
+any changes or modifications Tenant desires in the Construction Documents.
+The Architect will then revise the Construction Documents and resubmit them
+to Tenant for its approval and Landlord will provide Tenant with a revised
+cost estimate. Tenant shall approve or disapprove the same within three (3)
+days after receipt. The revised Construction Documents and cost estimate,
+as approved by Tenant and Landlord, are hereinafter referred to as the
+"Final Construction Documents" and "Final Cost Estimate," respectively.
+
+Additional interior decorating services and advice on the furnishing
+and decoration of the Premises, such as the selection of fixtures,
+furnishings or design of mill work, shall be provided by Tenant at its
+expense, but shall be subject to the reasonable approval of Landlord.
+
+2.2 Construction. Upon approval by Landlord and Tenant of the
+Final Construction Documents and the Final Cost Estimate, Landlord shall
+proceed with reasonable diligence to cause the Tenant Improvements to be
+Substantially Completed on or prior to the Scheduled Commencement Date. The
+parties acknowledge that in order for Landlord to achieve Substantial
+Completion by the Scheduled Commencement Date, the parties must adhere to
+the attached Construction Schedule, which requires, among other deadlines
+therein, issuance by the City of Scottsdale of a building permit for the
+Tenant Improvements by no later than June 1, 2002. The Tenant Improvements
+shall be deemed to be "Substantially Completed" when they have been
+substantially completed in accordance with the Final Construction Documents
+except for details, omissions, decorations and mechanical adjustments of the
+type normally found on an architectural "punch list" that do not materially
+impair Tenant's use and enjoyment of the Premises, the Base Building has
+been completed pursuant to Section 1 above, a certificate of occupancy has
+been issued by City of Scottsdale allowing Tenant to take occupancy of the
+Premises for their intended purpose, and the Base Building and the Premises
+are in the condition required for Tenant's use and enjoyment thereof. (The
+definition of Substantially Completed shall also define the terms
+"Substantial Completion" and "Substantially Complete.")
+
+2.3. Cost of Tenant Improvements. Landlord shall contribute
+$28.00 per rentable square foot in the Premises toward the cost of design,
+space planning, construction and installation of the Tenant Improvements and
+the cost of signs (the "Allowance"). If the cost thereof exceeds the
+Allowance, Tenant may amortize up to another $4.00 per rentable square foot
+over the initial ten-year Term of this Lease in Base Rent at a per annum
+rate of interest of ten percent (10%). The balance, if any, of any further
+cost of the Tenant Improvements ("Additional Cost"), including, but not
+limited to the Markups, shall be paid by Tenant. Tenant shall pay Landlord
+50% of the Additional Cost based upon the Final Cost Estimate prior to the
+commencement of construction of the Tenant Improvements. The balance of the
+actual Additional Cost shall be paid to Landlord upon Substantial Completion
+of the Tenant Improvements, within ten (10) days after receipt of Landlord's
+invoice therefor. Landlord will use reasonable care in preparing the cost
+estimates, but they are estimates only and do not limit Tenant's obligation
+to pay for the actual Additional Cost of the Tenant Improvements, whether or
+not it exceeds the estimated amounts. If the actual cost of the Tenant
+Improvements shall be less than the Allowance (the "Savings"), then the
+Savings shall be credited against the Base Rent next due.
+
+2.4. Changes. If Tenant requests any change, addition or
+alteration in or to any Final Construction Documents ("Changes") Landlord
+shall cause the Space Planner to prepare additional Plans implementing such
+Change. Tenant shall pay the cost of preparing additional Plans within ten
+(10) days after receipt of Landlord's invoice therefor. As soon as
+practicable after the completion of such additional Construction Documents,
+Landlord shall notify Tenant of the estimated cost of the Changes. Within
+three (3) working days after receipt of such cost estimate, Tenant shall
+notify Landlord in writing whether Tenant approves the Change. If Tenant
+approves the Change, Landlord shall proceed with the Change and Tenant shall
+be liable for any Additional Cost resulting from the Change. If Landlord or
+Tenant fail to give their approvals herein, construction of the Tenant
+Improvements shall proceed as provided in accordance with the original
+Construction Documents.
+
+2.5. Tenant Delay. Tenant shall be responsible for, and shall pay
+to Landlord, all costs, expenses and other damages incurred by Landlord in
+connection with, or arising from, any delay in the commencement or
+completion of any Tenant Improvements or any increase in the cost of Tenant
+Improvements caused by (i) Tenant's failure to submit information to the
+Space Planner or approve any Space Plan, Construction Documents or cost
+estimates within the time periods required herein, or Tenant's failure
+otherwise to adhere to the requirements of the attached Construction
+Schedule, (ii) any delays in obtaining any items or materials constituting
+part of the Tenant Improvements requested by Tenant that are not reasonably
+available from vendors, (iii) any Changes, (iv) any other delay requested or
+caused by Tenant, or (v) any other act or omission of Tenant that is
+prohibited by this Lease or that Tenant has a legal duty to perform or to
+comply with, including the covenants to be performed by Tenant under this
+Lease (collectively, "Tenant Delays").
+
+3. Ownership of Tenant Improvements. All Tenant Improvements,
+whether installed by Landlord or Tenant, shall become a part of the
+Premises, shall be the property of Landlord and, subject to the provisions
+of the Lease, shall be surrendered by Tenant with the Premises, without any
+compensation to Tenant, at the expiration or termination of the Lease in
+accordance with the provisions of the Lease.
+
+INITIALS:
+
+Landlord ______
+Tenant ______
+
+EXHIBIT C
+
+ATTACHED TO AND FORMING A PART OF
+LEASE AGREEMENT
+DATED AS OF September 14, 2001
+BETWEEN
+RYAN COMPANIES US, INC., AS LANDLORD,
+AND
+PEGASUS SOLUTIONS COMPANIES, AS TENANT
+
+BUILDING RULES
+
+The following Building Rules are additional provisions of the foregoing
+Lease to which they are attached. The capitalized terms used herein have
+the same meanings as these terms are given in the Lease.
+
+1. Use of Common Areas. Tenant will not obstruct the sidewalks,
+halls, passages, exits, entrances, elevators or stairways of the Building
+("Common Areas"), and Tenant will not use the Common Areas for any purpose
+other than ingress and egress to and from the Premises and for any other
+reasonable purpose consistent with the nature of such Common Areas. The
+Common Areas, except for the sidewalks, are not open to the general public
+and Landlord reserves the right to control and prevent access to the Common
+Areas of any person whose presence, in Landlord's opinion, would be
+prejudicial to the safety, reputation and interests of the Building and its
+tenants. Notwithstanding the foregoing, Tenant may maintain and secure a
+reception desk and chairs in the lobby at Tenant's own expense, and at no
+additional charge by Landlord.
+
+2. Access to Roof. Tenant may install, operate, and maintain during
+the Term one or more satellite dishes on the roof of the Building in a
+location approved by Landlord, which approval shall not be unreasonably
+conditioned, delayed, or withheld. Tenant will be responsible for all costs
+of installation, operation, repair and removal of the satellite dish as well
+as the costs of any roof or other repairs required as a result of the
+installation, operation, repair or removal. Landlord shall have the right
+to approve the method of installation and removal, all plans and
+specifications for the satellite dish (including weight and electric power
+service, which will be at Tenant's expense), the subcontractor, the size of
+the satellite dish and the shielding requirements. Landlord may select (at
+Tenant's expense) a roofing contractor/specialist to be involved in the work
+to ensure no damage will occur to the roof or invalidate or affect any roof
+warranty. Installation and use of the satellite dish shall be in compliance
+with City of Scottsdale legal requirements and with all covenants,
+conditions and restrictions, and shall not interfere with Landlord's
+operation of the Building or with any roof-mounted equipment or operations
+of other tenants. All future alterations must be approved by Landlord.
+Landlord is not responsible for providing service or utilities to the site
+including electrical power. Tenant's obligations under this Lease in
+respect to the Premises shall extend to Tenant's use of the roof of the
+Building under this Paragraph 3. Tenant shall have reasonable access to the
+roof for purposes of installing, operating, maintaining, repairing, and
+removing the satellite dish. The term "satellite dish" will include
+antennae and other telecom equipment.
+
+3. Prohibited Uses. The Premises will not be used for manufacturing,
+for the storage of merchandise held for sale to the general public, for
+lodging or for the sale of goods to the general public. Tenant will not
+permit any food preparation on the Premises except that Tenant may use
+Underwriters' Laboratory approved equipment for brewing coffee, tea, hot
+chocolate and similar beverages so long as such use is in accordance with
+all applicable federal, state and city laws, codes, ordinances, rules and
+regulations.
+
+4. Keys and Locks. Landlord will furnish Tenant, free of charge, two
+keys to each door or lock in the Premises. Landlord may make a reasonable
+charge for any additional or replacement keys. Tenant will not duplicate
+any keys, alter any locks or install any new or additional lock or bolt on
+any door of its Premises or on any other part of the Building without the
+prior written consent of Landlord and, in any event, Tenant will provide
+Landlord with a key for any such lock. On the termination of the Lease,
+Tenant will deliver to Landlord all keys to any locks or doors in the
+Building which have been obtained by Tenant.
+
+5. Freight. Upon not less than twenty-four hours prior notice to
+Landlord, which notice may be oral, an elevator will be made available for
+Tenant's use for transportation of freight, subject to such scheduling as
+Landlord in its discretion deems appropriate. Tenant shall not transport
+freight in loads exceeding the weight limitations of such elevator.
+Landlord reserves the right to prescribe the weight, size and position of
+all equipment, materials, furniture or other property brought into the
+Building, and no property will be received in the Building or carried up or
+down the freight elevator or stairs except during such hours and along such
+routes and by such persons as may be designated by Landlord. Landlord
+reserves the right to require that heavy objects will stand on wood strips
+of such length and thickness as is necessary to properly distribute the
+weight. Landlord will not be responsible for loss of or damage to any such
+property from any cause, and Tenant will be liable for all damage or
+injuries caused by moving or maintaining such property.
+
+6. Nuisances and Dangerous Substances. Tenant will not conduct
+itself or permit Tenant's Representatives or Visitors to conduct themselves,
+in the Premises or anywhere on or in the Property in a manner which is
+offensive or unduly annoying to any other Tenant or Landlord's property
+managers. Tenant will not install or operate any phonograph, radio
+receiver, musical instrument, or television or other similar device in any
+part of the Common Areas and shall not operate any such device installed in
+the Premises in such manner as to disturb or annoy other tenants of the
+Building. Tenant will not use or keep in the Premises or the Property any
+kerosene, gasoline or other combustible fluid or material other than limited
+quantities thereof reasonably necessary for the maintenance of office
+equipment, or, without Landlord's prior written approval, use any method of
+heating or air conditioning other than that supplied by Landlord. Tenant
+will not use or keep any foul or noxious gas or substance in the Premises or
+permit or suffer the Premises to be occupied or used in a manner offensive
+or objectionable to Landlord or other occupants of the Building by reason of
+noise, odors or vibrations, or interfere in any way with other tenants or
+those having business therein. Tenant will not bring or keep any animals in
+or about the Premises or the Property.
+
+7. Building Directory. A directory for the Building will be provided
+for the display of the name and location of tenants. Landlord reserves the
+right to approve any additional names Tenant desires to place in the
+directory and, if so approved, Landlord may assess a reasonable charge for
+adding such additional names, excepting, however, the affiliates and
+divisions of Tenant not to exceed five (5) in number.
+
+9. Window Coverings. No curtains, draperies, blinds, shutters,
+shades, awnings, screens or other coverings, window ventilators, hangings,
+decorations or similar equipment shall be attached to, hung or placed in, or
+used in or with any window of the Building without the prior written consent
+of Landlord, and Landlord shall have the right to control all lighting
+within the Premises that may be visible from the exterior of the Building.
+
+10. Floor Coverings. Tenant will not lay or otherwise affix linoleum,
+tile, carpet or any other floor covering to the floor of the Premises in any
+manner except as approved in writing by Landlord. Tenant will be liable for
+the cost of repair of any damage resulting from the violation of this rule
+or the removal of any floor covering by Tenant or its contractors, employees
+or invitees.
+
+11. Office Procedures. Tenant will cause no waste or damage to the
+Premises or Common Areas.
+
+13. Plumbing Facilities. The toilet rooms, toilets, urinals, wash
+bowls and other apparatus shall not be used for any purpose other than that
+for which they were constructed and no foreign substance of any kind
+whatsoever shall be disposed of therein. Tenant will be liable for any
+breakage, stoppage or damage resulting from the violation of this rule by
+Tenant, its employees or invitees.
+
+14. Use of Hand Trucks. Tenant will not use or permit to be used in
+the Premises or in the Common Areas any hand trucks, carts or dollies except
+those equipped with rubber tires and side guards or such other equipment as
+Landlord may approve.
+
+15. Refuse. Tenant shall store all Tenant's trash and garbage within
+the Premises or in other facilities designated by Landlord for such purpose.
+Tenant shall not place in any trash box or receptacle any material which
+cannot be disposed of in the ordinary and customary manner of removing and
+disposing of trash and garbage in the city in which the Building is located
+without being in violation of any law or ordinance governing such disposal.
+All trash and garbage removal shall be made in accordance with directions
+issued from time to time by Landlord, only through such Common Areas
+provided for such purposes and at such times as Landlord may designate.
+Tenant shall comply with the requirements of any recycling program adopted
+by Landlord for the Building.
+
+16. Soliciting. Canvassing, peddling, soliciting and distribution of
+handbills or any other written materials in the Building are prohibited, and
+Tenant will cooperate to prevent the same.
+
+17. Parking. Tenant will use, and instruct Tenant's Representatives
+and Visitors to use, any parking spaces to which Tenant is entitled under
+the Lease in a manner consistent with Landlord's directional signs and
+markings in the parking area. Specifically, but without limitation, Tenant
+will not park, or permit Tenant's Representatives or Visitors to park, in a
+manner that impedes access to and from the Building or the parking area or
+that violates space reservations for handicapped drivers registered as such.
+Landlord may use such reasonable means as may be necessary to enforce the
+directional signs and markings in the parking area, including but not
+limited to towing services, and Landlord will not be liable for any damage
+to vehicles towed as a result of non-compliance with such parking
+regulations.
+
+18. Fire, Security and Safety Regulations. Tenant will comply with
+all safety, security, fire protection and evacuation measures and procedures
+established by Landlord or any governmental agency.
+
+19. Responsibility for Theft. Tenant assumes any and all
+responsibility for protecting the Premises from theft, robbery and
+pilferage, which includes keeping doors locked and other means of entry to
+the Premises closed.
+
+20. Sales and Auctions. Tenant will not conduct or permit to be
+conducted any sale by auction in, upon or from the Premises or elsewhere in
+the Property, whether said auction be voluntary, involuntary, pursuant to
+any assignment for the payment of creditors or pursuant to any bankruptcy or
+other insolvency proceeding.
+
+21. Waiver of Rules. Landlord may waive any one or more of these
+Building Rules for the benefit of any particular tenant or tenants, but no
+such waiver by Landlord will be construed as a waiver of such Building Rules
+in favor of any other tenant or tenants nor prevent Landlord from thereafter
+enforcing these Building Rules against any or all of the tenants of the
+Building.
+
+22. Effect on Lease. These Building Rules are in addition to, and
+shall not be construed to in any way modify or amend, in whole or in part,
+the terms, covenants, agreements and conditions of the Lease. Violation of
+these Building Rules constitutes a failure to fully perform the provisions
+of the Lease, as referred to in Section 15.1 - "Events of Default".
+
+23. Non-Discriminatory Enforcement. Subject to the provisions of the
+Lease (and the provisions of other leases with respect to other tenants),
+Landlord shall use reasonable efforts to enforce these Building Rules in a
+non-discriminatory manner, but in no event shall Landlord have any liability
+for any failure or refusal to do so (and Tenant's sole and exclusive remedy
+for any such failure or refusal shall be injunctive relief preventing
+Landlord from enforcing any of the Building Rules against Tenant in a manner
+that discriminates against Tenant).
+
+24. Additional and Amended Rules. Landlord reserves the right to
+rescind or amend these Building Rules and/or adopt any other and reasonable
+rules and regulations as in its judgment may from time to time be needed for
+the safety, care and cleanliness of the Building and for the preservation of
+good order therein.
+
+INITIALS:
+
+Landlord ______
+Tenant ______
+
+EXHIBIT D
+
+ATTACHED TO AND FORMING A PART OF
+LEASE AGREEMENT
+DATED AS OF September 14, 2001
+BETWEEN
+RYAN COMPANIES US, INC., AS LANDLORD,
+AND
+PEGASUS SOLUTIONS COMPANIES, AS TENANT
+
+ADDITIONAL PROVISIONS RIDER
+
+1. Parking. At no additional charge to Tenant, Landlord will provide
+Tenant with vehicular parking spaces in the parking lot and parking
+structure adjacent to the Building, at the rate of five (5) spaces for each
+1,000 rentable square feet of space in the Premises ("Tenant's Parking
+Allowance"). The Building as a whole will also have the same parking
+coverage. The parking spaces will be available to Tenant twenty-four (24)
+hours a day, during each day of the Term, subject to Force Majeure, casualty
+and condemnation and other causes beyond Landlord's control. Use of the
+driveways and parking lot shall be subject to the Building Rules. Tenant
+agrees not to use, and will instruct its employees and visitors not to use,
+the driveways or parking lot for overnight or other storage, or for the
+maintenance, repair or cleaning of automobiles or other vehicles. Tenant
+shall not place or store goods, materials, supplies, equipment, or other
+property of Tenant in the driveways or parking lot or anywhere else in the
+Property or in the Building excepting the Premises.
+
+Tenant's Parking Allowance will include two (2) reserved, covered
+spaces and 0.78 covered, unreserved space for each 1,000 rentable square
+feet of space in the Premises. Tenant's Parking Allowance will also include
+ten (10) "Pegasus Visitor" spaces conspicuously marked for the exclusive use
+of its visitors. The other parking spaces will be unreserved and uncovered.
+The number of covered parking spaces that Tenant may have is limited to no
+more than the maximum number of covered parking spaces allowed for the
+Project by the City of Scottsdale multiplied by Tenant's Share. Landlord
+shall have no obligation to enforce Tenant's exclusive rights but will
+cooperate with Tenant in providing "tow away" signage. The reserved
+covered, the covered unreserved and the "Pegasus Visitor" spaces shall be
+located as set forth on Exhibit A or on Exhibit 1 to this Exhibit D.
+
+2. Moving Allowance. Landlord shall contribute up to $1.00 per
+rentable square foot in the Premises toward the cost of Tenant's relocation
+expenses incurred in moving to the Premises (the "Moving Allowance"). If
+the actual cost of Tenant's moving to the Premises is less than the Moving
+Allowance (the "Savings"), then the Savings shall be credited against the
+Base Rent next due. Tenant shall upon request by Landlord provide to
+Landlord documentation evidencing the costs which Tenant wishes to include
+in the Moving Allowance.
+
+3. Renewal Options. In the absence of an Event of Default by Tenant
+when it exercises a Renewal Option or when a Renewal Term begins, Tenant may
+renew this Lease for two (2) terms of five (5) years each (each, a "Renewal
+Term") (for a total if both Renewal Options are exercised of ten (10) years)
+by giving notice of exercise of a Renewal Option to Landlord at least twelve
+(12) months before the end of the then Term. If Tenant fails to deliver
+timely written notice of exercise of a Renewal Option to Landlord, all
+remaining Renewal Options shall lapse and Tenant will have no further
+privilege to extend the Term. Time is of the essence of this provision.
+
+Each Renewal Term shall be on the same terms and conditions of
+this Lease (unless clearly inapplicable) except that Base Rent during each
+Renewal Term shall be based on the greater of (i) the rental rate being paid
+at the end of the preceding Term or (ii) ninety-five percent (95%) of the
+"market rental rate" for comparable space in competing buildings of similar
+size, type, quality and location prevailing at the start of each Renewal
+Term, as reasonably calculated by Landlord. Determination of the effective
+"market rental rate" will give appropriate consideration to rental rates for
+renewals, rental escalations, common area charges, operating costs, and
+other terms that would affect the economics in a similar lease renewal at a
+competing building in the area.
+
+If Landlord and Tenant are unable to agree on the "market rental
+rate" to be applied to the Premises, Landlord and Tenant shall select a
+highly qualified and reputable real estate professional with at least ten
+(10) years of experience in the relevant leasing market (the "Arbiter") to
+determine the "market rental rate." If Landlord and Tenant are unable to
+agree on the Arbiter, the Resident Manager of the largest commercial real
+estate brokerage house in Phoenix will select the Arbiter from a major
+brokerage house other than his or her own. The term "largest" means the
+brokerage house with the largest sales volume in the preceding calendar
+year.
+
+In addition to paying Base Rent determined pursuant to this
+Paragraph 2, Tenant will continue to pay Additional Rent and all other sums
+required under this Lease during a Renewal Term.
+
+If this Lease or Tenant's right to possession of the Premises
+shall expire or terminate for any reason whatsoever before Tenant exercises
+all Renewal Options, then immediately upon such expiration or termination
+all Renewal Option shall simultaneously terminate and become null and void.
+
+4. Signs. Tenant has the right to name the Building, and Landlord
+shall provide Tenant with exclusive "building top" signage, and Tenant will
+have the top portion of any monument signs. So long as Pegasus Solutions
+Companies has personal liability on this Lease even if not the actual party
+in possession, Tenant shall have the right to name the Building with
+Landlord's approval not to be unreasonably withheld. Tenant will also
+reasonably share Building, suite, directory and monument signage rights with
+other Building tenants, but no other tenant shall have any right to place or
+maintain signs or logos on the exterior of the Building, without the prior
+written consent of Tenant which will not be unreasonably withheld or
+delayed. Notwithstanding the foregoing, all of Tenant's signs must comply
+with applicable Laws and covenants, conditions and restrictions and have the
+written consent of Landlord, not to be unreasonably withheld or delayed.
+
+5. Guaranty. This Lease will not become effective until Tenant
+causes its parent, Pegasus Solutions, Inc. ("Guarantor"), to execute and
+deliver to Landlord a Lease Guaranty in form acceptable to Landlord,
+concurrently with Tenant's execution and delivery of this Lease.
+
+6. Letter of Credit. On or before execution and delivery of this
+Lease, Tenant will deliver to Landlord for the Term of this Lease (including
+all Renewal Terms) the "Security Deposit" pursuant to Section 3.4 of this
+Lease in the form of an assignable and irrevocable standby letter of credit
+issued by The Chase Manhattan Bank or another bank or financial institution
+reasonably acceptable to Landlord in the amount of $1,200,000, naming
+Landlord as "beneficiary" thereof, , all in form and substance reasonably
+acceptable to Landlord. If Landlord draws on such letter of credit because
+of an Event of Default, Landlord shall do so by sight draft delivered to the
+issuer with a written statement from an officer of Landlord (i) that an
+Event of Default has occurred under the Lease, (ii) that all required
+notices to Tenant or others entitled to notice have been delivered as
+required by the Lease, and (iii) that Landlord is entitled under the terms
+of the Lease to draw the amounts demanded on the letter of credit. Landlord
+acknowledges that the issuer of the letter of credit shall require, and may
+rely on, a letter from Landlord quoting the foregoing "drawdown" language.
+Landlord shall approve the form and method of control and/or perfection of
+Landlord's security interest in the Security Deposit, including
+documentation thereof. Landlord may transfer the Security Deposit (or right
+to proceeds thereof) to any purchaser of the Building and/or encumber
+Landlord's rights therein to any Mortgagee. If during the term, Guarantor
+demonstrates to Landlord's reasonable satisfaction a tangible net worth over
+$100 million for an entire twelve-month period, at the end of which period
+there exists no Event of Default (or conditions which, with the expiration
+of time and/or failure to cure, would ripen into an Event of Default) under
+this Lease, Landlord will release the Security Deposit (or unapplied portion
+thereof). Tangible net worth shall mean book net worth less all intangible
+assets.
+
+Excepting only the Event of Default described in the next
+subparagraph, Landlord shall give Tenant at least five (5) business days
+prior written notice of a description of the alleged default of Tenant and
+notifying Tenant that Landlord intends to draw upon the letter of credit.
+
+If the letter of credit by its terms will expire before the end of
+the Term of this Lease, Tenant shall deliver to Landlord at least thirty
+(30) days prior to the expiry date of the current letter of credit a new
+letter of credit on the same terms and conditions required under this
+Section 6. Tenant's failure to do so shall constitute an Event of Default
+under this Lease entitling Landlord to draw on the entire amount of the
+letter of credit without further notice to Tenant, the proceeds of which
+will be held by Landlord as a cash Security Deposit under Section 3.4 of
+this Lease,
+
+So long as there then exists no Event of Default (or conditions
+which, with the expiration of time and/or failure to cure, would ripen into
+an Event of Default) under this Lease and Guarantor demonstrates to
+Landlord's reasonable satisfaction a tangible net worth over $50 million
+maintained continuously during the entire twelve-month period ending on the
+fifth anniversary of the Commencement Date, the amount of the Security
+Deposit required under this Paragraph 6 will thereupon decline by $100,000
+and by a like sum on each successive anniversary, provided that the same
+conditions are met every year.
+
+This Lease shall not become effective until Tenant has delivered
+to Landlord the Security Deposit as required by this Section 6.
+
+7. Expansion Space. In the absence of an Event of Default by Tenant,
+Tenant will have the following expansion right: at any time during the Term
+of this Lease, before Landlord either markets available space in the
+Building (the "Expansion Space") to third parties, or accepts a third-party
+offer on such space, Landlord will first offer the Expansion Space to
+Tenant. Any notice so offering is an "Offer Notice" and shall contain
+either the material terms upon which Landlord is offering the Expansion
+Space, including Landlord's good faith estimate of the fair market rental
+value of the Expansion Space, or the material terms of a "second proposal"
+or other offer from a third party which Landlord desires to accept. If
+Tenant gives notice to Landlord within ten (10) days after receipt of the
+Offer Notice that Tenant will take the Expansion Space as set forth in the
+Offer Notice, Landlord and Tenant shall enter into an amendment to this
+Lease that adds the Expansion Space to the Premises, increases Base Rent and
+Tenant's Share of Operating Costs, and makes any other necessary change to
+this Lease to integrate the Expansion Space into the Premises. The term of
+lease for the Expansion Space will be as follows: If the remaining Term is
+five (5) years or less and the term in the Offer Notice is longer, the
+latter applies; if the remaining Term is more than five (5) years and the
+term in the Offer Notice is shorter then the Term for the Expansion Space
+shall expire as of the end of the term specified in the Offer Notice. If
+the remaining Term of this Lease is more than five (5) years at the time the
+Offer Notice is given, but the term proposed in the Offer Notice will expire
+prior to the end of the Term, then the term for the Expansion Space at
+Tenant's option shall be the same as that specified in the Offer Notice, or
+shall be coterminous with and expire as of the expiration of the Term, in
+which latter event Landlord and Tenant will negotiate in good faith to
+determine the market rental rate for the Expansion Space for that period of
+time beginning at the end of the term specified in the Offer Notice and
+ending at the expiration of the Term of this Lease. Any tenant improvement
+allowance will be prorated. If, notwithstanding good faith cooperative
+efforts on the part of both parties, Landlord and Tenant are unable to
+arrive at, and execute an acceptable amendment within thirty (30) days
+following the Offer Notice, time being of the essence, or if Tenant fails to
+give Landlord timely notice of Tenant's acceptance of the terms in the Offer
+Notice, Tenant's rights under this provision will expire, and Landlord will
+be free to market the Expansion Space and enter into a lease of all or any
+portion of the Expansion Space to third parties, provided that if a third
+party thereafter makes an offer on terms materially more favorable to any
+prospective tenant than set forth in the Offer Notice, then Landlord shall
+not enter into any lease of the Expansion Space with a third party until
+Landlord offers the Expansion Space to Tenant under the more favorable
+terms. Tenant will have seven (7) days to accept or reject the reoffer, and
+if Tenant does not accept the reoffer in such time period Tenant will be
+deemed to have rejected it and Landlord shall thereafter be free to lease
+the Expansion Space to third parties under the reoffer terms.
+
+Notwithstanding the foregoing, if Tenant elects in writing prior to the
+first anniversary of the Commencement Date to take the Expansion Space, the
+Annual Base Rent (subject to subsequent increases provided in this Lease)
+and the Operating Costs Expense Stops applicable to the original Premises
+will apply to the Expansion Space as well.
+
+8. For a period of sixty (60) days after the execution of this Lease,
+Landlord shall not issue any communication or press release to any
+publication media without Tenant's prior written consent.
+
+INITIALS:
+
+Landlord ______
+Tenant ______
+
+EXHIBIT E
+
+ATTACHED TO AND FORMING A PART OF
+LEASE AGREEMENT
+DATED AS OF September 14, 2001
+BETWEEN
+RYAN COMPANIES US, INC., AS LANDLORD,
+AND
+PEGASUS SOLUTIONS COMPANIES, AS TENANT
+
+[Pro Forma Total Project Cost]
+
+INITIALS:
+
+Landlord ______
+Tenant ______
+
+EXHIBIT F
+
+ATTACHED TO AND FORMING A PART OF
+LEASE AGREEMENT
+DATED AS OF September 14, 2001
+BETWEEN
+RYAN COMPANIES US, INC., AS LANDLORD,
+AND
+PEGASUS SOLUTIONS COMPANIES, AS TENANT
+
+[Base Building Description]
+
+INITIALS:
+
+Landlord ______
+Tenant ______

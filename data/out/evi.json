@@ -1,0 +1,183 @@
+{
+  "doc_id": "evi",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 9.0,
+  "usage": {
+    "input_tokens": 25600,
+    "output_tokens": 1546
+  },
+  "chars": 64275,
+  "fields": {
+    "landlord": {
+      "value": "290 NE 68 Street, LLC.",
+      "normalised": "290 NE 68 Street, LLC",
+      "quote": "Landlord: 290 NE 68 Street, LLC.",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        168,
+        200
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Steiner-Atlantic Corp.",
+      "normalised": "Steiner-Atlantic Corp.",
+      "quote": "Tenant: Steiner-Atlantic Corp.",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        202,
+        232
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "290 NE 68th Street, 277 NE 67th Street and 297 NE 67th Street, Miami, FL 33138 (three contiguous buildings; no suite/floor given)",
+      "normalised": "290 NE 68th Street, 277 NE 67th Street and 297 NE 67th Street, Miami, FL 33138",
+      "quote": "the street addresses of which are known as 290 NE 68th Street, 277 NE 67th Street and 297 NE 67th Street, Miami, FL 33138",
+      "confidence": "high",
+      "note": "Premises span three street addresses.",
+      "span": [
+        391,
+        512
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 27,000 sq ft of building area (more or less)",
+      "normalised": "27000",
+      "quote": "containing approximately 27,000 square feet (more or less) of building area",
+      "confidence": "medium",
+      "note": "Stated as approximate building area, not expressly 'rentable' area.",
+      "span": [
+        314,
+        389
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "November 1, 2014",
+      "normalised": "2014-11-01",
+      "quote": "Commencement Date (Section 2.1):\n\nNovember 1, 2014",
+      "confidence": "high",
+      "note": "Section 2.1 would postpone it if possession not delivered, but Exhibit B memorandum confirms possession delivered and commencement on November 1, 2014.",
+      "span": [
+        858,
+        908
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "October 31, 2017",
+      "normalised": "2017-10-31",
+      "quote": "Expiration Date (Section 2.1):\n\nOctober 31, 2017",
+      "confidence": "high",
+      "note": "3-year term; confirmed in Exhibit B memorandum.",
+      "span": [
+        910,
+        958
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$10,275.00 per month (Lease Year 1)",
+      "normalised": "10275.00",
+      "quote": "Lease Year 1\n\n$ 10,275.00",
+      "confidence": "high",
+      "note": "Stated monthly in Basic Lease Information; NNN, additional rent separate.",
+      "span": [
+        1023,
+        1048
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule: Year 1 $10,275/month; Year 2 $10,580/month; Year 3 $10,900/month",
+      "normalised": "Stepped: 10,275 / 10,580 / 10,900 per month (about 3.0% annual increases)",
+      "quote": "Lease Year 2\n\n$ 10,580.00\n\nLease Year 3\n\n$ 10,900.00",
+      "confidence": "medium",
+      "note": "Increases are about 2.97% and 3.02%; percentages are calculated, not stated in the lease.",
+      "span": [
+        1050,
+        1102
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "None",
+      "normalised": "None",
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal or extension option in the lease. Holding over (Section 2.3) is only a month-to-month tenancy with Landlord consent at 200% rent.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal option exists.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "early_termination": {
+      "value": "None",
+      "normalised": "None",
+      "quote": null,
+      "confidence": "medium",
+      "note": "No voluntary tenant termination right. Tenant may terminate only on a substantial condemnation taking (Section 12.1); Landlord has casualty termination rights (Section 11.1).",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "None",
+      "normalised": "0",
+      "quote": "Security Deposit (Section 3.3):\n$\nNone",
+      "confidence": "high",
+      "note": "Basic Lease Information states None and controls over Section 3.3, which refers to the specified deposit.",
+      "span": [
+        1234,
+        1272
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

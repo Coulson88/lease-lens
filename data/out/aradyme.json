@@ -1,0 +1,192 @@
+{
+  "doc_id": "aradyme",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 32.3,
+  "usage": {
+    "input_tokens": 40132,
+    "output_tokens": 4919
+  },
+  "chars": 105916,
+  "fields": {
+    "landlord": {
+      "value": "TCU Properties III, LLC, a Utah limited liability company",
+      "normalised": "TCU Properties III, LLC",
+      "quote": "LANDLORD: TCU Properties III, LLC,",
+      "confidence": "medium",
+      "note": "",
+      "span": [
+        14022,
+        14056
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "tenant": {
+      "value": "Aradyme Corporation (signature block reads \"Aradyme, a Utah Corporation\")",
+      "normalised": "Aradyme Corporation",
+      "quote": "\"Tenant\": Aradyme Corporation",
+      "confidence": "medium",
+      "note": "Basic Lease Information says 'Aradyme Corporation'; signature blocks say 'Aradyme, a Utah Corporation'. Same entity apparently.",
+      "span": [
+        208,
+        237
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "premises_address": {
+      "value": "1255 North Research Way, Orem, Utah 84097 (Building Q, Canyon Park Technology Center)",
+      "normalised": "1255 North Research Way, Orem, Utah 84097",
+      "quote": "1255 North Research Way",
+      "confidence": "medium",
+      "note": "Listed as 'Address of Tenant/Premises'. No suite number stated; suites Q-34 and Q-35 are referenced under Space Planner and floor plan is Exhibit B (not provided).",
+      "span": [
+        270,
+        293
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 10,000 RSF at lease start (Jan 1, 2005 to Dec 31, 2005). Expands in steps to 16,185 RSF by Jan 1, 2007.",
+      "normalised": "10000",
+      "quote": "Tenant agrees to lease and occupy approximately 10,000 rentable",
+      "confidence": "medium",
+      "note": "Total Premises are approx. 16,185 RSF; expansion: 13,093 (1/1/2006), 14,639 (7/1/2006), 16,185 (1/1/2007). 10,000 RSF is consistent with $140,000/yr at $14.00/RSF.",
+      "span": [
+        9315,
+        9378
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "January 15, 2005, or as defined in the attached Exhibit H (Exhibit H is not included in the text provided)",
+      "normalised": null,
+      "quote": "\"Commencement Date\": January 15, 2005, or as defined in the attached Exhibit H.",
+      "confidence": "low",
+      "note": "Fixed date is stated but may be overridden by Exhibit H, which is not provided (Exhibit H is also referenced as the Restrictive Covenants). Space schedule refers to occupancy from Jan 1, 2005.",
+      "span": [
+        3522,
+        3601
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "65 calendar months after the Commencement Date, extended by the remainder of the commencement month if it is not the 1st. If commencement is Jan 15, 2005, expiry would be about June 30, 2010.",
+      "normalised": null,
+      "quote": "continuing for 65 calendar months",
+      "confidence": "low",
+      "note": "No fixed expiration date is stated; it depends on the Commencement Date (see Exhibit H, not provided). June 30, 2010 is a calculation assuming Jan 15, 2005 commencement.",
+      "span": [
+        13129,
+        13162
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$11,666.67 per month ($140,000.00 per annum), for the first rent period at $14.00/RSF",
+      "normalised": "11666.67",
+      "quote": "$140,000.00 per annum ($11,666.67 per month)",
+      "confidence": "medium",
+      "note": "Five months of Basic Rental are abated in 2005 (Feb, Apr, Jun, Aug, Oct) subject to conditions. Two reserved parking stalls at $300/stall/yr are added to monthly rent. Excess operating expenses and taxes over 2005 base year are additional.",
+      "span": [
+        859,
+        903
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule per rentable sq ft: months 1-13 $14.00; 14-26 $14.50; 27-39 $15.00; 40-52 $15.50; 53-65 $16.00 (i.e. +$0.50/RSF each lease year). Rent applies to the RSF then leased as Premises expands.",
+      "normalised": "Stepped +$0.50/RSF annually, $14.00 to $16.00",
+      "quote": "at the beginning of each lease year by $0.50 per square foot.",
+      "confidence": "medium",
+      "note": "Para 3(b) matches the Basic Lease Information schedule. Schedule's first period is 13 months. Operating expense and tax pass-throughs above 2005 Base Year are also payable.",
+      "span": [
+        19064,
+        19125
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "One (1) renewal option of five (5) years at fair market rent, provided Tenant is not in default. Option terminates on assignment or sublease of all or substantially all of the Premises unless Landlord approves.",
+      "normalised": "1 x 5 years at fair market rent",
+      "quote": "additional period of five (5) years by",
+      "confidence": "medium",
+      "note": "The renewal rent, concessions and TI are to be negotiated at fair market rental. Para 10(h) can terminate the option on assignment/sublease.",
+      "span": [
+        8767,
+        8805
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "6 months prior to the end of the initial Term",
+      "normalised": "6",
+      "quote": "later than six (6) months prior to the end",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        8851,
+        8893
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "None. The lease grants Tenant no voluntary early termination option. Tenant can end the lease early only through casualty (Para 17, either party) or condemnation or failed restoration (Para 16).",
+      "normalised": "No tenant termination option; only casualty and condemnation rights",
+      "quote": "then either party may terminate this Lease by notice to the other within thirty",
+      "confidence": "medium",
+      "note": "Landlord has separate termination rights, for example on unapproved assignment, a sublet of more than 50%, and a disposal of more than 30% of Tenant's assets. No termination fee is stated.",
+      "span": [
+        59782,
+        59861
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$21,580.00, payable upon execution of the Lease",
+      "normalised": "21580",
+      "quote": "$21,580.00 payable upon execution of the",
+      "confidence": "high",
+      "note": "Para 4 describes the deposit as equal to the last month's Basic Rent. The stated figure equals 16,185 RSF x $16.00 / 12, the final-month rent at full build-out. The stated dollar amount is used.",
+      "span": [
+        10944,
+        10984
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

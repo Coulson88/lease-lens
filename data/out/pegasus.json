@@ -1,0 +1,192 @@
+{
+  "doc_id": "pegasus",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 24.8,
+  "usage": {
+    "input_tokens": 58369,
+    "output_tokens": 3766
+  },
+  "chars": 159102,
+  "fields": {
+    "landlord": {
+      "value": "Ryan Companies US, Inc., a Minnesota corporation",
+      "normalised": "Ryan Companies US, Inc.",
+      "quote": "Landlord: RYAN COMPANIES US, INC., a Minnesota corporation",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        3038,
+        3096
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Pegasus Solutions Companies, a Delaware corporation (guaranteed by parent Pegasus Solutions, Inc.)",
+      "normalised": "Pegasus Solutions Companies",
+      "quote": "Tenant: PEGASUS SOLUTIONS COMPANIES, a Delaware\ncorporation",
+      "confidence": "high",
+      "note": "Guarantor is Pegasus Solutions, Inc., a Delaware corporation; it is not the tenant.",
+      "span": [
+        3098,
+        3157
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "14000 North Pima Road, Suite 100, Scottsdale, Arizona 85260 (Pegasus Corporate Center - Northsight)",
+      "normalised": "14000 North Pima Road, Suite 100, Scottsdale, AZ 85260",
+      "quote": "Building Address: 14000 North Pima Road, Scottsdale, Arizona 85260",
+      "confidence": "medium",
+      "note": "Suite 100 is from the Premises entry in the Basic Lease Information. The first floor is expected to be the Constant Use Area.",
+      "span": [
+        3267,
+        3333
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 110,000 rentable square feet (in a Building of approximately 140,000 RSF)",
+      "normalised": "110000",
+      "quote": "Rentable Area: approximately 110,000 rentable\nsquare feet (subject to Tenant's right to adjust\nthe size of the Premises under Section 1.2 of\nthe Lease)",
+      "confidence": "medium",
+      "note": "The area is approximate. Tenant may increase or decrease it by up to 10,000 RSF (Section 1.2). Landlord will also re-measure before commencement (BOMA), subject to Tenant approval.",
+      "span": [
+        3434,
+        3585
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "Conditional: the earlier of (a) Landlord tendering possession with its construction obligations Substantially Completed, or (b) Tenant lawfully taking possession to commence business. It cannot occur before January 1, 2003 without Tenant's written consent. Scheduled Commencement Date is January 1, 2003.",
+      "normalised": null,
+      "quote": "The \"Commencement Date\" shall be the earlier of (a) the date on which Landlord tenders\npossession of the Premises to Tenant, with all of Landlord's construction\nobligations \"Substantially Completed\"",
+      "confidence": "low",
+      "note": "The date is conditional on Substantial Completion. The Scheduled Commencement Date of January 1, 2003 is only a target. Section 2.2 gives Tenant remedies if completion is late, including a cancellation right if completion is after April 1, 2003.",
+      "span": [
+        7587,
+        7785
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "Last day of the 120th full calendar month of the Term (10-year term, plus any partial month at the start). The date depends on the Commencement Date. If commencement is January 1, 2003, expiry would be December 31, 2012.",
+      "normalised": null,
+      "quote": "Expiration Date: The last day of the one hundred twentieth\n(120th) full calendar month in the Term",
+      "confidence": "low",
+      "note": "No fixed date is stated. The December 31, 2012 figure is only an illustration, assuming a January 1, 2003 commencement. The parties are to confirm the dates in writing once the Commencement Date is established.",
+      "span": [
+        3740,
+        3838
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "Not determinable from the lease text provided. Base Rent is formula-based and depends on Total Project Cost from Exhibit E, which is blank in this document.",
+      "normalised": null,
+      "quote": "[Total Project Cost x Rental Constant x Tenant's Share] + Structural Reserve\n+ Vacancy Factor + $7.25 per rentable square foot ($5.50 in the Constant Use Area).",
+      "confidence": "low",
+      "note": "Rental Constant is 10.50%. Structural Reserve is $0.05/sf of Building area and Vacancy Factor is 2% of Building RSF. Exhibit E (pro forma Total Project Cost) is a blank placeholder, so no dollar amount can be computed. The $7.25/$5.50 per sf component is the Operating Costs Expense Stop, built into Base Rent.",
+      "span": [
+        15195,
+        15355
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Base Rent is flat for years 1-5 under the formula. In years 6-10 it steps up: year-5 rent, excluding the $7.25/$5.50 per sf expense-stop component, is increased by 15%, and the stop component is added back. Renewal-term rent is the greater of the prior rent or 95% of market.",
+      "normalised": "Flat years 1-5; one 15% step on the non-stop portion at year 6",
+      "quote": "Annual Base Rent for years 6 - 10 will be [Annual Base Rent for\nyear 5 minus $7.25 per rentable square foot ($5.50 in the Constant Use\nArea)] x 115% + $7.25 per rentable square foot ($5.50 in the Constant Use\nArea).",
+      "confidence": "medium",
+      "note": "There are no annual escalations within years 1-5. Separately, Tenant pays Additional Rent for Operating Costs above the expense stops, after an 18-month CAM forgiveness period. Controllable costs are capped at a 4% non-cumulative annual increase.",
+      "span": [
+        16559,
+        16774
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "Two renewal options of five (5) years each (ten years in total if both are exercised). Rent is the greater of the prior rent or 95% of market rental rate. Exercise requires no Event of Default.",
+      "normalised": "2 x 5 years",
+      "quote": "Tenant may renew this Lease for two (2) terms of five (5) years each (each, a \"Renewal Term\")",
+      "confidence": "medium",
+      "note": "Rent is set in Exhibit D, paragraph 3.",
+      "span": [
+        147379,
+        147472
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "12 months before the end of the then Term",
+      "normalised": "12",
+      "quote": "by giving notice of exercise of a Renewal Option to Landlord at least twelve\n(12) months before the end of the then Term.",
+      "confidence": "high",
+      "note": "Time is of the essence. If notice is missed, all remaining renewal options lapse.",
+      "span": [
+        147543,
+        147664
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "No general tenant right to terminate early (no termination option or fee). Tenant has only limited conditional rights. It may cancel if Substantial Completion has not occurred by April 1, 2003 (for reasons other than Tenant Delay), by notice within 10 days after that date. Casualty, condemnation and landlord-default termination rights also exist.",
+      "normalised": "No termination option; only contingent cancellation rights (late delivery after April 1, 2003, casualty, condemnation, landlord default)",
+      "quote": "If Substantial Completion does not occur on or before April 1,\n2003 for any reason other than Tenant Delay, and regardless of Force\nMajeure, then Tenant shall have the right to cancel this Lease by notice\ngiven to Landlord on or before ten (10) days thereafter",
+      "confidence": "medium",
+      "note": "Other contingent rights are in 12.3 (casualty, notice within 45 days), 13.2 (condemnation) and 15.3(a) (landlord default depriving use for over 180 days, 30 days' notice). There is no termination fee.",
+      "span": [
+        10506,
+        10766
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$1,200,000, delivered as an irrevocable standby letter of credit",
+      "normalised": "1200000",
+      "quote": "in the form of an assignable and irrevocable standby letter of credit\nissued by The Chase Manhattan Bank or another bank or financial institution\nreasonably acceptable to Landlord in the amount of $1,200,000",
+      "confidence": "high",
+      "note": "It is due on or before lease execution. It is released if Guarantor shows tangible net worth over $100 million for 12 months with no default. It can step down by $100,000 per year from the fifth anniversary of the Commencement Date if net worth exceeds $50 million and other conditions are met.",
+      "span": [
+        151253,
+        151460
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

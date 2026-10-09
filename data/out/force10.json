@@ -1,0 +1,183 @@
+{
+  "doc_id": "force10",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 24.7,
+  "usage": {
+    "input_tokens": 38623,
+    "output_tokens": 4002
+  },
+  "chars": 101935,
+  "fields": {
+    "landlord": {
+      "value": "Redwood Business Park I, LLC, a Delaware limited liability company (successor to original landlord G & W/Copley Redwood Business Park, L.P.)",
+      "normalised": "Redwood Business Park I, LLC",
+      "quote": "REDWOOD BUSINESS PARK I, LLC, a Delaware limited liability company (\u201cLandlord\u201d)",
+      "confidence": "medium",
+      "note": "Original lease (Oct 4, 1999) names G & W/Copley Redwood Business Park, L.P.; the Second Amendment (Dec 14, 2004) names Redwood Business Park I, LLC as Landlord. The transfer is not expressly documented, so the successor relationship is inferred.",
+      "span": [
+        97783,
+        97862
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Turin Networks, Inc., a California corporation",
+      "normalised": "Turin Networks, Inc.",
+      "quote": "Turin Networks, Inc., a California corporation (\u201cTenant\u201d)",
+      "confidence": "high",
+      "note": "The Second Amendment signature block describes Tenant as a Delaware corporation. Everywhere else, including the original lease and First Amendment, it is a California corporation.",
+      "span": [
+        2247,
+        2304
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "1415 N. McDowell Blvd., Suite A, Petaluma, California 94954 (Redwood Business Park)",
+      "normalised": "1415 N. McDowell Blvd., Suite A, Petaluma, CA 94954",
+      "quote": "the building located at 1415 N. McDowell Blvd. in Petaluma, California",
+      "confidence": "medium",
+      "note": "Suite A and the ZIP code come from the Basic Lease Information and the Tenant notice address. After the First Amendment, Tenant occupies the entire building.",
+      "span": [
+        98379,
+        98449
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "31,010 rentable sq. ft.",
+      "normalised": "31010",
+      "quote": "Landlord leases to Tenant approximately 31,010 rentable square feet of space (the \u201cPremises\u201d)",
+      "confidence": "high",
+      "note": "The original lease contemplated 25,000 sq ft in Lease Years 1-2, expanding to 31,010. The First Amendment confirms Tenant occupies the entire 31,010 sq ft effective Aug 1, 2000. Usable area is 28,190 sq ft.",
+      "span": [
+        98282,
+        98375
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "October 4, 1999",
+      "normalised": "1999-10-04",
+      "quote": "1. Commencement Date. The Commencement Date is October 4, 1999.",
+      "confidence": "high",
+      "note": "The First Amendment (Aug 22, 2000) fixes the date. This overrides the original conditional definition in Paragraph 2(a) and the Estimated Commencement Date of Oct 1, 1999.",
+      "span": [
+        95007,
+        95070
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "November 30, 2010",
+      "normalised": "2010-11-30",
+      "quote": "The Term of the Lease is extended until November 30, 2010.",
+      "confidence": "high",
+      "note": "Second Amendment (Dec 14, 2004) overrides the original 7-year term. The original term would have run to about Oct 31, 2006, per the First Amendment rent schedule. This extension is by amendment, not a renewal option.",
+      "span": [
+        98966,
+        99024
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "Original lease: free rent in Lease Months 1-3, then $11,800 per month in Months 4-12. Rent has since been superseded; the currently operative rent is $41,863.50 per month from Dec 1, 2004.",
+      "normalised": "11800",
+      "quote": "1 (Mos. 412)\n\n25,000\n\n10,000\n\n$1.18\n\n$11,800",
+      "confidence": "medium",
+      "note": "'First rent period' is ambiguous. The $11,800 is the first paid rent under the original Addendum No. 1, after 3 free months. The First Amendment replaced the schedule from Aug 1, 2000, and the Second Amendment set $41,863.50 for Dec 2004-Nov 2005.",
+      "span": [
+        81728,
+        81772
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped annual schedule under the Second Amendment, rising about 3% each Dec 1: $41,863.50 (Dec 2004-Nov 2005); $43,119.41; $44,412.99; $45,745.38; $47,117.74; $48,531.27 (Dec 2009-Nov 2010). Full service rent, with Tenant paying its share of increases in taxes and operating expenses over a 2000 base year.",
+      "normalised": "Stepped schedule, approx. 3% per year, Dec 2004-Nov 2010",
+      "quote": "Effective as of the date of this Lease, the Base Rent shall be adjusted as follows:",
+      "confidence": "medium",
+      "note": "The Second Amendment schedule overrides the earlier Addendum No. 1 and First Amendment schedules. The ~3% annual figure is my calculation from the stated amounts.",
+      "span": [
+        99039,
+        99122
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "No tenant renewal or extension option appears in the lease or either amendment. The term was extended by negotiated Second Amendment. The 'Tenant's Exercise Rights' language in Para. 14(e) is generic and grants no option.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "There is no renewal option, so no notice period.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "None. The lease grants no tenant right to terminate early for convenience.",
+      "normalised": "None",
+      "quote": null,
+      "confidence": "medium",
+      "note": "Limited exceptions: Tenant could cancel if the Premises were not substantially completed within 6 months after the Estimated Commencement Date (Para. 2(b), now moot). Either party may also terminate after casualty or condemnation (Paras. 11-12). Tenant may not terminate for Landlord default (Para. 15).",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$28,200",
+      "normalised": "28200",
+      "quote": "$28,200",
+      "confidence": "high",
+      "note": "Stated in Basic Lease Information item 8 and payable on execution (Para. 16). Separately, $11,800 of Advanced Base Rent was paid on execution. The warrant to Landlord is expressly not part of the deposit. No amendment changes the deposit.",
+      "span": [
+        1248,
+        1255
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "review_queue": {
+    "fields": 119,
+    "queued": 60,
+    "review_burden_pct": 50.4,
+    "errors": 10,
+    "errors_caught": 3,
+    "error_capture_pct": 30.0,
+    "passed_unchecked": 59,
+    "passed_accuracy_pct": 88.1,
+    "escaped": [
+      {
+        "doc_id": "crm",
+        "field": "tenant",
+        "predicted": "SALESFORCE.COM, INC., a Delaware corporation",
+        "gold": "SALESFORCE.COM, INC.",
+        "confidence": "high",
+        "model_confidence": "high",
+        "citation": "exact",
+        "flag": "",
+        "auto_verdict": "partial",
+        "detail": "one answer is a fragment of the other",
+        "human_verdict": "",
+        "final_verdict": "partial"
+      },
+      {
+        "doc_id": "danger",
+        "field": "landlord",
+        "predicted": "Digital Phoenix Van Buren, LLC, a Delaware limited liability company",
+        "gold": "DIGITAL PHOENIX VAN BUREN, LLC",
+        "confidence": "high",
+        "model_confidence": "high",
+        "citation": "exact",
+        "flag": "",
+        "auto_verdict": "partial",
+        "detail": "one answer is a fragment of the other",
+        "human_verdict": "",
+        "final_verdict": "partial"
+      },
+      {
+        "doc_id": "danger",
+        "field": "tenant",
+        "predicted": "DANGER Inc., a Delaware corporation",
+        "gold": "DANGER INC.",
+        "confidence": "high",
+        "model_confidence": "high",
+        "citation": "exact",
+        "flag": "",
+        "auto_verdict": "wrong",
+        "detail": "fuzzy 0.52",
+        "human_verdict": "",
+        "final_verdict": "wrong"
+      },
+      {
+        "doc_id": "digitas",
+        "field": "landlord",
+        "predicted": "CEP Investors XII LLC, a Delaware limited liability company",
+        "gold": "CEP INVESTORS XII LLC",
+        "confidence": "high",
+        "model_confidence": "high",
+        "citation": "exact",
+        "flag": "",
+        "auto_verdict": "partial",
+        "detail": "one answer is a fragment of the other",
+        "human_verdict": "",
+        "final_verdict": "partial"
+      },
+      {
+        "doc_id": "ngx",
+        "field": "landlord",
+        "predicted": "Three Sisters Ranch Enterprises LLC, a California limited liability company",
+        "gold": "Three Sisters Ranch Enterprises LLC",
+        "confidence": "high",
+        "model_confidence": "high",
+        "citation": "whitespace",
+        "flag": "",
+        "auto_verdict": "partial",
+        "detail": "one answer is a fragment of the other",
+        "human_verdict": "",
+        "final_verdict": "partial"
+      },
+      {
+        "doc_id": "srcint",
+        "field": "landlord",
+        "predicted": "High Properties, a Pennsylvania limited partnership",
+        "gold": "HIGH PROPERTIES",
+        "confidence": "high",
+        "model_confidence": "high",
+        "citation": "exact",
+        "flag": "",
+        "auto_verdict": "partial",
+        "detail": "one answer is a fragment of the other",
+        "human_verdict": "",
+        "final_verdict": "partial"
+      },
+      {
+        "doc_id": "srcint",
+        "field": "tenant",
+        "predicted": "The Chas. Levy Circulating Company, LLC, a Delaware limited liability company",
+        "gold": "THE CHAS. LEVY CIRCULATING COMPANY, LLC",
+        "confidence": "high",
+        "model_confidence": "high",
+        "citation": "whitespace",
+        "flag": "",
+        "auto_verdict": "partial",
+        "detail": "one answer is a fragment of the other",
+        "human_verdict": "",
+        "final_verdict": "partial"
+      }
+    ]
+  },
+  "docs_scored": 12,
+  "fields_scored": 144,
+  "overall": {
+    "n": 119,
+    "counts": {
+      "correct": 109,
+      "partial": 8,
+      "wrong": 2,
+      "both_blank": 25
+    },
+    "strict_accuracy": 91.6,
+    "lenient_accuracy": 98.3
+  },
+  "by_field": {
+    "landlord": {
+      "label": "Landlord",
+      "n": 12,
+      "counts": {
+        "correct": 6,
+        "partial": 6
+      },
+      "strict_accuracy": 50.0,
+      "lenient_accuracy": 100.0
+    },
+    "tenant": {
+      "label": "Tenant",
+      "n": 12,
+      "counts": {
+        "correct": 9,
+        "partial": 2,
+        "wrong": 1
+      },
+      "strict_accuracy": 75.0,
+      "lenient_accuracy": 91.7
+    },
+    "premises_address": {
+      "label": "Premises address",
+      "n": 12,
+      "counts": {
+        "correct": 12
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "rentable_area_sqft": {
+      "label": "Rentable area (sq ft)",
+      "n": 11,
+      "counts": {
+        "both_blank": 1,
+        "correct": 11
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "commencement_date": {
+      "label": "Commencement date",
+      "n": 12,
+      "counts": {
+        "correct": 12
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "expiration_date": {
+      "label": "Expiration date",
+      "n": 12,
+      "counts": {
+        "correct": 12
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "initial_monthly_base_rent": {
+      "label": "Initial monthly base rent (USD)",
+      "n": 12,
+      "counts": {
+        "correct": 12
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "rent_escalation": {
+      "label": "Rent escalation",
+      "n": 12,
+      "counts": {
+        "correct": 12
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "renewal_option": {
+      "label": "Renewal / extension option",
+      "n": 6,
+      "counts": {
+        "both_blank": 6,
+        "correct": 6
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "renewal_notice_months": {
+      "label": "Renewal notice period (months)",
+      "n": 5,
+      "counts": {
+        "both_blank": 7,
+        "correct": 5
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "early_termination": {
+      "label": "Tenant early termination right",
+      "n": 2,
+      "counts": {
+        "both_blank": 10,
+        "correct": 2
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "security_deposit": {
+      "label": "Security deposit (USD)",
+      "n": 11,
+      "counts": {
+        "correct": 10,
+        "both_blank": 1,
+        "wrong": 1
+      },
+      "strict_accuracy": 90.9,
+      "lenient_accuracy": 90.9
+    }
+  },
+  "by_confidence": {
+    "high": {
+      "n": 59,
+      "counts": {
+        "correct": 52,
+        "both_blank": 2,
+        "partial": 6,
+        "wrong": 1
+      },
+      "strict_accuracy": 88.1,
+      "lenient_accuracy": 98.3
+    },
+    "medium": {
+      "n": 51,
+      "counts": {
+        "correct": 48,
+        "both_blank": 23,
+        "partial": 2,
+        "wrong": 1
+      },
+      "strict_accuracy": 94.1,
+      "lenient_accuracy": 98.0
+    },
+    "low": {
+      "n": 9,
+      "counts": {
+        "correct": 9
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    }
+  },
+  "citations": {
+    "verified_pct": 100.0,
+    "counts": {
+      "exact": 93,
+      "whitespace": 24
+    }
+  },
+  "confidently_wrong": 1,
+  "latency_s": {
+    "mean": 24.5,
+    "max": 38.0
+  },
+  "tokens": {
+    "input_tokens": 605140,
+    "output_tokens": 46008
+  },
+  "failures": [
+    {
+      "doc_id": "crm",
+      "field": "tenant",
+      "predicted": "SALESFORCE.COM, INC., a Delaware corporation",
+      "gold": "SALESFORCE.COM, INC.",
+      "confidence": "high",
+      "model_confidence": "high",
+      "citation": "exact",
+      "flag": "",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    },
+    {
+      "doc_id": "danger",
+      "field": "landlord",
+      "predicted": "Digital Phoenix Van Buren, LLC, a Delaware limited liability company",
+      "gold": "DIGITAL PHOENIX VAN BUREN, LLC",
+      "confidence": "high",
+      "model_confidence": "high",
+      "citation": "exact",
+      "flag": "",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    },
+    {
+      "doc_id": "danger",
+      "field": "tenant",
+      "predicted": "DANGER Inc., a Delaware corporation",
+      "gold": "DANGER INC.",
+      "confidence": "high",
+      "model_confidence": "high",
+      "citation": "exact",
+      "flag": "",
+      "auto_verdict": "wrong",
+      "detail": "fuzzy 0.52",
+      "human_verdict": "",
+      "final_verdict": "wrong"
+    },
+    {
+      "doc_id": "digitas",
+      "field": "landlord",
+      "predicted": "CEP Investors XII LLC, a Delaware limited liability company",
+      "gold": "CEP INVESTORS XII LLC",
+      "confidence": "high",
+      "model_confidence": "high",
+      "citation": "exact",
+      "flag": "",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    },
+    {
+      "doc_id": "nflx",
+      "field": "landlord",
+      "predicted": "Lincoln-RECP Old Oakland OPCO, LLC, a Delaware limited liability company (original landlord); later assigned to Joseph A. Sully, an individual",
+      "gold": "LINCOLN-RECP OLD OAKLAND OPCO, LLC, a Delaware limited liability company",
+      "confidence": "medium",
+      "model_confidence": "medium",
+      "citation": "exact",
+      "flag": "",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    },
+    {
+      "doc_id": "nflx",
+      "field": "security_deposit",
+      "predicted": "$402,000.00 cash security deposit (current, per Third Amendment). The original deposit was $219,630; the Second Amendment replaced it with a $402,000 letter of credit, and the Third Amendment replaced the letter of credit with cash.",
+      "gold": "$219,630.00",
+      "confidence": "medium",
+      "model_confidence": "medium",
+      "citation": "whitespace",
+      "flag": "",
+      "auto_verdict": "wrong",
+      "detail": "402000.0 vs 219630.0",
+      "human_verdict": "",
+      "final_verdict": "wrong"
+    },
+    {
+      "doc_id": "ngx",
+      "field": "landlord",
+      "predicted": "Three Sisters Ranch Enterprises LLC, a California limited liability company",
+      "gold": "Three Sisters Ranch Enterprises LLC",
+      "confidence": "high",
+      "model_confidence": "high",
+      "citation": "whitespace",
+      "flag": "",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    },
+    {
+      "doc_id": "sem",
+      "field": "landlord",
+      "predicted": "Old Gettysburg Associates (acting by its general partner, Select Capital Commercial Properties, Inc.)",
+      "gold": "Old Gettysburg Associates",
+      "confidence": "medium",
+      "model_confidence": "high",
+      "citation": "exact",
+      "flag": "value not visible in quote (derived or calculated)",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    },
+    {
+      "doc_id": "srcint",
+      "field": "landlord",
+      "predicted": "High Properties, a Pennsylvania limited partnership",
+      "gold": "HIGH PROPERTIES",
+      "confidence": "high",
+      "model_confidence": "high",
+      "citation": "exact",
+      "flag": "",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    },
+    {
+      "doc_id": "srcint",
+      "field": "tenant",
+      "predicted": "The Chas. Levy Circulating Company, LLC, a Delaware limited liability company",
+      "gold": "THE CHAS. LEVY CIRCULATING COMPANY, LLC",
+      "confidence": "high",
+      "model_confidence": "high",
+      "citation": "whitespace",
+      "flag": "",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    }
+  ]
+}

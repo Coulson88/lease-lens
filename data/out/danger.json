@@ -1,0 +1,192 @@
+{
+  "doc_id": "danger",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 29.2,
+  "usage": {
+    "input_tokens": 75160,
+    "output_tokens": 4681
+  },
+  "chars": 200758,
+  "fields": {
+    "landlord": {
+      "value": "Digital Phoenix Van Buren, LLC, a Delaware limited liability company",
+      "normalised": "Digital Phoenix Van Buren, LLC",
+      "quote": "Digital Phoenix Van Buren, LLC, a Delaware limited liability company (\u201cLandlord\u201d)",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        4773,
+        4854
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "DANGER Inc., a Delaware corporation",
+      "normalised": "DANGER Inc.",
+      "quote": "DANGER Inc., a Delaware corporation (\u201cTenant\u201d)",
+      "confidence": "high",
+      "note": "Notice and invoice addresses refer to 'Danger, Inc.'; signature block uses 'DANGER INC.'",
+      "span": [
+        4868,
+        4914
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "Datacenter Suite 130, 120 East Van Buren Street, Phoenix, Arizona (cage of approx. 5,500 sq ft within the Datacenter, plus Pathway to the Meet-Me Room)",
+      "normalised": "Suite 130 (Datacenter), 120 East Van Buren Street, Phoenix, Arizona",
+      "quote": "120 East Van Buren Street, Phoenix, Arizona",
+      "confidence": "medium",
+      "note": "Suite 130 comes from Item 22 (Datacenter: 'Suite 130 of the Building'); the Premises are a caged area within it. No ZIP code is given for the premises.",
+      "span": [
+        20860,
+        20903
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 2,750 sq ft at the Commencement Date (Premises-A), expanding to approximately 5,500 sq ft from the first day of month 7",
+      "normalised": "2750",
+      "quote": "On the Commencement Date, the Premises shall be deemed to consist of approximately 2,750 square feet",
+      "confidence": "medium",
+      "note": "Premises leased in two phases of approx. 2,750 sq ft each; total 5,500 sq ft from Premises-B Expansion Date (month 7), or earlier if the Electricity Consumption Threshold is exceeded 3 times in 5 days. Figures are 'approximately' and are not stated as rentable area.",
+      "span": [
+        7825,
+        7925
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "Conditional: the date on which Landlord completes Site Commissioning/Turn-Up (Level 5 Commissioning) and delivers possession of the Tenant Space with Landlord's Installations complete. Target Commencement Date is November 1, 2007 (commercially reasonable efforts only); Landlord confirms by Commencement Date Notice.",
+      "normalised": null,
+      "quote": "The \u201cCommencement Date\u201d shall be the date on which all of the following events (\u201cCommencement Date Conditions\u201d) have occurred:",
+      "confidence": "low",
+      "note": "No fixed date. If conditions are not met by the Target Commencement Date it is postponed; Tenant may terminate if not met before December 31, 2007 (subject to Tenant Delay/Force Majeure extensions).",
+      "span": [
+        5717,
+        5843
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "48 full calendar months after the Commencement Date (no fixed date, because the Commencement Date is conditional)",
+      "normalised": null,
+      "quote": "Approximately 48 months (commencing on the Commencement date and expiring forty-eight (48) full calendar months thereafter (Lease End))",
+      "confidence": "low",
+      "note": "Expiry depends on the conditional Commencement Date; subject to extension or earlier termination.",
+      "span": [
+        6903,
+        7038
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$41,250.00 per month for months 1-6 (Premises-A only)",
+      "normalised": "41250",
+      "quote": "$41,250.00 per month for the period commencing with the Commencement Date through the end of the sixth (6th) month of the Term.",
+      "confidence": "high",
+      "note": "Monthly figure is stated directly. The first month's Base Rent ($41,250) is prepaid on lease execution. Electricity is billed separately.",
+      "span": [
+        12514,
+        12641
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule: $41,250/mo (months 1-6); $82,500/mo (months 7-12, after expansion to Premises-B); $84,975/mo (months 13-24); $87,524/mo (months 25-36); $90,150/mo (months 37-48). Rent steps up early to the next level if Tenant exceeds the Electricity Consumption Threshold 3 times in any 5-day period. During the Extension Term, Base Rent rises each year to 103% of the prior year's Base Rent.",
+      "normalised": "Stepped: 41,250 -> 82,500 -> 84,975 -> 87,524 -> 90,150 per month; 3% annual increases in the Extension Term",
+      "quote": "$82,500.00 per month for months 7-12 of the Term.",
+      "confidence": "medium",
+      "note": "Schedule is from Item 9; the early-increase trigger is in Item 7(a)(bb); the 103% extension rent is in Section 2.3.1.",
+      "span": [
+        12643,
+        12692
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "One (1) Extension Option for a 48-month Extension Term, covering the entire Tenant Space, on the same terms, with Base Rent at 103% of the prior year's Base Rent for each year of the extension.",
+      "normalised": "One 48-month extension option",
+      "quote": "One (1) Extension Option (defined in Section 2.3.1 of the Standard Lease Provisions, below)",
+      "confidence": "medium",
+      "note": "Section 2.3.1 confirms an additional term of 48 calendar months. Landlord may treat the exercise as invalid if there is an uncured Event of Default.",
+      "span": [
+        7133,
+        7224
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "At least 9 months (and not more than 12 months) before the expiration date of the Term",
+      "normalised": "9",
+      "quote": "at least nine (9) calendar months (and not more than twelve (12) calendar months) prior to then applicable expiration date of the Term",
+      "confidence": "high",
+      "note": "9 months is the minimum notice. The exercise window is 12 to 9 months before expiry, and time is of the essence.",
+      "span": [
+        31400,
+        31534
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "No termination-for-convenience or fee-based early termination right. Tenant has only contingent termination rights. (1) It may terminate if the Commencement Date Conditions have not occurred before December 31, 2007 (subject to Tenant Delay/Force Majeure). (2) It may terminate for a Chronic Outage (3 or more Interruptions of Landlord's Services of 12+ consecutive hours within 12 months) or a Continuous Outage (30 consecutive days) by notice within 5 business days of the occurrence. Tenancy then continues for 180 days, or less on 90 days' notice. (3) It may terminate after a Casualty if the Stated Restoration Period exceeds 90 days or Landlord fails to restore on time. No termination fee is stated.",
+      "normalised": "No voluntary termination right; contingent rights only (late delivery, chronic/continuous outage, casualty)",
+      "quote": "Tenant may terminate this Lease by delivering to Landlord within five (5) business days following the occurrence of the Chronic Outage, written notice",
+      "confidence": "medium",
+      "note": "Summarised from Sections 2.2.2, 7.3.3, 7.3.4 and 9.1.1. Landlord also has a recapture/termination right on a proposed Transfer (Section 10.3). That is a Landlord right, not Tenant's.",
+      "span": [
+        64320,
+        64470
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$81,131.00, as either a cash security deposit or a letter of credit, to be provided within 30 days after the Effective Date",
+      "normalised": "81131",
+      "quote": "pay Landlord a security deposit in the amount of $81,131.00",
+      "confidence": "medium",
+      "note": "Tenant may choose a cash deposit or an L/C for the same amount and may switch once during the term. This is separate from the $41,250 prepaid first month's rent.",
+      "span": [
+        13194,
+        13253
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    }
+  }
+}

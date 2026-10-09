@@ -1,0 +1,192 @@
+{
+  "doc_id": "digitas",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 31.4,
+  "usage": {
+    "input_tokens": 55621,
+    "output_tokens": 4893
+  },
+  "chars": 152035,
+  "fields": {
+    "landlord": {
+      "value": "CEP Investors XII LLC, a Delaware limited liability company",
+      "normalised": "CEP Investors XII LLC",
+      "quote": "CEP INVESTORS XII LLC,\na Delaware limited liability company",
+      "confidence": "high",
+      "note": "Also named as Landlord in Basic Lease Information; managed by EPI Investors XII LLC / Ellis Partners, Inc.",
+      "span": [
+        3818,
+        3877
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Modem Media.Poppe Tyson, Inc., a Delaware corporation",
+      "normalised": "Modem Media.Poppe Tyson, Inc.",
+      "quote": "MODEM MEDIA.POPPE TYSON, INC.",
+      "confidence": "high",
+      "note": "Signature block on first page omits the period (Modem Media Poppe Tyson, Inc.). Section 5.06(a) allows a name change to 'Modem Media' without Landlord consent.",
+      "span": [
+        448,
+        477
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "111 Sutter Street, San Francisco, California (zip 94104 per Tenant's address); entire 12th, 13th, 14th, 15th and 16th floors",
+      "normalised": "111 Sutter Street, San Francisco, CA 94104 - floors 12-16",
+      "quote": "Approximately 63,349 square feet consisting of the entire 12th, 13th, 14th, 15th, and 16th floors of the Building",
+      "confidence": "medium",
+      "note": "Building address is 111 Sutter Street, San Francisco, California; the zip code is taken from the Tenant's address line, not stated for the Building itself.",
+      "span": [
+        785,
+        898
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "63,349 rentable square feet",
+      "normalised": "63349",
+      "quote": "Approximately 63,349 rentable square feet",
+      "confidence": "high",
+      "note": "Equals 37,410 sq ft (14th-16th floors) + 25,939 sq ft (12th-13th floors). Section 1.19 bars remeasurement during the initial Term.",
+      "span": [
+        916,
+        957
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "Conditional: the earlier of (i) the later of (a) November 22, 1999 or (b) Substantial Completion of the Landlord Improvements for the 15th and 16th floors, or (ii) Substantial Completion of the Tenant Improvements and Landlord Improvements for the 15th and 16th floors. The rent schedule assumes November 22, 1999.",
+      "normalised": null,
+      "quote": "The earlier of (i) the later of (a) November 22, 1999, or (b) the date the Landlord Improvements for the 15th and 16th floors are Substantially Complete",
+      "confidence": "low",
+      "note": "Date depends on construction completion. A Confirmation of Term (Exhibit C) is to fix the actual date if it is not November 22, 1999. Rent on the 14th floor and the 12th/13th floors starts later.",
+      "span": [
+        984,
+        1136
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "Last day of the 124th month after the Term Commencement Date. The rent schedule shows March 21, 2010, assuming a November 22, 1999 commencement.",
+      "normalised": null,
+      "quote": "The last day of the one hundred twenty-fourth (124th) month after the Term Commencement Date",
+      "confidence": "low",
+      "note": "Depends on the conditional Commencement Date. The Base Rent table's end date of March 21, 2010 holds only if commencement is November 22, 1999.",
+      "span": [
+        1285,
+        1377
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$214,530.58 per month for all five floors during months 1-60 ($121,582.50 for floors 14-16 plus $92,948.08 for floors 12-13). Rent starts later on floors 14 and 12-13, so the amount actually payable at commencement is lower.",
+      "normalised": "214530.58",
+      "quote": "Months 1 to 60 (November 22, 1999 to November 21, 2004) = $121,582.50 per month/$1,458,990.00 per annum based on $39.00 per rentable square foot",
+      "confidence": "low",
+      "note": "Sum of two schedules ($121,582.50 + $92,948.08). Base Rent on the 14th floor starts at the later of March 1, 2000 or substantial completion, and on the 12th/13th floors at the later of May 1, 2000 or substantial completion. A $414,747.50 rent credit/deposit is applied against Base Rent from commencement.",
+      "span": [
+        1539,
+        1683
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule: one step-up at month 61 (about Nov 22, 2004). Floors 14-16 go from $39.00 to $43.00/RSF ($121,582.50 to $134,052.50 per month). Floors 12-13 go from $43.00 to $47.00/RSF ($92,948.08 to $101,594.42 per month). Tenant also pays its share of Basic Operating Cost increases over Base Year 2000, starting in the 2001 Computation Year.",
+      "normalised": "Stepped: +$4.00/RSF at month 61 on all floors; no other base rent increases in the initial term",
+      "quote": "Months 61 to 124 (November 22, 2004 to March 21, 2010) = $134,052.50 per month/$1,608,630.00 per annum based on $43.00 per rentable square foot",
+      "confidence": "medium",
+      "note": "Floors 12-13 quote: 'Months 61 to 124 ... = $101,594.42 per month/$1,219,133.00 per annum based on $47.00 per rentable square foot'. Option Term rent is the greater of the rent at expiry or FMRR.",
+      "span": [
+        1715,
+        1858
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "One (1) option to extend for five (5) years. Option Term rent is the greater of the Base Rent at expiry or fair market rent (FMRR), set by sealed-envelope baseball arbitration if not agreed. The option is not properly exercised if Tenant is in default, has assigned the lease (other than to an affiliate or subsidiary), or occupies less than 50% of the premises.",
+      "normalised": "1 x 5 years",
+      "quote": "Landlord hereby grants to Tenant one (1) option (the \u201cOption\u201d) to extend the term of this Lease for an additional period of\nfive (5) years",
+      "confidence": "medium",
+      "note": "Basic Lease Information: 'Number of Extension Periods: One (1)' and 'Years per Extension Period: Five (5)'.",
+      "span": [
+        126838,
+        126976
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "12 months before the Term Expiration Date",
+      "normalised": "12",
+      "quote": "not later than twelve (12) months prior to the Term Expiration Date",
+      "confidence": "high",
+      "note": "Notice must be written and irrevocable.",
+      "span": [
+        127189,
+        127256
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "No general right for Tenant to terminate early at will, and no termination fee provision. The only Tenant cancellation right is pre-commencement: if physical possession of the 15th and 16th floors is not delivered by February 1, 2000 (excluding Tenant Delay and up to 90 days of force-majeure delay), Tenant may cancel by written notice within 10 days. Tenant may also terminate on casualty or condemnation (Sections 7.06 and 7.07).",
+      "normalised": "No early termination option; limited cancellation right if delivery of floors 15-16 is delayed past Feb 1, 2000",
+      "quote": "then Tenant may, at its option, by notice in writing to Landlord within ten (10) days thereafter, cancel this Lease",
+      "confidence": "medium",
+      "note": "Section 3.01 refers to both a February 1, 2000 date and a 'January 1, 2000' date, an internal inconsistency. Casualty and condemnation termination rights exist but are not discretionary early-termination options.",
+      "span": [
+        14711,
+        14826
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$1,977,000.00; a $1,102,000.00 letter of credit was previously paid and Tenant pays the balance on execution. A letter of credit is permitted in lieu of cash. The amount can be reduced after year 3 and after year 8 if Tenant meets profitability tests.",
+      "normalised": "1977000",
+      "quote": "Security Deposit:\n\n$1,977,000.00",
+      "confidence": "medium",
+      "note": "Section 5.14(c) reduces the deposit to 3x monthly Base Rent on or after the 3rd anniversary, and to 1x monthly Base Rent on or after the 8th anniversary, if Tenant has four consecutive profitable quarters. Section 5.14(a): 'Tenant has previously paid to Landlord $1,102,000.00 (in the form of a letter of credit)'.",
+      "span": [
+        3442,
+        3474
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    }
+  }
+}

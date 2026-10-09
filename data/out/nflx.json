@@ -1,0 +1,186 @@
+{
+  "doc_id": "nflx",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 27.5,
+  "usage": {
+    "input_tokens": 87333,
+    "output_tokens": 4177
+  },
+  "chars": 246165,
+  "fields": {
+    "landlord": {
+      "value": "Lincoln-RECP Old Oakland OPCO, LLC, a Delaware limited liability company (original landlord); later assigned to Joseph A. Sully, an individual",
+      "normalised": "LINCOLN-RECP OLD OAKLAND OPCO, LLC",
+      "quote": "Landlord: LINCOLN-RECP OLD OAKLAND OPCO, LLC,\na Delaware limited liability company",
+      "confidence": "medium",
+      "note": "Third Amendment (June 12, 2001) names JOSEPH A. SULLY, an individual, as Landlord and successor to Lincoln, so the current landlord is Sully; the original lease landlord is shown here.",
+      "span": [
+        155,
+        237
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "NetFlix.com, a Delaware corporation",
+      "normalised": "NetFlix.com",
+      "quote": "Tenant: NetFlix.com,\na Delaware corporation",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        371,
+        414
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "2219 Old Oakland Road, San Jose, California 95131-1402 (no suite given). Second Amendment adds contiguous space at 2217 Old Oakland Road from Feb 1, 2000.",
+      "normalised": "2219 Old Oakland Road, San Jose, CA 95131-1402",
+      "quote": "Premises Address: 2219 Old Oakland Road\nSan Jose, California 95131-1402",
+      "confidence": "medium",
+      "note": "Second Amendment adds the 2217 Old Oakland Road space (Additional Premises) but says the combined Premises are located at 2219 Old Oakland Road.",
+      "span": [
+        734,
+        805
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "31,830 rentable square feet at lease start (original premises)",
+      "normalised": "31830",
+      "quote": "Approximately 31,830 rentable square feet as shown\non Exhibit A",
+      "confidence": "high",
+      "note": "Second Amendment adds about 26,490 sq ft from Feb 1, 2000. It gives the combined total as both 57,850 and a deemed 58,320, and the Third Amendment cites 57,580, so the later figures conflict.",
+      "span": [
+        659,
+        722
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "December 7, 1999",
+      "normalised": "1999-12-07",
+      "quote": "The Commencement Date of the Lease shall be December 7, 1999.",
+      "confidence": "high",
+      "note": "The First Amendment overrides the original Commencement Date of November 1, 1999 in the Basic Lease Information.",
+      "span": [
+        218128,
+        218189
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "December 6, 2004",
+      "normalised": "2004-12-06",
+      "quote": "shall be December 6, 2004.",
+      "confidence": "high",
+      "note": "The First Amendment overrides the original Expiration Date of October 31, 2004. The Second Amendment makes the Additional Premises coterminous.",
+      "span": [
+        218256,
+        218282
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$36,605.00 per month for the original premises (31,830 sq ft)",
+      "normalised": "36605.00",
+      "quote": "Thirty Six Thousand Six Hundred Five and 00/100\nDollars (36,605.00)",
+      "confidence": "medium",
+      "note": "The Basic Lease Information states the amount without a $ sign. The Second Amendment table shows $36,464.00 for the original premises and $67,069.00 aggregate from 02/01/00, so figures conflict. $36,605 is the lease's stated initial rent.",
+      "span": [
+        1064,
+        1131
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule with annual increases on December 7 each year (original premises monthly rent): $38,196 (12/7/00), $39,788 (12/7/01), $41,379 (12/7/02), $42,971 (12/7/03). After the Second Amendment the aggregate monthly rent with the Additional Premises is $69,984, $72,901, $75,816 and $78,733 for the same periods.",
+      "normalised": "Stepped annual increases; no CPI or fixed percentage",
+      "quote": "for the period December 7, 2000 to December 6, 2001 the monthly Base Rent\nshall be $38,196.00;",
+      "confidence": "medium",
+      "note": "The First Amendment moved the step dates from November 1 to December 7. Rent is triple net (NNN), with additional rent for operating expenses, taxes and utilities.",
+      "span": [
+        218343,
+        218437
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "None",
+      "normalised": "None",
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal or extension option found in the lease or the three amendments. Second Amendment \u00a72.2 refers to 'any option or renewal term described in the Lease', but none is described.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "There is no renewal option, so no notice period applies.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "None. Section 41 originally gave a one-time Tenant termination option effective at month 37, with 9 months' notice and a $206,895 fee. The Second Amendment deleted it entirely.",
+      "normalised": "None (Section 41 option deleted by Second Amendment, Jan 4, 2000)",
+      "quote": "the Termination Option pursuant to Section 41 of the Lease shall be deleted in its entirety and shall be of no further force and effect and Tenant shall have no further right to terminate the Lease.",
+      "confidence": "medium",
+      "note": "The only other termination right is the Section 2.1 right if tenant improvements are not completed within 120 days of execution, which is a delivery-delay remedy only.",
+      "span": [
+        238604,
+        238802
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "security_deposit": {
+      "value": "$402,000.00 cash security deposit (current, per Third Amendment). The original deposit was $219,630; the Second Amendment replaced it with a $402,000 letter of credit, and the Third Amendment replaced the letter of credit with cash.",
+      "normalised": "402000.00",
+      "quote": "Four Hundred Two Thousand and 00/100 dollars ($402,000.00), subject to the adjustments set forth in Section 4 of the Lease.",
+      "confidence": "medium",
+      "note": "The Third Amendment is the operative term, not the $219,630 in the original lease. Section 4, as amended, allows a reduction to $78,733 on the third anniversary of the Commencement Date, or earlier if the Tenant reaches a $40M net worth after a public offering and sustains it.",
+      "span": [
+        243715,
+        243838
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    }
+  }
+}

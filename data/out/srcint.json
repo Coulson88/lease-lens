@@ -1,0 +1,192 @@
+{
+  "doc_id": "srcint",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 23.0,
+  "usage": {
+    "input_tokens": 44840,
+    "output_tokens": 3578
+  },
+  "chars": 117463,
+  "fields": {
+    "landlord": {
+      "value": "High Properties, a Pennsylvania limited partnership",
+      "normalised": "High Properties",
+      "quote": "HIGH PROPERTIES, a Pennsylvania limited partnership",
+      "confidence": "high",
+      "note": "Acts through its sole general partner, High General Corporation.",
+      "span": [
+        412,
+        463
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "The Chas. Levy Circulating Company, LLC, a Delaware limited liability company",
+      "normalised": "The Chas. Levy Circulating Company, LLC",
+      "quote": "THE CHAS. LEVY CIRCULATING COMPANY, LLC, a Delaware limited liability company",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        495,
+        572
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "1850 Colonial Village Lane, Lancaster, Pennsylvania 17601 (Building 40, Greenfield Corporate Center, East Lampeter Township); Premises are the entire building",
+      "normalised": "1850 Colonial Village Lane, Lancaster, PA 17601",
+      "quote": "Building 40 of the Campus located at 1850 Colonial Village Lane, Lancaster, Pennsylvania.",
+      "confidence": "medium",
+      "note": "ZIP 17601 comes from the cover page. Premises = entire single-tenant Building; no suite number.",
+      "span": [
+        1512,
+        1601
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "105,600 square feet",
+      "normalised": "105600",
+      "quote": "Rentable Area of Premises: 105,600 Square Feet",
+      "confidence": "high",
+      "note": "Equals the Rentable Area of the Building (single-tenant, 100% share).",
+      "span": [
+        2994,
+        3040
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "July 1, 2000, subject to adjustment under Section 2.2/3 if Tenant Improvements are not Substantially Completed by then",
+      "normalised": "2000-07-01",
+      "quote": "July 1, 2000, except as otherwise provided in Section 2.2 of Part II of this Lease",
+      "confidence": "medium",
+      "note": "Fixed stated date, but Section 3(b) resets commencement to the Substantial Completion date if that is later; Tenant has early access from June 1, 2000 for FF&E.",
+      "span": [
+        2655,
+        2737
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "August 31, 2005",
+      "normalised": "2005-08-31",
+      "quote": "Expiration Date: August 31, 2005",
+      "confidence": "high",
+      "note": "Stated term is 'Five (5) Years' but July 1, 2000 to Aug 31, 2005 is about 5 years 2 months (includes 2 rent-free months). Section 3(b) extends the date if commencement is delayed.",
+      "span": [
+        2904,
+        2936
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$0 (no rent due) for July 1 \u2013 Aug 31, 2000; first paying rent is $35,024.00 per month from Sept 1, 2000",
+      "normalised": "35024.00",
+      "quote": "September 1, 2000 to August 31, 2001 - $35,024.00 -",
+      "confidence": "medium",
+      "note": "The literal first rent period (7/1/00\u20138/31/00) is 'NO RENT DUE'; normalised figure is the first paying monthly rent ($3.98 psf). Section 5.1 (first month's rent due at signing) is in tension with the abatement.",
+      "span": [
+        3189,
+        3240
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped annual schedule: $35,024 (9/1/00\u20138/31/01), $35,904 (9/1/01\u20138/31/02), $36,784 (9/1/02\u20138/31/03), $37,664 (9/1/03\u20138/31/04), $38,544 (9/1/04\u20138/31/05); i.e. +$880 per month each year (about $0.10 psf); first two months free",
+      "normalised": "Stepped schedule, +$880/month annually",
+      "quote": "September 1, 2001 to August 31, 2002 - $35,904.00 -",
+      "confidence": "medium",
+      "note": "Schedule taken from Basic Lease Information item 14; stated total base rent over term is $2,207,040.",
+      "span": [
+        3255,
+        3306
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "Two successive options (Option #1 and Option #2), each for one additional 5-year term, at Fair Market Value to be negotiated with annual escalations as agreed; conditioned on Tenant not being in default",
+      "normalised": "2 x 5 years at FMV",
+      "quote": "Tenant shall have the option, so long as Tenant is not in default, to lease the Demised Premises for one additional term of five (5) years(s) at an adjusted lease price.",
+      "confidence": "medium",
+      "note": "Appears in two identical riders (Option #1 and Option #2); sequencing of Option #2 after Option #1 is implied, not stated expressly. Rent for renewal is not fixed.",
+      "span": [
+        115362,
+        115531
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "6 months before the end of the current Lease Term",
+      "normalised": "6",
+      "quote": "The option shall be exercised by Tenant giving Landlord written notice six (6) months prior to the end of the current Lease Term.",
+      "confidence": "high",
+      "note": "Same notice period in both option riders.",
+      "span": [
+        115713,
+        115842
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "Tenant has a cancellation option after year four of the term, on six months' advance written notice, with a termination penalty equal to all unamortized costs of Tenant improvements and commissions",
+      "normalised": "Cancel after year 4; 6 months' notice; fee = unamortized TI costs + commissions",
+      "quote": "Five (5) Years - with a cancellation option after year four (4). Penalty shall be equal to all unamortized costs of Tenant improvements and commissions. Landlord shall require six (6) months advance written notice.",
+      "confidence": "medium",
+      "note": "Ambiguous whether 'after year four' is the earliest exercise date or the earliest termination effective date; the fee amount is not quantified. TI includes $150,000 allowance amortized at 12%.",
+      "span": [
+        2417,
+        2631
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$35,024.00, payable at lease execution (cash deposit)",
+      "normalised": "35024.00",
+      "quote": "Security Deposit: $35,024.00",
+      "confidence": "high",
+      "note": "Section 4.1 requires deposit simultaneously with execution; equals one month of initial paying base rent.",
+      "span": [
+        3850,
+        3878
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

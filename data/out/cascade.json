@@ -1,0 +1,192 @@
+{
+  "doc_id": "cascade",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 28.7,
+  "usage": {
+    "input_tokens": 45642,
+    "output_tokens": 4343
+  },
+  "chars": 122986,
+  "fields": {
+    "landlord": {
+      "value": "Minnesota Industrial Properties Limited Partnership, a Minnesota limited partnership",
+      "normalised": "Minnesota Industrial Properties Limited Partnership",
+      "quote": "Minnesota Industrial Properties Limited Partnership, a Minnesota limited partnership",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        1333,
+        1417
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Cascade Microtech, Inc., an Oregon corporation",
+      "normalised": "Cascade Microtech, Inc.",
+      "quote": "Cascade Microtech, Inc., an Oregon corporation",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        1428,
+        1474
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "7115 Northland Terrace, Suite 400 (First floor), Brooklyn Park, Minnesota 55428 (Northland Interstate III)",
+      "normalised": "7115 Northland Terrace, Suite 400, Brooklyn Park, MN 55428",
+      "quote": "7115 Northland Terrace, Brooklyn Park, Minnesota 55428",
+      "confidence": "medium",
+      "note": "Suite 400 and First floor come from the Premises entry in the Basic Lease Information; the quote is the Building Address.",
+      "span": [
+        1557,
+        1611
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 13,998 rentable square feet (6,999 office/showroom and 6,999 production/warehouse)",
+      "normalised": "13998",
+      "quote": "Approximately 13,998 rentable square feet",
+      "confidence": "medium",
+      "note": "Section 1.1 stipulates this Rentable Area applies for the entire Term, subject to Sections 12 and 13.",
+      "span": [
+        1670,
+        1711
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "commencement_date": {
+      "value": "Earlier of (a) the date Landlord tenders possession with its construction obligations Substantially Completed (never before April 1, 2009, or the date it could have done so absent Tenant Delay) or (b) the date Tenant, with Landlord's written permission, occupies and conducts business in any part of the Premises. Scheduled Commencement Date is April 1, 2009.",
+      "normalised": null,
+      "quote": "The \u201cCommencement Date\u201d shall be the earlier of (a) the date on which Landlord tenders possession of the Premises to Tenant",
+      "confidence": "low",
+      "note": "Commencement is conditional on completion of Landlord's work or Tenant occupancy. April 1, 2009 is only the scheduled and earliest date. No confirmed date is stated.",
+      "span": [
+        11151,
+        11274
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "Last day of the 90th full calendar month after the Commencement Date (term is 90 full calendar months plus any partial month at the start). No fixed date is stated.",
+      "normalised": null,
+      "quote": "expire on the last day of the ninetieth (90th) full calendar month after the Commencement Date",
+      "confidence": "low",
+      "note": "The date depends on the Commencement Date, which is conditional. If commencement were April 1, 2009, expiry would be about September 30, 2016, but this is not stated in the lease.",
+      "span": [
+        2796,
+        2890
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$8,165.50 per month ($97,986.00 per annum), first payable in months 7-18. Months 1-6 are abated.",
+      "normalised": "8165.50",
+      "quote": "$8,165.50 per month",
+      "confidence": "medium",
+      "note": "The first rent period (months 1-6) is abated and shown as 'n/a - abated'. The figure given is the first payable monthly rent, stated directly in the schedule. Base rent and Tenant's Share of Operating Costs and Taxes are abated for the first six months.",
+      "span": [
+        3791,
+        3810
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped annual schedule: months 7-18 $8,165.50/mo; 19-30 $8,328.81; 31-42 $8,492.12; 43-54 $8,667.10; 55-60 $8,842.07; 61-72 $9,017.05; 73-90 $9,203.69. Extension Term rent is the Market Rate. Tenant also pays Tenant's Share (23.40%) of Operating Costs and Taxes.",
+      "normalised": "Stepped schedule (about 2% per year); Market Rate in Extension Term",
+      "quote": "$101,905.44 per annum",
+      "confidence": "medium",
+      "note": "The schedule is in the Basic Lease Information. The 55-60 step covers only six months, as printed. The roughly 2% annual step is my observation from the schedule, not a stated term.",
+      "span": [
+        3885,
+        3906
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "One Extension Option for one additional consecutive five-year period at Market Rate, as-is, determined under Section 3.1(a). Either party may cancel the extension if Market Rate is not agreed.",
+      "normalised": "One 5-year option at Market Rate",
+      "quote": "Landlord grants to Tenant the option to extend the Initial Term of this Lease (\u201cExtension Option\u201d) for one (1) additional period of five (5) years (\u201cExtension Term\u201d)",
+      "confidence": "medium",
+      "note": "Conditions: no Event of Default beyond notice and cure periods at exercise or before the Extension Term starts (Section 34.4). Section 3.1(a) allows either party to cancel the Extension Term if the Market Rate is not agreed.",
+      "span": [
+        121763,
+        121928
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "9 months (not less than nine full calendar months before the Extension Term begins), time of the essence",
+      "normalised": "9",
+      "quote": "not less than nine (9) full calendar months prior to the commencement of the Term, time being of the essence",
+      "confidence": "medium",
+      "note": "The clause says 'commencement of the Term', which appears to mean the Extension Term. That start is the Initial Term expiry (Section 34.1). Notice is irrevocable except for the Section 3.1(a) cancellation right.",
+      "span": [
+        122222,
+        122330
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "None. The lease gives no general tenant right to terminate early. Tenant may terminate only for casualty (if Landlord's repair estimate exceeds one year, by notice within 30 days of Landlord's notice) or for condemnation (if the remaining Premises are unsuitable, by notice within 30 days). No termination fee is stated.",
+      "normalised": "No voluntary early termination option; only casualty and condemnation termination rights",
+      "quote": "then Tenant may elect to terminate this Lease if Landlord\u2019s estimate of the time required to complete Landlord\u2019s repair obligations under this Lease is greater than one (1) year",
+      "confidence": "medium",
+      "note": "No optional termination right was found. The casualty right is in Section 12.3 and the condemnation right in Section 13.2(a). The Extension Term may also be cancelled under Section 3.1(a) if Market Rate is not agreed.",
+      "span": [
+        79153,
+        79330
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$13,029.80 cash security deposit, payable on execution of the Lease",
+      "normalised": "13029.80",
+      "quote": "Thirteen Thousand Twenty-nine and 80/100 Dollars ($13,029.80)",
+      "confidence": "high",
+      "note": "Section 4 requires the deposit on execution. No letter of credit is mentioned.",
+      "span": [
+        4477,
+        4538
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

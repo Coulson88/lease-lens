@@ -1,0 +1,186 @@
+{
+  "doc_id": "harbourside",
+  "model": "mock",
+  "latency_s": 0.0,
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "chars": 1415,
+  "fields": {
+    "landlord": {
+      "value": "Harbourside Office Partners, LLC",
+      "normalised": "Harbourside Office Partners, LLC",
+      "quote": "Landlord: Harbourside Office Partners, LLC, a Delaware limited liability company",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        130,
+        210
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Northwind Analytics, Inc.",
+      "normalised": "Northwind Analytics, Inc.",
+      "quote": "Tenant: Northwind Analytics, Inc.,  a California corporation",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        211,
+        270
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "Suite 400, 1200 Harbor Boulevard, Redwood City, CA 94063",
+      "normalised": null,
+      "quote": "Premises: Suite 400, 1200 Harbor Boulevard, Redwood City, California 94063",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        271,
+        345
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "18,450",
+      "normalised": "18450",
+      "quote": "approximately 18,450 rentable square feet",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        373,
+        414
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "April 1, 2021",
+      "normalised": "2021-04-01",
+      "quote": "The Term shall commence on April 1, 2021",
+      "confidence": "low",
+      "note": "",
+      "span": null,
+      "citation": "not_found",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": "unverified: quote not found in source"
+    },
+    "expiration_date": {
+      "value": "March 31, 2026",
+      "normalised": "2026-03-31",
+      "quote": "shall expire on March 31, 2026",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        614,
+        644
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$46,125.00",
+      "normalised": "46125",
+      "quote": "annual Base Rent of $553,500.00 for the first Lease Year, payable in equal monthly installments",
+      "confidence": "medium",
+      "note": "Annual divided by 12",
+      "span": [
+        704,
+        799
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rent_escalation": {
+      "value": "3% on each anniversary of the Commencement Date",
+      "normalised": null,
+      "quote": "Base Rent shall increase by three percent (3%) on each anniversary of the Commencement Date.",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        801,
+        893
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "Two options of five years each",
+      "normalised": null,
+      "quote": "Tenant shall have one (1) option to extend the Term for a period of five (5) years at Fair Market Rent",
+      "confidence": "medium",
+      "note": "",
+      "span": [
+        916,
+        1018
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "9",
+      "normalised": "9",
+      "quote": "not less than nine (9) months prior to the expiration of the Term",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        1060,
+        1125
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": null,
+      "normalised": null,
+      "quote": null,
+      "confidence": "high",
+      "note": "",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$92,250.00",
+      "normalised": "92250",
+      "quote": "the sum of Ninety Two Thousand Two Hundred Fifty Dollars ($92,250.00)",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        1227,
+        1296
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

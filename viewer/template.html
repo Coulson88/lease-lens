@@ -1,0 +1,504 @@
+<meta charset="utf-8">
+<title>Lease Lens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Serif:wght@400;600&display=swap">
+<style>
+/* Layout: one screen, three beats. The question ("what needs you?"), one term in focus with
+   its clause, and the proof that the routing works. Everything else sits behind quiet links.
+   Palette and type follow Fifth Dimension's public site: warm paper, near-black ink, one orange,
+   a condensed display face and monospace for everything else. Lease text stays in a serif so it reads as a document. */
+:root {
+  --paper: #f7f5f1;
+  --panel: #ffffff;
+  --ink: #231f20;
+  --muted: #5c5856;
+  --faint: #837f7c;
+  --rule: #e2e0dc;
+  --navy: #231f20;          /* primary actions and active states use ink, as on their site */
+  --navy-soft: #ece9e3;
+  --orange: #f35202;
+  --on-orange: #ffffff;
+  --highlight: #fde4d3;
+  --highlight-strong: #fbc4a1;
+  --good: #2f6b4a; --good-bg: #e4eee6;
+  --warn: #c64302; --warn-bg: #fdeadf;
+  --bad: #a8321f; --bad-bg: #f8e1dc;
+  --f-display: "Bebas Neue", "Arial Narrow", "Helvetica Neue Condensed", Impact, sans-serif;
+  --f-ui: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --f-doc: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #1a1718; --panel: #231f20; --ink: #f7f5f1; --muted: #b3aeaa; --faint: #8c8784; --rule: #3d3938;
+  --navy: #f7f5f1; --navy-soft: #2e2a2a; --orange: #ff6a1f; --on-orange: #1a1718;
+  --highlight: #4a2a17; --highlight-strong: #7a3a14;
+  --good: #7fc79c; --good-bg: #1d2e24; --warn: #ff8a4c; --warn-bg: #3a2216; --bad: #f08f80; --bad-bg: #3a1d19;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #1a1718; --panel: #231f20; --ink: #f7f5f1; --muted: #b3aeaa; --faint: #8c8784; --rule: #3d3938;
+  --navy: #f7f5f1; --navy-soft: #2e2a2a; --orange: #ff6a1f; --on-orange: #1a1718;
+  --highlight: #4a2a17; --highlight-strong: #7a3a14;
+  --good: #7fc79c; --good-bg: #1d2e24; --warn: #ff8a4c; --warn-bg: #3a2216; --bad: #f08f80; --bad-bg: #3a1d19;
+  color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 14px/1.6 var(--f-ui); }
+.wrap { padding-inline: 20px; padding-block: 18px 56px; max-width: 1180px; margin: 0 auto; }
+button { font-family: inherit; }
+button:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; }
+
+/* Top bar */
+.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
+.brand { font: 22px/1 var(--f-display); letter-spacing: 0.02em; color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer; }
+.context { color: var(--muted); font-size: 13px; }
+.sub-nav { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 13px; }
+.sub-nav button { background: none; border: 0; padding: 4px 0; color: var(--muted); cursor: pointer; font: 500 12px var(--f-ui); text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 2px solid transparent; }
+.sub-nav button[aria-current="true"] { color: var(--ink); border-bottom-color: var(--orange); }
+.notice { margin-top: 14px; padding: 8px 12px; border-radius: 6px; background: var(--warn-bg); color: var(--warn); font-size: 13px; }
+
+/* Beat 1: the question */
+.question { padding-block: 40px 28px; max-width: 760px; }
+.question .kicker { font-size: 12px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--faint); font-weight: 600; margin: 0 0 10px; }
+.question h1 { font: 400 clamp(52px, 8vw, 92px)/0.95 var(--f-display); letter-spacing: 0.005em; margin: 0 0 16px; text-wrap: balance; text-transform: uppercase; }
+.question h1 .n { color: var(--orange); }
+.question h1.done .n { color: var(--good); }
+.question p { margin: 0; color: var(--muted); font-size: 14px; max-width: 62ch; }
+.progress { display: flex; align-items: center; gap: 12px; margin-top: 18px; font-size: 13px; color: var(--muted); }
+.track { flex: 0 1 220px; height: 6px; border-radius: 3px; background: var(--rule); overflow: hidden; }
+.track i { display: block; height: 100%; background: var(--orange); }
+
+/* Beat 2: focus */
+.work { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 860px) { .work { grid-template-columns: minmax(0, 1fr); } .work .focus { order: -1; } }
+.list { display: flex; flex-direction: column; }
+.list .lh { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--faint); font-weight: 600; margin: 0 0 8px; }
+.li { all: unset; box-sizing: border-box; display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; gap: 2px 10px; padding: 10px 10px 10px 8px; border-radius: 8px; cursor: pointer; align-items: baseline; }
+.li:hover { background: var(--panel); }
+.li[aria-current="true"] { background: var(--panel); box-shadow: inset 0 0 0 1px var(--rule); }
+.li:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; }
+.li .dot { width: 8px; height: 8px; border-radius: 1px; background: var(--orange); align-self: center; }
+.li.done .dot { background: var(--good); }
+.li.done .t { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--faint); }
+.li .t { font-weight: 600; font-size: 13px; min-width: 0; }
+.li .s { grid-column: 2; font-size: 12px; color: var(--muted); }
+.li .m { font: 12px var(--f-mono); color: var(--faint); font-variant-numeric: tabular-nums; }
+
+.focus { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 24px 26px 22px; min-width: 0; }
+.focus .where { font-size: 13px; color: var(--muted); margin: 0 0 4px; }
+.focus h2 { font: 400 34px/1 var(--f-display); letter-spacing: 0.01em; margin: 0 0 18px; text-transform: uppercase; text-wrap: balance; overflow-wrap: anywhere; }
+.says { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 18px; margin: 0 0 18px; }
+.says dt { font-size: 13px; color: var(--muted); padding-top: 2px; }
+.says dd { margin: 0; overflow-wrap: anywhere; }
+.says dd.big { font-size: 17px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.reason { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--warn); }
+.reason.bad { color: var(--bad); }
+.reason::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex: none; }
+.clause-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--faint); font-weight: 600; margin: 0 0 8px; }
+.clause { font: 16px/1.7 var(--f-doc); background: var(--paper); border-radius: 4px; padding: 16px 18px; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 260px; overflow: auto; margin: 0 0 20px; }
+.clause.missing { font: 14px/1.55 var(--f-ui); color: var(--bad); background: var(--bad-bg); }
+.clause.missing q { font-family: var(--f-doc); color: var(--ink); }
+mark { background: var(--highlight); color: inherit; border-radius: 2px; padding: 1px 2px; }
+mark.on { background: var(--highlight-strong); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: 500 12px var(--f-ui); text-transform: uppercase; letter-spacing: 0.06em; border: 1px solid var(--ink); background: transparent; color: var(--ink); border-radius: 4px; padding: 10px 16px; cursor: pointer; }
+.btn:hover { border-color: var(--faint); }
+.btn.primary { background: var(--orange); color: var(--on-orange); border-color: var(--orange); }
+.btn.small { font-size: 12px; padding: 5px 10px; border-radius: 6px; }
+.btn[aria-pressed="true"] { background: var(--navy); color: var(--panel); border-color: var(--navy); }
+.textlink { background: none; border: 0; padding: 0; color: var(--ink); font: 600 13px var(--f-ui); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.actions .textlink { margin-left: auto; }
+input[type=text] { width: 100%; font: 16px var(--f-ui); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 9px 12px; margin-bottom: 12px; }
+.alldone { text-align: left; }
+.alldone h2 { margin-bottom: 8px; }
+.alldone p { color: var(--muted); margin: 0 0 16px; max-width: 54ch; }
+
+/* Beat 3: proof */
+.proof { margin-top: 36px; padding-top: 22px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 14px 40px; align-items: baseline; }
+.proof .claim { font-size: 17px; max-width: 60ch; flex: 1 1 380px; }
+.proof .claim b { font-variant-numeric: tabular-nums; }
+.proof .claim span { display: block; font-size: 13px; color: var(--muted); margin-top: 4px; }
+
+/* Secondary views */
+.page { padding-top: 28px; }
+.page h1 { font: 400 52px/1 var(--f-display); margin: 0 0 10px; text-transform: uppercase; text-wrap: balance; }
+.page .lede { color: var(--muted); margin: 0 0 24px; max-width: 64ch; }
+.findings { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px 40px; }
+.finding { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.finding .k { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--faint); font-weight: 600; }
+.finding .v { font: 400 38px/1.05 var(--f-display); letter-spacing: 0.01em; }
+.finding .v small { font: 400 13px var(--f-ui); color: var(--muted); letter-spacing: 0; }
+.finding p { margin: 0; color: var(--muted); font-size: 14px; }
+.split { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.meter { height: 5px; border-radius: 3px; background: var(--warn-bg); overflow: hidden; margin-top: 4px; max-width: 320px; }
+.meter i { display: block; height: 100%; background: var(--good); }
+
+.desk { display: grid; grid-template-columns: 190px minmax(0, 1fr) minmax(0, 1.1fr); gap: 20px; align-items: start; }
+@media (max-width: 1000px) { .desk { grid-template-columns: minmax(0, 1fr); } }
+.doclist { display: flex; flex-direction: column; gap: 2px; }
+.docbtn { text-align: left; font: 13px var(--f-ui); color: var(--ink); background: none; border: 0; border-left: 2px solid transparent; padding: 6px 8px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
+.docbtn:hover { background: var(--navy-soft); }
+.docbtn[aria-current="true"] { border-left-color: var(--orange); background: var(--navy-soft); font-weight: 600; }
+.docbtn .cnt { font: 11px var(--f-mono); color: var(--faint); }
+@media (max-width: 1000px) { .doclist { flex-direction: row; flex-wrap: wrap; } .docbtn { border-left: 0; border-bottom: 2px solid transparent; } .docbtn[aria-current="true"] { border-bottom-color: var(--navy); } }
+.pane { min-width: 0; }
+.dochead .co { font-size: 18px; font-weight: 700; }
+.dochead .meta { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
+.dochead a { color: var(--navy); }
+.terms { display: flex; flex-direction: column; }
+.term { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; padding: 10px 4px; border-bottom: 1px solid var(--rule); cursor: pointer; }
+.term:hover, .term.active { background: var(--panel); }
+.term .lbl { font-size: 12px; color: var(--muted); }
+.term .val { grid-column: 1 / -1; font-size: 14px; font-weight: 500; overflow-wrap: anywhere; }
+.term .val.none { color: var(--faint); font-style: italic; font-weight: 400; }
+.tag { font: 500 11px var(--f-mono); padding: 1px 7px; border-radius: 999px; white-space: nowrap; align-self: start; }
+.tag.ok { background: var(--good-bg); color: var(--good); }
+.tag.wait { background: var(--warn-bg); color: var(--warn); }
+.tag.no { background: var(--bad-bg); color: var(--bad); }
+.source { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; max-height: 78vh; overflow: auto; position: sticky; top: env(safe-area-inset-top, 0px); }
+@media (max-width: 1000px) { .source { position: static; max-height: 60vh; } }
+.source pre { margin: 0; padding: 18px 22px 40px; white-space: pre-wrap; overflow-wrap: anywhere; font: 14px/1.7 var(--f-doc); }
+
+.lab { display: flex; flex-direction: column; gap: 10px; }
+.lab .row { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; }
+.lab .row input { margin: 0; font-size: 14px; }
+.lab .lbl { font-size: 13px; font-weight: 600; }
+.hint { font-size: 12px; color: var(--muted); }
+.lab .quote { font: 12px var(--f-doc); color: var(--muted); }
+.out { width: 100%; min-height: 120px; font: 12px var(--f-mono); color: var(--ink); background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 8px; margin-top: 10px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 14px; }
+
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 20px; margin-bottom: 28px; }
+.metric .n { font: 400 46px/1 var(--f-display); color: var(--ink); }
+.metric .k { font-size: 13px; color: var(--muted); }
+.section { margin-bottom: 30px; }
+.section h2 { font: 400 26px/1.1 var(--f-display); letter-spacing: 0.01em; text-transform: uppercase; margin: 0 0 6px; }
+.section > p { color: var(--muted); margin: 0 0 10px; max-width: 66ch; font-size: 14px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--faint); font-weight: 600; }
+td.n { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.bar { height: 6px; background: var(--rule); border-radius: 3px; min-width: 120px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--ink); }
+.byline { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 11px; color: var(--faint); max-width: 80ch; }
+@media (prefers-reduced-motion: no-preference) { .li, .term, .track i, .btn { transition: background-color .15s, border-color .15s, width .3s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div><button class="brand" id="home">Lease Lens</button> <span class="context" id="context"></span></div>
+    <nav class="sub-nav" aria-label="Views">
+      <button data-view="review">Review</button>
+      <button data-view="portfolio">Portfolio</button>
+      <button data-view="leases">Leases</button>
+      <button data-view="method">How it's measured</button>
+      <button data-view="label">Label</button>
+    </nav>
+  </header>
+  <div id="notice" class="notice" hidden></div>
+  <main id="main"></main>
+  <footer class="byline">Lease Lens is an independent prototype by Ben Coulson, built on public SEC EDGAR filings. It is not a Fifth Dimension product and isn't affiliated with or endorsed by Fifth Dimension.</footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("ll:" + k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("ll:" + k, JSON.stringify(v)); } catch {} }
+};
+const FIELDS = DATA.fields;
+const FLABEL = Object.fromEntries(FIELDS.map(f => [f.key, f.label.replace(/ \((USD|sq ft|months)\)$/, "")]));
+const VIEWS = ["review", "portfolio", "leases", "method", "label"];
+const reviews = store.get("reviews", {});
+const labels = store.get("labels", {});
+let state = { view: VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "review", focus: null, doc: DATA.docs[0]?.id, active: null };
+const docs = DATA.docs.filter(d => d.result);
+const docById = id => DATA.docs.find(d => d.id === id);
+const usd = n => n == null || isNaN(n) ? "–" : "$" + Math.round(n).toLocaleString("en-US");
+const usdK = n => n == null || isNaN(n) ? "–" : n === 0 ? "$0" : n >= 1e6 ? "$" + (n / 1e6).toFixed(1) + "m" : "$" + Math.round(n / 1000).toLocaleString("en-US") + "k";
+if (DATA.notice) { $("#notice").textContent = DATA.notice; $("#notice").hidden = false; }
+
+/* ---------- Trust model ---------- */
+// The system vouches for a term only if confidence is high after the citation checks and nothing is flagged.
+// Everything else needs a person. A person's decision always wins.
+const WEIGHT = { initial_monthly_base_rent: 1, expiration_date: .8, early_termination: .8, commencement_date: .7,
+  renewal_option: .6, renewal_notice_months: .5, security_deposit: .5, rentable_area_sqft: .5, rent_escalation: .5,
+  tenant: .4, landlord: .2, premises_address: .2 };
+const rv = id => reviews[id] || (reviews[id] = {});
+const needsPerson = f => !!f && !!f.value && (f.confidence !== "high" || !!f.flag);
+function parseNorm(key, s) {
+  if (s == null || s === "") return null;
+  if (/date/.test(key)) return isNaN(Date.parse(s)) ? null : s;
+  const m = String(s).replace(/,/g, "").match(/-?\d+(\.\d+)?/); return m ? Number(m[0]) : null;
+}
+function status(d, key) {
+  const f = d.result?.fields[key], r = rv(d.id)[key] || {};
+  if (!f) return { state: "missing" };
+  if (r.status === "rejected") return { state: "rejected", value: null, norm: null, f };
+  if (r.status === "edited") return { state: "ok", by: "person", value: r.value, norm: parseNorm(key, r.value), f };
+  if (r.status === "accepted") return { state: "ok", by: "person", value: f.value, norm: parseNorm(key, f.normalised ?? f.value), f };
+  return { state: needsPerson(f) ? "wait" : "ok", by: "system", value: f.value, norm: parseNorm(key, f.normalised ?? f.value), f };
+}
+const annualRent = d => { const s = status(d, "initial_monthly_base_rent"); return s.norm != null ? s.norm * 12 : null; };
+function reasonOf(f) {
+  if ((f.flag || "").startsWith("unverified")) return { text: "The clause it quotes isn't in the lease", bad: true };
+  if (f.flag) return { text: "The value doesn't appear in the clause it quotes", bad: false };
+  if (f.confidence === "low") return { text: f.note ? `Unclear in the lease: ${f.note}` : "The lease is unclear on this", bad: false };
+  return { text: f.note ? `Worked out, not stated: ${f.note}` : "Worked out from more than one clause", bad: false };
+}
+// Every term the system flagged, in risk order. Checked ones stay in the list (struck through) so progress is visible.
+function queue() {
+  const rents = docs.map(annualRent).filter(x => x != null).sort((a, b) => a - b);
+  const median = rents.length ? rents[Math.floor(rents.length / 2)] : 0;
+  const items = [];
+  for (const d of docs) for (const fd of FIELDS) {
+    const f = d.result.fields[fd.key];
+    if (!needsPerson(f)) continue;
+    const r = reasonOf(f);
+    const stake = annualRent(d) ?? median;
+    items.push({ id: d.id + ":" + fd.key, d, key: fd.key, f, reason: r, stake,
+      score: (WEIGHT[fd.key] || .3) * (stake || 1) * (r.bad ? 3 : f.confidence === "low" ? 2 : 1),
+      done: !!(rv(d.id)[fd.key]?.status && rv(d.id)[fd.key].status !== "editing") });
+  }
+  return items.sort((a, b) => b.score - a.score);
+}
+const totalTerms = () => docs.reduce((n, d) => n + FIELDS.filter(f => d.result.fields[f.key]?.value).length, 0);
+
+/* ---------- Review: the three beats ---------- */
+function renderReview() {
+  if (!docs.length) return `<div class="question"><h1>No leases read yet</h1><p>Run src/extract.py, then rebuild this page.</p></div>`;
+  const q = queue(), open = q.filter(i => !i.done), checked = q.length - open.length;
+  if (!state.focus || !q.find(i => i.id === state.focus)) state.focus = (open[0] || q[0])?.id || null;
+  const verifiedByMachine = totalTerms() - q.length;
+  const done = q.length > 0 && open.length === 0;
+
+  const head = `<section class="question">
+    <p class="kicker">Before this goes to investment committee</p>
+    <h1 class="${done || !q.length ? "done" : ""}">${!q.length ? "Every term is verified" : done ? `All <span class="n">${q.length}</span> flagged terms are checked` : `<span class="n">${open.length}</span> ${open.length === 1 ? "term needs" : "terms need"} you`}</h1>
+    <p>${!q.length ? "Each term traces to a clause the system found and checked." :
+      `The other ${verifiedByMachine} terms across ${docs.length} leases are backed by a clause the system found and checked. These are the ones it can't vouch for, ranked by how much rent depends on them.`}</p>
+    ${q.length ? `<div class="progress"><div class="track" aria-hidden="true"><i style="width:${Math.round(100 * checked / q.length)}%"></i></div><span>${checked} of ${q.length} checked</span></div>` : ""}
+  </section>`;
+
+  const list = `<div class="list" aria-label="Terms to check"><p class="lh">To check</p>${q.map(i => `
+    <button class="li ${i.done ? "done" : ""}" data-focus="${i.id}" aria-current="${i.id === state.focus}">
+      <span class="dot" aria-hidden="true"></span><span class="t">${esc(FLABEL[i.key])}</span><span class="m">${usdK(i.stake)}</span>
+      <span class="s">${esc(i.d.company)}</span></button>`).join("")}</div>`;
+
+  const item = q.find(i => i.id === state.focus);
+  const focus = done ? `<section class="focus alldone"><h2>Ready for committee</h2>
+      <p>Every figure in the brief now traces either to a clause the system verified or to a term you checked yourself.</p>
+      <div class="actions"><button class="btn primary" data-view-go="portfolio">See the portfolio brief</button></div></section>`
+    : item ? focusHTML(item) : "";
+
+  return `${head}${q.length ? `<div class="work">${list}${focus}</div>` : `<div class="actions"><button class="btn primary" data-view-go="portfolio">See the portfolio brief</button></div>`}${proofHTML()}`;
+}
+
+function focusHTML(it) {
+  const f = it.f, r = rv(it.d.id)[it.key] || {}, t = it.d.text;
+  let clause;
+  if (f.span) {
+    // Show the paragraph the clause sits in, trimmed if the paragraph is long.
+    const ps = t.lastIndexOf("\n\n", f.span[0]); let a = Math.max(ps < 0 ? 0 : ps + 2, f.span[0] - 240);
+    const pe = t.indexOf("\n\n", f.span[1]); let b = Math.min(pe < 0 ? t.length : pe, f.span[1] + 300);
+    // Tables flatten into one-cell "paragraphs"; if there's barely any context, show the neighbouring lines too.
+    if ((f.span[0] - a) + (b - f.span[1]) < 80) {
+      a = Math.max(0, f.span[0] - 240); b = Math.min(t.length, f.span[1] + 300);
+      const la = t.lastIndexOf("\n", a); if (la >= 0 && la < f.span[0]) a = la + 1;
+      const lb = t.indexOf("\n", b); if (lb >= 0) b = lb;
+    }
+    clause = `<p class="clause-label">From the lease</p><div class="clause">${a > 0 ? "…" : ""}${esc(t.slice(a, f.span[0]))}<mark class="on">${esc(t.slice(f.span[0], f.span[1]))}</mark>${esc(t.slice(f.span[1], b))}${b < t.length ? "…" : ""}</div>`;
+  } else {
+    clause = `<p class="clause-label">From the lease</p><div class="clause missing">The system quoted <q>${esc(f.quote || "")}</q> but that text doesn't appear anywhere in the lease. Open the lease and find the real clause before relying on this value.</div>`;
+  }
+  const decided = r.status && r.status !== "editing";
+  return `<section class="focus" aria-labelledby="focus-h">
+    <p class="where">${esc(it.d.company)} · ${usd(it.stake)} a year</p>
+    <h2 id="focus-h">${esc(FLABEL[it.key])}</h2>
+    <dl class="says">
+      <dt>System says</dt><dd class="big">${esc(r.status === "edited" ? r.value : f.value)}</dd>
+      <dt>Why you</dt><dd><span class="reason ${it.reason.bad ? "bad" : ""}">${esc(it.reason.text)}</span></dd>
+      ${decided ? `<dt>You</dt><dd>${r.status === "accepted" ? "Confirmed" : r.status === "edited" ? "Corrected" : "Marked not in lease"}</dd>` : ""}
+    </dl>
+    ${clause}
+    ${r.status === "editing" ? `<input type="text" id="fix-${it.d.id}-${it.key}" value="${esc(r.value ?? f.value ?? "")}" aria-label="Correct value">` : ""}
+    <div class="actions">
+      ${r.status === "editing"
+        ? `<button class="btn primary" data-act="save" data-doc="${it.d.id}" data-key="${it.key}">Save correction</button><button class="btn" data-act="cancel" data-doc="${it.d.id}" data-key="${it.key}">Cancel</button>`
+        : `<button class="btn primary" data-act="accept" data-doc="${it.d.id}" data-key="${it.key}">Confirm</button>
+           <button class="btn" data-act="edit" data-doc="${it.d.id}" data-key="${it.key}">Correct it</button>
+           <button class="btn" data-act="reject" data-doc="${it.d.id}" data-key="${it.key}">Not in lease</button>`}
+      <button class="textlink" data-goto="${it.d.id}" data-key="${it.key}">Open full lease</button>
+    </div></section>`;
+}
+
+function proofHTML() {
+  const e = DATA.eval;
+  if (!e || !e.review_queue) return "";
+  const rq = e.review_queue;
+  return `<section class="proof"><p class="claim">In testing on ${e.docs_scored} hand-checked leases, asking a person to check <b>${rq.review_burden_pct}%</b> of terms put <b>${rq.errors_caught} of ${rq.errors}</b> mistakes in front of them.
+    <span>Terms the system let through were ${rq.passed_accuracy_pct}% correct. Raw extraction accuracy before any review was ${e.overall.strict_accuracy}%.</span></p>
+    <button class="textlink" data-view-go="method">How this was measured</button></section>`;
+}
+
+/* ---------- Portfolio ---------- */
+function split(list, valOf, keys) {
+  let v = 0, p = 0;
+  for (const d of list) { const x = valOf(d); if (x == null) continue; keys.every(k => status(d, k).state === "ok") ? v += x : p += x; }
+  return { v, p, t: v + p, pct: v + p ? Math.round(100 * v / (v + p)) : 100 };
+}
+const splitHTML = s => s.t ? `<div class="meter" aria-hidden="true"><i style="width:${s.pct}%"></i></div><div class="split">${s.p ? `${usdK(s.v)} verified, ${usdK(s.p)} waiting for a check` : "All verified"}</div>` : "";
+const has = st => st.value && !/^\s*(none|n\/a|null)\s*$/i.test(st.value) && st.state !== "rejected";
+function renderPortfolio() {
+  if (!docs.length) return `<div class="page"><h1>No leases read yet</h1></div>`;
+  const roll = split(docs, annualRent, ["initial_monthly_base_rent"]);
+  const area = docs.reduce((a, d) => a + (status(d, "rentable_area_sqft").norm || 0), 0);
+  const breakers = docs.filter(d => has(status(d, "early_termination")));
+  const brk = split(breakers, annualRent, ["early_termination", "initial_monthly_base_rent"]);
+  const renew = docs.filter(d => has(status(d, "renewal_option")));
+  const dep = docs.filter(d => status(d, "initial_monthly_base_rent").norm).map(d => ({ d, m: (status(d, "security_deposit").norm || 0) / status(d, "initial_monthly_base_rent").norm }));
+  const thin = dep.filter(x => x.m < 1);
+  const termed = docs.map(d => { const c = status(d, "commencement_date"), e = status(d, "expiration_date"); return c.norm && e.norm && c.state === "ok" && e.state === "ok" ? { d, y: (Date.parse(e.norm) - Date.parse(c.norm)) / 3.156e10 } : null; }).filter(Boolean);
+  const wr = termed.reduce((a, x) => a + (annualRent(x.d) || 0), 0);
+  const walt = wr ? termed.reduce((a, x) => a + x.y * (annualRent(x.d) || 0), 0) / wr : null;
+  const wait = s => s === "wait" ? " (not yet checked)" : "";
+  return `<div class="page"><h1>Portfolio brief</h1>
+    <p class="lede">What the leases say, in the terms a committee asks about. Figures that depend on an unchecked term are shown separately until someone checks it on the Review screen.</p>
+    <div class="findings">
+      <div class="finding"><span class="k">Rent roll</span><span class="v">${usd(roll.t)} <small>a year · ${docs.length} leases · ${Math.round(area).toLocaleString("en-US")} sq ft</small></span>${splitHTML(roll)}</div>
+      <div class="finding"><span class="k">Tenants who can leave early</span><span class="v">${breakers.length} of ${docs.length} <small>${brk.t ? usd(brk.t) + " of rent a year" : ""}</small></span>
+        <p>${breakers.length ? breakers.map(d => esc(d.company) + wait(status(d, "early_termination").state)).join(", ") + ". Value these on the break date, not the expiry date." : "No tenant can end its lease early."}</p>${splitHTML(brk)}</div>
+      <div class="finding"><span class="k">Renewal options held by tenants</span><span class="v">${renew.length} of ${docs.length}</span>
+        <p>${renew.map(d => { const n = status(d, "renewal_notice_months"); return `${esc(d.company)}: ${esc(status(d, "renewal_option").value)}${n.norm ? `, ${n.norm} months' notice` : ""}${wait(status(d, "renewal_option").state)}`; }).join(". ") || "None."}</p></div>
+      <div class="finding"><span class="k">Security held</span><span class="v">${thin.length} ${thin.length === 1 ? "lease holds" : "leases hold"} <small>under one month's rent</small></span>
+        <p>${dep.map(x => `${esc(x.d.company)}: ${x.m.toFixed(1)} months${wait(status(x.d, "security_deposit").state)}`).join(" · ")}</p></div>
+      ${walt ? `<div class="finding"><span class="k">Original lease length, rent-weighted</span><span class="v">${walt.toFixed(1)} years</span><p>Only leases with checked start and end dates are counted.</p></div>` : ""}
+    </div></div>`;
+}
+
+/* ---------- Leases ---------- */
+function sourceHTML(d, activeKey, spanOf) {
+  const t = d.text, spans = [];
+  for (const f of FIELDS) { const sp = spanOf(f.key); if (sp) spans.push({ s: sp[0], e: sp[1], key: f.key }); }
+  spans.sort((a, b) => a.s - b.s);
+  let out = "", pos = 0;
+  for (const sp of spans) { if (sp.s < pos) continue; out += esc(t.slice(pos, sp.s)) + `<mark data-key="${sp.key}" class="${sp.key === activeKey ? "on" : ""}">${esc(t.slice(sp.s, sp.e))}</mark>`; pos = sp.e; }
+  return out + esc(t.slice(pos));
+}
+const docList = count => `<aside class="doclist">${DATA.docs.map(d => `<button class="docbtn" data-doc="${d.id}" aria-current="${d.id === state.doc}"><span>${esc(d.company)}</span><span class="cnt">${count(d)}</span></button>`).join("")}</aside>`;
+const docHead = d => `<div class="dochead"><div class="co">${esc(d.company)}</div><div class="meta">${esc(d.description)} · filed ${esc(d.file_date)}${d.url ? ` · <a href="${esc(d.url)}" target="_blank" rel="noopener">EDGAR source</a>` : ""}${d.result ? ` · read in ${d.result.latency_s}s` : ""}</div></div>`;
+function renderLeases() {
+  const d = docById(state.doc);
+  const terms = !d.result ? `<p class="hint">Not read yet.</p>` : FIELDS.map(f => {
+    const st = status(d, f.key), x = d.result.fields[f.key] || {};
+    const tag = st.state === "ok" ? `<span class="tag ok">${st.by === "person" ? "checked" : "verified"}</span>` : st.state === "rejected" ? `<span class="tag no">rejected</span>` : x.value ? `<span class="tag wait">needs a check</span>` : "";
+    return `<div class="term ${state.active === f.key ? "active" : ""}" data-key="${f.key}" tabindex="0"><span class="lbl">${esc(FLABEL[f.key])}</span>${tag}
+      <span class="val ${st.value ? "" : "none"}">${esc(st.value || "Not in lease")}</span></div>`;
+  }).join("");
+  return `<div class="page"><div class="desk">${docList(d => { if (!d.result) return ""; const n = FIELDS.filter(f => status(d, f.key).state === "wait").length; return n ? n + " open" : "clear"; })}
+    <section class="pane">${docHead(d)}<div class="terms">${terms}</div></section>
+    <section class="pane source" id="source"><pre>${sourceHTML(d, state.active, k => d.result?.fields[k]?.span)}</pre></section></div></div>`;
+}
+
+/* ---------- Method ---------- */
+function renderMethod() {
+  const e = DATA.eval;
+  const how = `<div class="section"><h2>How it works</h2><p>The model reads each lease and, for every term, must return a value and a word-for-word quote from the lease. Code then searches the lease for that quote. If it isn't there, the term goes to a person. If the value doesn't appear in its own quote, or the model was unsure, it goes to a person. Only terms that pass every check are treated as verified.</p></div>`;
+  if (!e) return `<div class="page"><h1>How it's measured</h1>${how}<p class="lede">No results yet. Label leases on the Label screen, run src/score.py, then rebuild.</p></div>`;
+  const rq = e.review_queue;
+  const escaped = (rq.escaped || []).map(r => `<tr><td>${esc(docById(r.doc_id)?.company || r.doc_id)}</td><td>${esc(FLABEL[r.field] || r.field)}</td><td>${esc(r.predicted)}</td><td>${esc(r.gold)}</td></tr>`).join("");
+  const conf = Object.entries(e.by_confidence).map(([k, v]) => `<tr><td>${k}</td><td class="n">${v.n}</td><td class="n">${v.strict_accuracy}%</td><td><div class="bar"><i style="width:${v.strict_accuracy}%"></i></div></td></tr>`).join("");
+  const byf = Object.values(e.by_field).map(v => `<tr><td>${esc(v.label)}</td><td class="n">${v.n}</td><td class="n">${v.strict_accuracy}%</td><td><div class="bar"><i style="width:${v.strict_accuracy}%"></i></div></td></tr>`).join("");
+  return `<div class="page"><h1>How it's measured</h1>
+    <p class="lede">I read ${e.docs_scored} leases myself and recorded the right answer for each term without looking at the system's output, then compared.</p>
+    <div class="metrics">
+      <div class="metric"><div class="n">${rq.review_burden_pct}%</div><div class="k">of terms sent to a person</div></div>
+      <div class="metric"><div class="n">${rq.errors_caught} of ${rq.errors}</div><div class="k">mistakes landed in front of that person</div></div>
+      <div class="metric"><div class="n">${rq.passed_accuracy_pct}%</div><div class="k">of terms let through were right</div></div>
+      <div class="metric"><div class="n">${e.overall.strict_accuracy}%</div><div class="k">raw accuracy before review</div></div>
+    </div>
+    ${how}
+    <div class="section"><h2>Mistakes that got through</h2><p>These passed every check. They show where checking that a quote exists isn't enough: the quote was real but it was the wrong one.</p>
+      <div class="tablewrap"><table><thead><tr><th>Lease</th><th>Term</th><th>System said</th><th>Correct</th></tr></thead><tbody>${escaped || `<tr><td colspan="4">None.</td></tr>`}</tbody></table></div></div>
+    <div class="section"><h2>Does confidence mean anything?</h2><p>It's only worth showing a confidence signal if high really is more reliable than low.</p>
+      <div class="tablewrap"><table><thead><tr><th>Confidence</th><th>Terms</th><th>Right</th><th></th></tr></thead><tbody>${conf}</tbody></table></div></div>
+    <div class="section"><h2>Accuracy by term</h2><div class="tablewrap"><table><thead><tr><th>Term</th><th>n</th><th>Right</th><th></th></tr></thead><tbody>${byf}</tbody></table></div></div>
+  </div>`;
+}
+
+/* ---------- Label ---------- */
+function renderLabel() {
+  const d = docById(state.doc), lb = labels[d.id] || (labels[d.id] = {});
+  const rows = FIELDS.map(f => { const x = lb[f.key] || {};
+    return `<div class="row"><span class="lbl">${esc(f.label)}</span><span class="hint">${esc(f.hint)}</span>
+      <input type="text" id="lab-${d.id}-${f.key}" data-k="${f.key}" value="${esc(x.value || "")}" placeholder='Right answer, or "none"' aria-label="Right answer for ${esc(f.label)}">
+      <div><button class="btn small" data-use="${f.key}">Use highlighted text as source</button></div>
+      ${x.quote ? `<span class="quote">“${esc(x.quote.slice(0, 200))}${x.quote.length > 200 ? "…" : ""}”</span>` : ""}</div>`; }).join("");
+  return `<div class="page"><h1>Label the right answers</h1>
+    <p class="lede">For building the test set. The system's answers are hidden so they can't steer you. Select text in the lease and press “Use highlighted text” to keep the clause.</p>
+    <div class="desk">${docList(d => `${Object.values(labels[d.id] || {}).filter(x => x.value).length}/${FIELDS.length}`)}
+      <section class="pane">${docHead(d)}<div class="lab">${rows}</div>
+        <div class="toolbar"><button class="btn primary small" id="exp-labels">Show labels.csv</button><span class="hint">Paste into data/labels.csv, then run src/score.py</span></div>
+        <textarea class="out" id="out-labels" hidden readonly aria-label="labels.csv"></textarea></section>
+      <section class="pane source"><pre>${sourceHTML(d, null, () => null)}</pre></section></div></div>`;
+}
+
+/* ---------- Wiring ---------- */
+function go(view) { state.view = view; render(); window.scrollTo(0, 0); }
+function render() {
+  try { history.replaceState(null, "", "#" + state.view); } catch {}
+  for (const b of document.querySelectorAll(".sub-nav button")) b.setAttribute("aria-current", b.dataset.view === state.view);
+  const rent = docs.reduce((a, d) => a + (annualRent(d) || 0), 0);
+  $("#context").textContent = docs.length ? `· ${docs.length} leases · ${usdK(rent)} rent a year` : "";
+  $("#main").innerHTML = { review: renderReview, portfolio: renderPortfolio, leases: renderLeases, method: renderMethod, label: renderLabel }[state.view]();
+  bind();
+}
+function act(doc, key, a) {
+  const r = rv(doc), f = docById(doc).result.fields[key];
+  if (a === "accept") r[key] = { status: "accepted" };
+  if (a === "reject") r[key] = { status: "rejected" };
+  if (a === "edit") r[key] = { status: "editing", value: r[key]?.value ?? f.value };
+  if (a === "cancel") delete r[key];
+  if (a === "save") { const inp = $(`#fix-${doc}-${key}`); r[key] = { status: "edited", value: inp ? inp.value : "" }; }
+  store.set("reviews", reviews);
+  if (["accept", "reject", "save"].includes(a) && state.view === "review") {
+    const next = queue().find(i => !i.done); state.focus = next ? next.id : state.focus;
+  }
+  render();
+  if (a === "edit") { const inp = $(`#fix-${doc}-${key}`); if (inp) { inp.focus(); inp.select(); } }
+}
+function bind() {
+  $("#home").onclick = () => go("review");
+  for (const b of document.querySelectorAll(".sub-nav button")) b.onclick = () => go(b.dataset.view);
+  for (const b of document.querySelectorAll("[data-view-go]")) b.onclick = () => go(b.dataset.viewGo);
+  for (const b of document.querySelectorAll("[data-focus]")) b.onclick = () => { state.focus = b.dataset.focus; render(); };
+  for (const b of document.querySelectorAll("[data-act]")) b.onclick = () => act(b.dataset.doc, b.dataset.key, b.dataset.act);
+  for (const b of document.querySelectorAll("[data-goto]")) b.onclick = () => { state.doc = b.dataset.goto; state.active = b.dataset.key; go("leases"); scrollToMark(b.dataset.key); };
+  for (const b of document.querySelectorAll(".docbtn")) b.onclick = () => { state.doc = b.dataset.doc; state.active = null; render(); };
+  for (const t of document.querySelectorAll(".term")) { const open = () => { state.active = t.dataset.key; render(); scrollToMark(t.dataset.key); };
+    t.onclick = open; t.onkeydown = ev => { if (ev.key === "Enter") open(); }; }
+  const fix = document.querySelector("[id^=fix-]"); if (fix) fix.onkeydown = ev => { if (ev.key === "Enter") { const [, doc, ...k] = fix.id.split("-"); act(doc, k.join("-"), "save"); } };
+  if (state.view === "label") {
+    const d = docById(state.doc);
+    for (const inp of document.querySelectorAll(".lab input")) inp.addEventListener("input", () => { (labels[d.id][inp.dataset.k] ||= {}).value = inp.value; store.set("labels", labels); });
+    for (const b of document.querySelectorAll("[data-use]")) { b.onmousedown = ev => ev.preventDefault(); b.onclick = () => {
+      const sel = String(window.getSelection() || "").trim();
+      if (!sel) { b.textContent = "Select text in the lease first"; setTimeout(() => b.textContent = "Use highlighted text as source", 1800); return; }
+      (labels[d.id][b.dataset.use] ||= {}).quote = sel; store.set("labels", labels); render(); }; }
+    $("#exp-labels").onclick = () => {
+      const csv = v => { v = String(v ?? ""); return /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v; };
+      const lines = ["doc_id,field,gold_value,gold_quote,notes"];
+      for (const doc of DATA.docs) for (const f of FIELDS) { const x = labels[doc.id]?.[f.key] || {}; lines.push([doc.id, f.key, x.value || "", x.quote || "", ""].map(csv).join(",")); }
+      const t = $("#out-labels"); t.value = lines.join("\n"); t.hidden = false; t.select();
+      try { navigator.clipboard.writeText(t.value).catch(() => {}); } catch {}
+    };
+  }
+}
+function scrollToMark(key) {
+  const m = document.querySelector(`mark[data-key="${key}"]`), box = $("#source");
+  if (m && box) box.scrollTo({ top: m.offsetTop - 80, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+}
+render();
+</script>

@@ -1,0 +1,192 @@
+{
+  "doc_id": "virtusa",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 33.3,
+  "usage": {
+    "input_tokens": 52548,
+    "output_tokens": 5147
+  },
+  "chars": 139790,
+  "fields": {
+    "landlord": {
+      "value": "2000 Westborough Office Park LLC, a Delaware limited liability company (successor-in-interest to original landlord W9/TIB Real Estate Limited Partnership)",
+      "normalised": "2000 Westborough Office Park LLC",
+      "quote": "by and between 2000 Westborough Office Park LLC, a Delaware limited liability company (the \"Landlord\")",
+      "confidence": "medium",
+      "note": "Original landlord was W9/TIB Real Estate Limited Partnership; Second Amendment (Dec 30, 2003) states the new LLC is successor. Its replacement notice address oddly reads '1900 Westborough Office Park LLC' (likely a typo).",
+      "span": [
+        117023,
+        117125
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "eRunway, Inc., a Delaware corporation (later renamed Virtusa Corporation)",
+      "normalised": "eRunway, Inc.",
+      "quote": "and ERUNWAY, INC., a Delaware corporation (\"TENANT\")",
+      "confidence": "medium",
+      "note": "Second Amendment identifies tenant as 'Virtusa Corporation, a Delaware corporation formerly known as eRunway, Inc.'",
+      "span": [
+        13195,
+        13247
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "premises_address": {
+      "value": "2000 West Park Drive, Westborough, Massachusetts (original Suite No. 310, third floor; later expanded to include first-floor space)",
+      "normalised": "Suite 310, 2000 West Park Drive, Westborough, MA",
+      "quote": "whose street address is 2000 West Park Drive, Westborough, Massachusetts",
+      "confidence": "medium",
+      "note": "First Amendment added about 7,848 RSF on the first floor and Exhibit I added about 11,648 RSF on the third floor; the building address is unchanged.",
+      "span": [
+        801,
+        873
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "10,499 rentable square feet at lease start (Suite 310); expanded to 29,995 RSF in total under the First Amendment",
+      "normalised": "10499",
+      "quote": "Suite No. 310, containing 10,499 rentable square feet",
+      "confidence": "medium",
+      "note": "Lease-start area per the original lease. First Amendment \u00a75 and Second Amendment recital A put the total premises at 29,995 RSF.",
+      "span": [
+        712,
+        765
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "commencement_date": {
+      "value": "September 1, 2000",
+      "normalised": "2000-09-01",
+      "quote": "the Term (as defined in the Lease) commenced on September 1, 2000",
+      "confidence": "high",
+      "note": "The original lease defined the date as the earlier of occupancy or July 1, 2000 (subject to delivery). The First Amendment recital confirms the actual commencement of Sept 1, 2000.",
+      "span": [
+        106249,
+        106314
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "February 28, 2011",
+      "normalised": "2011-02-28",
+      "quote": "The Term of the Lease is hereby extended until February 28, 2011.",
+      "confidence": "high",
+      "note": "Overrides the original 60-month term, the First Amendment expiration (Aug 31, 2005, later stated as Dec 31, 2005), and Second Amendment extension is the operative term. Excludes the 5-year option.",
+      "span": [
+        118350,
+        118415
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$21,872.92 per month for the original premises (Lease Months 1-60)",
+      "normalised": "21872.92",
+      "quote": "1 - 60 $21,872.92",
+      "confidence": "high",
+      "note": "First-period rent for the original 10,499 RSF only. Later amendments added rent for the other premises and restructured it; from Jan 1, 2004 total monthly Basic Rent is $51,241.46.",
+      "span": [
+        2562,
+        2579
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Original lease: flat $21,872.92/month for 60 months. First Amendment: stepped rent for the first-floor space. Second Amendment (operative from Jan 1, 2004): stepped annual schedule of about 3% per year, from $51,241.46/month in 2004 to $63,020.53/month for Jan-Feb 2011. No Basic Rent accrues Jan 1 - Feb 28, 2006.",
+      "normalised": "Stepped annual increases of about 3%: $51,241.46/mo (2004) rising to $63,020.53/mo (Jan-Feb 2011); Jan-Feb 2006 abated",
+      "quote": "(ii) for the period from January 1, 2005, through December 31, 2005: $633,344.43 per annum ($52,778.70 per month);",
+      "confidence": "medium",
+      "note": "Percentage is my calculation from the stated schedule (e.g. 52,778.70/51,241.46). Second Amendment also resets the Expense Stop to calendar year 2004 and the Base Tax Year to 2004, so operating expense and tax pass-throughs apply above those bases.",
+      "span": [
+        119080,
+        119194
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "One (1) five-year extension option (Option Term). Rent is the greater of $756,246.36 per annum or fair market rent, with appraisal procedure if not agreed.",
+      "normalised": "One 5-year option at greater of $756,246.36/yr or FMV",
+      "quote": "The Tenant may elect to extend the term of the Lease for one (1) five (5) year period (the \"Option Term\")",
+      "confidence": "medium",
+      "note": "Granted by Second Amendment \u00a74. The lease's Exhibit H (Renewal Option) is listed but not included in the text provided; the Second Amendment is treated as operative.",
+      "span": [
+        120059,
+        120164
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "9 months (notice window: not earlier than 12 months nor later than 9 months before expiration of the Restructure Term)",
+      "normalised": "9",
+      "quote": "not earlier than twelve (12) months nor later than nine (9) months before the expiration of the Restructure Term",
+      "confidence": "high",
+      "note": "Latest notice date is 9 months before expiration; the tenant must also not be in default.",
+      "span": [
+        120237,
+        120349
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "None. The lease grants no tenant right to terminate early for convenience. The tenant can terminate only after a qualifying partial condemnation or a major casualty (Sections 14(b) and 15(b)).",
+      "normalised": "No voluntary early termination right; only condemnation/casualty termination rights",
+      "quote": "then Tenant may terminate this Lease as of the date of such Taking by giving written notice to Landlord within 30 days after the Taking",
+      "confidence": "medium",
+      "note": "No termination option or fee found in the lease or amendments. The quote is the condemnation termination right, the only termination right of this kind.",
+      "span": [
+        68936,
+        69071
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$614,897.50 under the Second Amendment, subject to conditions (net worth of at least $15,000,000 and cash balance of $5,500,000 through Dec 31, 2005). If the conditions fail, the deposit goes back to $793,039.00. Further scheduled reductions to $489,258.56, $346,036.28 and $183,554.94. The original lease required $262,475.04 plus a $291,199.96 Additional Security Deposit.",
+      "normalised": "614897.50",
+      "quote": "Subject to the following conditions, on the Effective Date the Security Deposit shall be reduced to $614,897.50.",
+      "confidence": "low",
+      "note": "The deposit was $262,475.04 at signing (plus $291,199.96 additional, totalling $553,675.00). The First Amendment raised it to $793,039.00. The Second Amendment reduces it to $614,897.50 on an 'Effective Date' that is not defined, so the figure is conditional and ambiguous.",
+      "span": [
+        133843,
+        133955
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    }
+  }
+}

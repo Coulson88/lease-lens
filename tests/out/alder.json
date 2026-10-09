@@ -1,0 +1,186 @@
+{
+  "doc_id": "alder",
+  "model": "mock",
+  "latency_s": 0.0,
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "chars": 739,
+  "fields": {
+    "landlord": {
+      "value": "Alder Street Holdings, LLC",
+      "normalised": "Alder Street Holdings, LLC",
+      "quote": "Landlord: ALDER STREET HOLDINGS, LLC",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        114,
+        150
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Fernbank Software, Inc.",
+      "normalised": "Fernbank Software, Inc.",
+      "quote": "Tenant: Fernbank Software, Inc.",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        151,
+        182
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "Suite 210, 88 Alder Street, Portland, OR 97204",
+      "normalised": null,
+      "quote": "Suite 210, 88 Alder Street, Portland, Oregon 97204",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        193,
+        243
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "6,120",
+      "normalised": "6120",
+      "quote": "consisting of 6,120 rentable square feet",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        245,
+        285
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "January 1, 2022",
+      "normalised": "2022-01-01",
+      "quote": "Commencing January 1, 2022",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        294,
+        320
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "December 31, 2024",
+      "normalised": "2024-12-31",
+      "quote": "expiring December 31, 2024",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        325,
+        351
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$17,850.00",
+      "normalised": "17850",
+      "quote": "Monthly Base Rent: $17,850.00 per month for the first twelve months",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        354,
+        421
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "$0.75 per rentable sq ft per year on each anniversary",
+      "normalised": null,
+      "quote": "increasing by $0.75 per rentable square foot per annum on each anniversary of the Commencement Date",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        423,
+        522
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "Two 3-year renewal options",
+      "normalised": null,
+      "quote": "Tenant shall have two (2) options to renew the Term, each for three (3) years",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        534,
+        611
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "6",
+      "normalised": "6",
+      "quote": "upon written notice given at least six (6) months before expiration",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        613,
+        680
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": null,
+      "normalised": null,
+      "quote": null,
+      "confidence": "high",
+      "note": "",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$35,700.00",
+      "normalised": "35700",
+      "quote": "Tenant shall deposit a security deposit equal to two months' Base Rent",
+      "confidence": "low",
+      "note": "Two months of base rent",
+      "span": null,
+      "citation": "not_found",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": "unverified: quote not found in source"
+    }
+  }
+}

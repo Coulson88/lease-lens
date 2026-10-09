@@ -1,0 +1,186 @@
+{
+  "doc_id": "fstr",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 23.7,
+  "usage": {
+    "input_tokens": 42216,
+    "output_tokens": 3427
+  },
+  "chars": 113082,
+  "fields": {
+    "landlord": {
+      "value": "Suwanee Creek Business Center, LLC, a Delaware limited liability company",
+      "normalised": "Suwanee Creek Business Center, LLC",
+      "quote": "Landlord: SUWANEE CREEK BUSINESS CENTER, LLC, a Delaware limited liability\ncompany.",
+      "confidence": "high",
+      "note": "Body of lease and signature blocks omit the comma (\"SUWANEE CREEK BUSINESS CENTER LLC\"); same entity.",
+      "span": [
+        121,
+        204
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "LB Foster Company, a Pennsylvania corporation",
+      "normalised": "LB Foster Company",
+      "quote": "Tenant: LB FOSTER COMPANY, a Pennsylvania corporation",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        206,
+        259
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "Suite A, Building 100, 130 Satellite Boulevard NE, Suwanee, Georgia 30024",
+      "normalised": "Suite A, Building 100, 130 Satellite Blvd NE, Suwanee, GA 30024",
+      "quote": "known as Suite A, Building\n100, 130 Satellite Boulevard NE, Suwanee, Georgia 30024",
+      "confidence": "high",
+      "note": "Located in Suwanee Creek Business Park, Gwinnett County, Georgia.",
+      "span": [
+        474,
+        556
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 14,000 square feet (more or less) of building area",
+      "normalised": "14000",
+      "quote": "containing approximately 14,000 square feet (more or less) of building\narea",
+      "confidence": "medium",
+      "note": "Lease states 'building area' rather than 'rentable area'; section 1.1 says parties agree this figure is used for the Premises. The area is approximate.",
+      "span": [
+        356,
+        431
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "March 1, 2004 (per Basic Lease Information), subject to postponement under sections 2.1/2.2 if possession or substantial completion of Landlord's improvements is later",
+      "normalised": "2004-03-01",
+      "quote": "Commencement Date (section 2.1): March 1, 2004",
+      "confidence": "medium",
+      "note": "Fixed date stated, but section 2.2 (applies given Landlord's Work in Addendum para 2) says term does not commence until improvements are substantially completed and possession delivered; actual date not confirmed in the text.",
+      "span": [
+        921,
+        967
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "September 30, 2014 (127-month term), subject to extension if the Commencement Date is postponed",
+      "normalised": "2014-09-30",
+      "quote": "Expiration Date (section 2.1): September 30, 2014",
+      "confidence": "medium",
+      "note": "Consistent with 127 months from 3/1/2004; section 2.1 extends the Expiration Date for late delivery, so actual date may differ.",
+      "span": [
+        969,
+        1018
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$6,277.00 per month for 03/01/04 - 02/28/05",
+      "normalised": "6277.00",
+      "quote": "03/01/04 - 02/28/05 $6,277.00",
+      "confidence": "high",
+      "note": "Addendum para 1 abates Base Rent (and CAM/tax/insurance contributions) for months 2 through 8 if Tenant is not in default; stated rate is the schedule rate.",
+      "span": [
+        1125,
+        1154
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped annual schedule each March 1: $6,277 (yr 1), $6,465, $6,659, $6,858, $7,064, $7,276, $7,495, $7,720, $7,951, $8,190, then $8,435 from 3/1/2014 to 9/30/2014 (roughly 3% per year). Additional rent for CAM, taxes and insurance is passed through pro rata.",
+      "normalised": "Fixed annual steps (~3%/yr) per schedule",
+      "quote": "03/01/05 - 02/28/06 $6,465.00",
+      "confidence": "medium",
+      "note": "Percentage is calculated from the schedule, not stated in the lease. Controllable CAM increases are capped at 5% per annum from the second full calendar year (3.1(b)(i)).",
+      "span": [
+        1155,
+        1184
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "None",
+      "normalised": "None",
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal or extension option appears in the Basic Lease Information, lease body or Addendum; section 2.4 states holdover does not extend the term.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal option exists in the text, so no notice period applies.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "None at Tenant's discretion. The only Tenant termination right is for eminent domain: if a substantial portion of the Premises is taken and the rest is unsuitable, notice within 30 days of the taking. Landlord has separate termination rights (casualty, condemnation, assignment/sublease request).",
+      "normalised": "No tenant early termination option; condemnation-only right",
+      "quote": "Tenant shall have the right to terminate this Lease if a substantial portion of the Premises is taken by exercise of the power of eminent domain",
+      "confidence": "medium",
+      "note": "No tenant termination option or fee is in the lease; the condemnation right is the only one found (section 12.1).",
+      "span": [
+        90116,
+        90260
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$6,277.00 cash security deposit, payable on signing",
+      "normalised": "6277.00",
+      "quote": "Security Deposit (section 3.3): $6,277.00",
+      "confidence": "high",
+      "note": "Separate from first month's Base Rent also due at signing (3.3(a)) and the $6,000 Tenant Improvement contribution (Addendum para 4).",
+      "span": [
+        1676,
+        1717
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

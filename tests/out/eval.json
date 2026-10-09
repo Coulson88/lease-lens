@@ -1,0 +1,264 @@
+{
+  "review_queue": {
+    "fields": 32,
+    "queued": 6,
+    "review_burden_pct": 18.8,
+    "errors": 4,
+    "errors_caught": 3,
+    "error_capture_pct": 75.0,
+    "passed_unchecked": 26,
+    "passed_accuracy_pct": 96.2,
+    "escaped": [
+      {
+        "doc_id": "kestrel",
+        "field": "initial_monthly_base_rent",
+        "predicted": "$70,297.50",
+        "gold": "68250",
+        "confidence": "high",
+        "model_confidence": "high",
+        "citation": "exact",
+        "flag": "",
+        "auto_verdict": "wrong",
+        "detail": "70297.5 vs 68250.0",
+        "human_verdict": "",
+        "final_verdict": "wrong"
+      }
+    ]
+  },
+  "docs_scored": 3,
+  "fields_scored": 36,
+  "overall": {
+    "n": 32,
+    "counts": {
+      "correct": 28,
+      "partial": 1,
+      "wrong": 2,
+      "both_blank": 4,
+      "false_positive": 1
+    },
+    "strict_accuracy": 87.5,
+    "lenient_accuracy": 90.6
+  },
+  "by_field": {
+    "landlord": {
+      "label": "Landlord",
+      "n": 3,
+      "counts": {
+        "correct": 3
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "tenant": {
+      "label": "Tenant",
+      "n": 3,
+      "counts": {
+        "correct": 3
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "premises_address": {
+      "label": "Premises address",
+      "n": 3,
+      "counts": {
+        "correct": 3
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "rentable_area_sqft": {
+      "label": "Rentable area (sq ft)",
+      "n": 3,
+      "counts": {
+        "correct": 3
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "commencement_date": {
+      "label": "Commencement date",
+      "n": 3,
+      "counts": {
+        "correct": 2,
+        "partial": 1
+      },
+      "strict_accuracy": 66.7,
+      "lenient_accuracy": 100.0
+    },
+    "expiration_date": {
+      "label": "Expiration date",
+      "n": 3,
+      "counts": {
+        "correct": 3
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "initial_monthly_base_rent": {
+      "label": "Initial monthly base rent (USD)",
+      "n": 3,
+      "counts": {
+        "correct": 2,
+        "wrong": 1
+      },
+      "strict_accuracy": 66.7,
+      "lenient_accuracy": 66.7
+    },
+    "rent_escalation": {
+      "label": "Rent escalation",
+      "n": 3,
+      "counts": {
+        "correct": 3
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "renewal_option": {
+      "label": "Renewal / extension option",
+      "n": 2,
+      "counts": {
+        "correct": 1,
+        "wrong": 1,
+        "both_blank": 1
+      },
+      "strict_accuracy": 50.0,
+      "lenient_accuracy": 50.0
+    },
+    "renewal_notice_months": {
+      "label": "Renewal notice period (months)",
+      "n": 2,
+      "counts": {
+        "correct": 2,
+        "both_blank": 1
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "early_termination": {
+      "label": "Tenant early termination right",
+      "n": 1,
+      "counts": {
+        "both_blank": 2,
+        "correct": 1
+      },
+      "strict_accuracy": 100.0,
+      "lenient_accuracy": 100.0
+    },
+    "security_deposit": {
+      "label": "Security deposit (USD)",
+      "n": 3,
+      "counts": {
+        "false_positive": 1,
+        "correct": 2
+      },
+      "strict_accuracy": 66.7,
+      "lenient_accuracy": 66.7
+    }
+  },
+  "by_confidence": {
+    "high": {
+      "n": 26,
+      "counts": {
+        "correct": 25,
+        "both_blank": 4,
+        "wrong": 1
+      },
+      "strict_accuracy": 96.2,
+      "lenient_accuracy": 96.2
+    },
+    "medium": {
+      "n": 4,
+      "counts": {
+        "correct": 3,
+        "wrong": 1
+      },
+      "strict_accuracy": 75.0,
+      "lenient_accuracy": 75.0
+    },
+    "low": {
+      "n": 2,
+      "counts": {
+        "false_positive": 1,
+        "partial": 1
+      },
+      "strict_accuracy": 0.0,
+      "lenient_accuracy": 50.0
+    }
+  },
+  "citations": {
+    "verified_pct": 93.8,
+    "counts": {
+      "exact": 29,
+      "not_found": 2,
+      "whitespace": 1
+    }
+  },
+  "confidently_wrong": 1,
+  "latency_s": {
+    "mean": 0.0,
+    "max": 0.0
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "failures": [
+    {
+      "doc_id": "alder",
+      "field": "security_deposit",
+      "predicted": "$35,700.00",
+      "gold": "none",
+      "confidence": "low",
+      "model_confidence": "medium",
+      "citation": "not_found",
+      "flag": "unverified: quote not found in source",
+      "auto_verdict": "false_positive",
+      "detail": "gold says not present",
+      "human_verdict": "",
+      "final_verdict": "false_positive"
+    },
+    {
+      "doc_id": "harbourside",
+      "field": "commencement_date",
+      "predicted": "April 1, 2021",
+      "gold": "Later of April 1, 2021 or delivery of Premises with Tenant Improvements substantially complete",
+      "confidence": "low",
+      "model_confidence": "high",
+      "citation": "not_found",
+      "flag": "unverified: quote not found in source",
+      "auto_verdict": "partial",
+      "detail": "one answer is a fragment of the other",
+      "human_verdict": "",
+      "final_verdict": "partial"
+    },
+    {
+      "doc_id": "harbourside",
+      "field": "renewal_option",
+      "predicted": "Two options of five years each",
+      "gold": "One 5-year option at Fair Market Rent",
+      "confidence": "medium",
+      "model_confidence": "high",
+      "citation": "exact",
+      "flag": "value not visible in quote (derived or calculated)",
+      "auto_verdict": "wrong",
+      "detail": "numbers differ [2.0, 5.0] vs [1.0, 5.0]",
+      "human_verdict": "",
+      "final_verdict": "wrong"
+    },
+    {
+      "doc_id": "kestrel",
+      "field": "initial_monthly_base_rent",
+      "predicted": "$70,297.50",
+      "gold": "68250",
+      "confidence": "high",
+      "model_confidence": "high",
+      "citation": "exact",
+      "flag": "",
+      "auto_verdict": "wrong",
+      "detail": "70297.5 vs 68250.0",
+      "human_verdict": "",
+      "final_verdict": "wrong"
+    }
+  ]
+}

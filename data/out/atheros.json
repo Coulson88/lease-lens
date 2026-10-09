@@ -1,0 +1,192 @@
+{
+  "doc_id": "atheros",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 29.9,
+  "usage": {
+    "input_tokens": 79801,
+    "output_tokens": 4695
+  },
+  "chars": 220902,
+  "fields": {
+    "landlord": {
+      "value": "Prentiss Properties Acquisition Partners, L.P., a Delaware limited partnership",
+      "normalised": "Prentiss Properties Acquisition Partners, L.P.",
+      "quote": "Prentiss Properties Acquisition Partners, L.P., a Delaware limited partnership (\u201cLandlord\u201d)",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        6378,
+        6469
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Atheros Communications, Inc., a Delaware corporation",
+      "normalised": "Atheros Communications, Inc.",
+      "quote": "Atheros Communications, Inc., a Delaware corporation (\u201cTenant\u201d)",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        6475,
+        6538
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "5480 Great America Parkway, Santa Clara, California (the entire Building other than the Underground Parking Area; no suite or floor number given)",
+      "normalised": "5480 Great America Parkway, Santa Clara, CA",
+      "quote": "The building commonly known as 5480 Great America Parkway, Santa Clara, California.",
+      "confidence": "high",
+      "note": "Premises are defined as the Building other than the Underground Parking Area, within a Project that also includes 5450 and 5470 Great America Parkway.",
+      "span": [
+        2762,
+        2845
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "87,329 rentable square feet (includes Tenant's Share of the Cafeteria, deemed 2,276 RSF)",
+      "normalised": "87329",
+      "quote": "the Rentable Area of the Premises shall be deemed to be 87,329 rentable square feet",
+      "confidence": "medium",
+      "note": "The floor, lobby and podium components total 85,053 RSF; adding the 2,276 RSF Cafeteria share gives 87,329.",
+      "span": [
+        4819,
+        4902
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "commencement_date": {
+      "value": "Later of (a) June 1, 2005 or (b) the date Landlord delivers exclusive possession of the Premises in the Delivery Condition; to be confirmed by Commencement Notice",
+      "normalised": null,
+      "quote": "The Commencement Date shall be the later of (a) June 1, 2005 or (b) the date Landlord delivers exclusive possession of the Premises to Tenant in the Delivery Condition.",
+      "confidence": "low",
+      "note": "The Basic Lease Information lists June 1, 2005 'subject to the provisions of Article 3', and Article 3.1 makes the date conditional on delivery. Article 3.1 is operative.",
+      "span": [
+        7989,
+        8157
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "July 1, 2010 per the Basic Lease Information (assumes a June 1, 2005 Commencement Date). The Term is defined as five Lease Years plus one full calendar month, which would give June 30, 2010. The date moves if Commencement is delayed.",
+      "normalised": "2010-07-01",
+      "quote": "July 1, 2010, unless sooner terminated or extended pursuant to the terms hereof.",
+      "confidence": "low",
+      "note": "The stated July 1, 2010 date is inconsistent with the Term definition (5 Lease Years and 1 month = June 30, 2010 from a June 1, 2005 start) and with the rent schedule, which ends June 30, 2010. The date also floats with Commencement.",
+      "span": [
+        2955,
+        3035
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$91,695.45 per month, from October 1, 2005 to May 31, 2006. Base Rent is abated (none) from June 1 to September 30, 2005. It may increase if Tenant elects the additional Landlord's Contribution.",
+      "normalised": "91695.45",
+      "quote": "91,695.45",
+      "confidence": "medium",
+      "note": "The first scheduled period (June 1 \u2013 Sept 30, 2005) is 'None'; $91,695.45 is the first payable monthly rent. Base Rent is subject to increase under Article 8 of the Work Letter (up to $436,645 additional Landlord's Contribution, amortized at 9%).",
+      "span": [
+        2243,
+        2252
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule on each June 1: $91,695.45 (Oct 2005\u2013May 2006), $96,061.90 (2006\u201307), $100,428.35 (2007\u201308), $104,794.80 (2008\u201309), $109,161.25 (June 2009\u2013June 2010). Each step is about $4,366.45 per month. Dates shift day-for-day if Commencement is after June 1, 2005.",
+      "normalised": "Stepped schedule, +$4,366.45/month each June 1",
+      "quote": "The Base Rent shall be the amounts set forth below subject to increase as provided in Article 8 of the Work Letter.",
+      "confidence": "medium",
+      "note": "The step amounts are taken from the rent table. The $4,366.45 step is calculated by difference. Base Rent may also increase under Work Letter Article 8.",
+      "span": [
+        2021,
+        2136
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "Two options to extend, each for three (3) years (First and Second Renewal Periods). Base Rent is 95% of Market Rent, determined by Landlord's notice and negotiation, then baseball arbitration if needed. The options are personal to the original Tenant and Permitted Transferees.",
+      "normalised": "Two 3-year options at 95% of Market Rent",
+      "quote": "an option to extend the Term of this Lease, for a period of three (3) years",
+      "confidence": "medium",
+      "note": "Section 22.1 grants both options. Section 22.7 says there is no option beyond the Second Renewal Period.",
+      "span": [
+        125218,
+        125293
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "9 months before the commencement of the applicable Renewal Period (i.e. 9 months before expiry of the then-current term)",
+      "normalised": "9",
+      "quote": "given not later than nine(9) months prior to the First Renewal Period Commencement Date or Second Renewal Period Commencement Date, as applicable",
+      "confidence": "high",
+      "note": "Applies to each of the two options.",
+      "span": [
+        126312,
+        126457
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "Tenant may terminate effective at the end of the 40th full calendar month of the Term (Cancellation Date). It must give written Cancellation Notice by the end of the 28th full calendar month and pay the Cancellation Fee by the end of the 35th full calendar month. The fee is $440,653.54 plus the unamortized Landlord's Contribution and leasing commissions (straight-line, 9% interest). The right is lost if an Event of Default exists.",
+      "normalised": "Termination right at month 40; notice by month 28; fee by month 35 ($440,653.54 + unamortized LC and commissions)",
+      "quote": "Tenant shall have the right to terminate the Lease as of the end of the fortieth (40th) full calendar month of the Term (the \u201cCancellation Date\u201d).",
+      "confidence": "medium",
+      "note": "Exhibit C's example fee ($951,668.58) uses a different build-up (three months' rent, prorated abatement, unamortized items) than the $440,653.54 in Section 3.3. Section 3.3 also contains a stray cross-reference to 'Section 11'. The fee also rises if the additional Landlord's Contribution is taken.",
+      "span": [
+        11333,
+        11479
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$109,161.25, payable on Tenant's execution of the Lease",
+      "normalised": "109161.25",
+      "quote": "$109,161.25",
+      "confidence": "medium",
+      "note": "The amount is in Basic Lease Information item Q. Article 20 says it is paid on execution and does not specify cash or a letter of credit.",
+      "span": [
+        5272,
+        5283
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    }
+  }
+}

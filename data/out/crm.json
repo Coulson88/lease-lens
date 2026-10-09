@@ -1,0 +1,192 @@
+{
+  "doc_id": "crm",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 38.0,
+  "usage": {
+    "input_tokens": 91359,
+    "output_tokens": 5997
+  },
+  "chars": 252314,
+  "fields": {
+    "landlord": {
+      "value": "TMG/ONE MARKET, L.P., a Delaware limited partnership",
+      "normalised": "TMG/ONE MARKET, L.P.",
+      "quote": "TMG/ONE MARKET, L.P., a Delaware limited partnership",
+      "confidence": "high",
+      "note": "Original lease named TMG/One Market, L.P. and Crossmarket, LLC as co-landlords; amendments state Crossmarket conveyed its entire interest to TMG, so TMG is the sole current landlord.",
+      "span": [
+        417,
+        469
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "SALESFORCE.COM, INC., a Delaware corporation",
+      "normalised": "SALESFORCE.COM, INC.",
+      "quote": "SALESFORCE.COM, INC., a Delaware corporation",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        537,
+        581
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "The Landmark @ One Market, One Market Street, San Francisco, California. Premises are portions of the 3rd floor (Bayside), 4th floor (Cityside) and 1st floor, plus basement storage space. No suite number is given.",
+      "normalised": "The Landmark @ One Market, One Market Street, San Francisco, CA (3rd, 4th and 1st floor portions plus basement storage)",
+      "quote": "commonly known as The Landmark @ One Market, One Market Street, San Francisco, California",
+      "confidence": "medium",
+      "note": "No ZIP code or suite number in the lease. The floor portions are described in the Amended and Restated Basic Lease Information (Third Amendment).",
+      "span": [
+        6706,
+        6795
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "46,901 square feet (3rd floor 28,583; 4th floor 13,562; 1st floor 4,756), excluding about 3,500 sq ft of basement storage",
+      "normalised": "46901",
+      "quote": "the Premises shall contain a total of 46,901 square feet of Rentable Area in the Building",
+      "confidence": "medium",
+      "note": "Third Amendment (Aug 27, 2003) is operative. It reduced the original 58,988 sq ft, and the later 54,092 sq ft, after surrender of 7,191 sq ft of first-floor space. The components sum to 46,901. Original lease area is superseded.",
+      "span": [
+        239132,
+        239221
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "commencement_date": {
+      "value": "May 1, 2001 (Commencement Date). Possession Date was January 15, 2001.",
+      "normalised": "2001-05-01",
+      "quote": "The Possession date is January 15, 2001. The Commencement Date shall be May 1, 2001.",
+      "confidence": "medium",
+      "note": "Original fixed date of 120 days after Possession was changed to 105 days by the First Amendment. Confirmation of Lease Term and the Amended BLI state May 1, 2001. The Term itself technically began on the earlier Initial Possession Date (June 23, 2000), and 105 days after Jan 15, 2001 computes to Apr 30, 2001, so the stated May 1 date was used.",
+      "span": [
+        231222,
+        231306
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "May 1, 2011 (ten years from the Commencement Date), excluding the 5-year extension option",
+      "normalised": "2011-05-01",
+      "quote": "continuing until May 1, 2011, which is ten (10) years from the Commencement Date",
+      "confidence": "medium",
+      "note": "The Amended BLI states May 1, 2011. The Schedule 1 rent table ends April 30, 2011, so the last day of the term may be April 30, 2011 (day-count ambiguity).",
+      "span": [
+        248980,
+        249060
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$329,239.30 per month, the first period in the operative Amended and Restated Base Rent schedule (Sept 1, 2003 to Jan 31, 2004)",
+      "normalised": "329239.30",
+      "quote": "329,239.30",
+      "confidence": "low",
+      "note": "The Third Amendment replaced the original rent schedule, so this is the first period in the operative schedule. Earlier rent was different: Start Rent of $151,387.93/month from Oct 28, 2000, then $229,306.60/month, then $3,797,086/yr (about $316,424/month) from the Commencement Date, per the First Amendment. The Second Amendment added small increases of $398.80/month. 'First rent period' is ambiguous because of the amendments.",
+      "span": [
+        251243,
+        251253
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped annual schedule (Schedule 1 to the Amended BLI). Monthly rent steps down in early 2004 after the first-floor surrender. Annual rent is $3,629,440.14 for May 2004 to Apr 2005, $3,784,162.78 for May 2005 to Apr 2008, $3,858,059.75 for May 2008 to Apr 2009, and $3,826,075.97 for May 2009 to Apr 2011. Extended Term rent is the greater of the prior rent or fair market rent.",
+      "normalised": "Stepped schedule per Schedule 1, not a fixed percentage",
+      "quote": "Commencing on the Effective Date of the Third Amendment to Lease and continuing through the Initial Term, the Base Rent shall be as set forth in Schedule 1 to this Third Amendment to Lease.",
+      "confidence": "medium",
+      "note": "The final steps are lower than the preceding year, and rent for 2009 to 2011 is below the 2008 to 2009 rent. It is unclear whether the Second Amendment's small rent increases are folded into Schedule 1. Tenant also pays Escalation Rent for increases over the 2000 Base Year in operating expenses and taxes.",
+      "span": [
+        249499,
+        249688
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "One option to extend the Initial Term for 5 years. Rent is the greater of the prior rent or 100% of fair market rent. Tenant must also exercise the corresponding Annex Lease option at the same time, and no default may exist.",
+      "normalised": "1 x 5 years",
+      "quote": "Tenant shall have one (1) option (the \u201cExtension Option\u201d) to extend the Initial Term for an additional period of five (5) years",
+      "confidence": "medium",
+      "note": "Section 3.2 was not changed by the amendments.",
+      "span": [
+        41715,
+        41842
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "12 months before expiration of the Initial Term",
+      "normalised": "12",
+      "quote": "Tenant shall give notice to Landlord not less than twelve (12) months prior to the expiration of the Initial Term",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        41928,
+        42041
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "No voluntary early termination right for Tenant. Tenant can terminate only in limited cases: (1) after material casualty damage when repairs would finish in the last 12 months of the term (notice within 90 days); and (2) after a partial condemnation that materially impairs its use (notice within 30 days). No termination fee is stated.",
+      "normalised": "No voluntary termination right; casualty and condemnation rights only",
+      "quote": "then Tenant shall have the right, in its sole discretion, to terminate this Lease by notice to Landlord given within ninety (90) days after the date of such casualty.",
+      "confidence": "medium",
+      "note": "The Landlord's partial termination right (Section 2.2) and the conditional termination rights (Section 2.4) were deleted by the Third Amendment. The First Amendment confirms that no continuing Section 2.4 termination right exists.",
+      "span": [
+        91944,
+        92110
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$3,500,000.00, in cash or, at Tenant's option, a letter of credit. It may be reduced after an IPO and on meeting financial tests.",
+      "normalised": "3500000",
+      "quote": "$3,500,000.00",
+      "confidence": "high",
+      "note": "The amount is unchanged in the Amended BLI. The proportional reductions tied to Sections 2.2 and 2.4 were deleted. Section 26.2 reductions (20% after an IPO over $100M, plus further reductions) are conditional.",
+      "span": [
+        3015,
+        3028
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

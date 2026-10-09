@@ -1,0 +1,37 @@
+doc_id,field,predicted,gold,confidence,model_confidence,citation,flag,auto_verdict,detail,human_verdict,final_verdict
+alder,landlord,"Alder Street Holdings, LLC","Alder Street Holdings, LLC",high,high,exact,,correct,,,correct
+alder,tenant,"Fernbank Software, Inc.","Fernbank Software, Inc.",high,high,exact,,correct,,,correct
+alder,premises_address,"Suite 210, 88 Alder Street, Portland, OR 97204","Suite 210, 88 Alder Street, Portland, Oregon 97204",high,high,exact,,correct,"numbers match, fuzzy 0.96",,correct
+alder,rentable_area_sqft,"6,120",6120,high,high,exact,,correct,,,correct
+alder,commencement_date,"January 1, 2022","January 1, 2022",high,high,exact,,correct,,,correct
+alder,expiration_date,"December 31, 2024","December 31, 2024",high,high,exact,,correct,,,correct
+alder,initial_monthly_base_rent,"$17,850.00",17850,high,high,exact,,correct,,,correct
+alder,rent_escalation,$0.75 per rentable sq ft per year on each anniversary,$0.75 per rentable square foot per year,high,high,exact,,correct,"numbers match, fuzzy 0.72",,correct
+alder,renewal_option,Two 3-year renewal options,Two 3-year options,high,high,exact,,correct,"numbers match, fuzzy 0.82",,correct
+alder,renewal_notice_months,6,6,high,high,exact,,correct,,,correct
+alder,early_termination,,none,high,high,no_quote,,both_blank,,,both_blank
+alder,security_deposit,"$35,700.00",none,low,medium,not_found,unverified: quote not found in source,false_positive,gold says not present,,false_positive
+harbourside,landlord,"Harbourside Office Partners, LLC","Harbourside Office Partners, LLC",high,high,exact,,correct,,,correct
+harbourside,tenant,"Northwind Analytics, Inc.","Northwind Analytics, Inc.",high,high,whitespace,,correct,,,correct
+harbourside,premises_address,"Suite 400, 1200 Harbor Boulevard, Redwood City, CA 94063","Suite 400, 1200 Harbor Boulevard, Redwood City, California 94063",high,high,exact,,correct,"numbers match, fuzzy 0.93",,correct
+harbourside,rentable_area_sqft,"18,450",18450,high,high,exact,,correct,,,correct
+harbourside,commencement_date,"April 1, 2021","Later of April 1, 2021 or delivery of Premises with Tenant Improvements substantially complete",low,high,not_found,unverified: quote not found in source,partial,one answer is a fragment of the other,,partial
+harbourside,expiration_date,"March 31, 2026","March 31, 2026",high,high,exact,,correct,,,correct
+harbourside,initial_monthly_base_rent,"$46,125.00",46125,medium,high,exact,value not visible in quote (derived or calculated),correct,,,correct
+harbourside,rent_escalation,3% on each anniversary of the Commencement Date,3% annually on anniversary of Commencement Date,high,high,exact,,correct,"numbers match, fuzzy 0.84",,correct
+harbourside,renewal_option,Two options of five years each,One 5-year option at Fair Market Rent,medium,high,exact,value not visible in quote (derived or calculated),wrong,"numbers differ [2.0, 5.0] vs [1.0, 5.0]",,wrong
+harbourside,renewal_notice_months,9,9,high,high,exact,,correct,,,correct
+harbourside,early_termination,,none,high,high,no_quote,,both_blank,,,both_blank
+harbourside,security_deposit,"$92,250.00",92250,high,high,exact,,correct,,,correct
+kestrel,landlord,Kestrel Logistics Properties LP,Kestrel Logistics Properties LP,high,high,exact,,correct,,,correct
+kestrel,tenant,Brightline Fulfilment Corp.,Brightline Fulfilment Corp.,high,high,exact,,correct,,,correct
+kestrel,premises_address,"Building C, 4400 Commerce Parkway, Reno, NV 89502","4400 Commerce Parkway, Building C, Reno, Nevada 89502",high,high,exact,,correct,"numbers match, fuzzy 0.73",,correct
+kestrel,rentable_area_sqft,"126,000",126000,high,high,exact,,correct,,,correct
+kestrel,commencement_date,"August 1, 2019","August 1, 2019",high,high,exact,,correct,,,correct
+kestrel,expiration_date,"July 31, 2029","July 31, 2029",high,high,exact,,correct,,,correct
+kestrel,initial_monthly_base_rent,"$70,297.50",68250,high,high,exact,,wrong,70297.5 vs 68250.0,,wrong
+kestrel,rent_escalation,"Stepped for years 1-3, then 3% annually",Stepped years 1-3 then 3% annually,medium,high,exact,value not visible in quote (derived or calculated),correct,"numbers match, fuzzy 0.94",,correct
+kestrel,renewal_option,None,none,high,high,exact,,both_blank,,,both_blank
+kestrel,renewal_notice_months,,none,high,high,no_quote,,both_blank,,,both_blank
+kestrel,early_termination,Tenant may terminate at end of month 84 on 12 months' notice; fee of 6 months' rent plus unamortised leasing costs,"Terminate at end of month 84, 12 months notice, fee 6 months rent plus unamortised leasing costs",medium,high,exact,value not visible in quote (derived or calculated),correct,"numbers match, fuzzy 0.92",,correct
+kestrel,security_deposit,"$204,750.00 letter of credit",204750,high,high,exact,,correct,,,correct

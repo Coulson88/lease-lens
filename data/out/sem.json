@@ -1,0 +1,186 @@
+{
+  "doc_id": "sem",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 22.4,
+  "usage": {
+    "input_tokens": 29408,
+    "output_tokens": 3549
+  },
+  "chars": 73990,
+  "fields": {
+    "landlord": {
+      "value": "Old Gettysburg Associates (acting by its general partner, Select Capital Commercial Properties, Inc.)",
+      "normalised": "Old Gettysburg Associates",
+      "quote": "Landlord: Old Gettysburg Associates",
+      "confidence": "medium",
+      "note": "",
+      "span": [
+        61485,
+        61520
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "tenant": {
+      "value": "Select Medical Corporation",
+      "normalised": "Select Medical Corporation",
+      "quote": "Tenant: Select Medical Corporation",
+      "confidence": "high",
+      "note": "No guarantor (Item 4: None).",
+      "span": [
+        61673,
+        61707
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "Suite 201, Executive Park West I, 4718 Old Gettysburg Rd, Mechanicsburg, PA 17055",
+      "normalised": "Suite 201, 4718 Old Gettysburg Rd, Mechanicsburg, PA 17055",
+      "quote": "Executive Park West I, 4718 Old Gettysburg Rd, Mechanicsburg, PA 17055",
+      "confidence": "medium",
+      "note": "Suite 201 comes from the separate 'Premises: Suite 201' line in the Basic Lease Information.",
+      "span": [
+        277,
+        347
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "Approx. 1,606 rentable square feet",
+      "normalised": "1606",
+      "quote": "Approx. 1,606",
+      "confidence": "high",
+      "note": "Stated as approximate. Building is approx. 36,626 RSF; tenant's share is 4.4%.",
+      "span": [
+        549,
+        562
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "March 1, 2007 per the Basic Lease Information. Under Section 2.01 the Commencement Date is the earlier of (a) that date, provided Landlord has delivered the Premises with the Building Standard improvements substantially completed, or (b) Tenant's occupancy for the conduct of its business.",
+      "normalised": null,
+      "quote": "The Commencement Date shall be the earlier of the date:",
+      "confidence": "low",
+      "note": "The stated date of 3/1/07 is conditional under Section 2.01. The lease was signed 3/27/2007 (Landlord) and 4/1/2007 (Tenant), after that date, and no delivery or occupancy date is given.",
+      "span": [
+        5412,
+        5467
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "February 28, 2012",
+      "normalised": "2012-02-28",
+      "quote": "Unless sooner terminated, the Term shall end at midnight on the Expiration Date specified in the Basic Lease Information.",
+      "confidence": "medium",
+      "note": "The Basic Lease Information gives the Expiration Date as 2/28/12. It is a fixed date and is not tied to the Commencement Date.",
+      "span": [
+        5826,
+        5947
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "initial_monthly_base_rent": {
+      "value": "$2,494.65 per month (Initial Annual Base Rental of $29,935.84 divided by 12)",
+      "normalised": "2494.65",
+      "quote": "1/12 of the Annual Base Rental specified in the Basic Lease Information",
+      "confidence": "medium",
+      "note": "Calculated as $29,935.84 / 12 = $2,494.65. The lease's 'First Rent Check' is $2,494.63, 2 cents lower. $18.64/RSF x 1,606 RSF = $29,935.84, which matches the annual figure.",
+      "span": [
+        9190,
+        9261
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Annual Base Rental increases 3.5% (cumulative) on each anniversary of the Commencement Date.",
+      "normalised": "3.5% cumulative annual increase on each anniversary of Commencement Date",
+      "quote": "the then current Annual Base Rental shall be increased by the Annual Base Rental Rate Increase (cumulative) as specified in the Basic Lease Information.",
+      "confidence": "medium",
+      "note": "The 3.5% figure is in Basic Lease Information item 14 ('Annual Base Rental Increase (cumulative)'). Section 5.02 sets the timing. The two clauses were combined.",
+      "span": [
+        11072,
+        11224
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "None",
+      "normalised": "None",
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal or extension option appears in the lease. Section 20.03 refers to holdover being subject to terms 'except any right to renew or expand', but grants no such right.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "There is no renewal option, so no notice period applies.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "None. The lease gives Tenant no right to terminate early. Landlord has termination rights on casualty (Art. 16), on a Tenant request to assign or sublet (Art. 18), and on default. Either party may terminate on condemnation that renders the Premises untenantable (Art. 17).",
+      "normalised": "No tenant early termination right (condemnation termination available to either party)",
+      "quote": "If the Premises shall be taken or condemned, in whole or in part, for any public purpose to such an extent as to render said Premises untenantable, this Lease shall, at the option of Landlord or Tenant, forthwith terminate.",
+      "confidence": "medium",
+      "note": "No tenant termination option, fee or notice mechanism was found. The condemnation clause is the only provision that lets Tenant terminate, and it applies only if the Premises become untenantable.",
+      "span": [
+        31744,
+        31967
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$0 (no security deposit required)",
+      "normalised": "0",
+      "quote": "Security Deposit: 0",
+      "confidence": "high",
+      "note": "Basic Lease Information item 18. Article 26 refers to a deposit 'if any'. The only amount due at signing is the first rent check of $2,494.63.",
+      "span": [
+        949,
+        969
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

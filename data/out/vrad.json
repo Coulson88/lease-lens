@@ -1,0 +1,189 @@
+{
+  "doc_id": "vrad",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 22.8,
+  "usage": {
+    "input_tokens": 42921,
+    "output_tokens": 3545
+  },
+  "chars": 115260,
+  "fields": {
+    "landlord": {
+      "value": "465 Fairchild Holdings, LLC, a California limited liability company",
+      "normalised": "465 Fairchild Holdings, LLC",
+      "quote": "465 FAIRCHILD HOLDINGS, LLC,",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        534,
+        562
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Virtual Radiologic Corporation, a Delaware corporation",
+      "normalised": "Virtual Radiologic Corporation",
+      "quote": "VIRTUAL RADIOLOGIC CORPORATION,",
+      "confidence": "high",
+      "note": "Rider No. 1 misspells the name as 'VITRUAL RADIOLOGIC CORPORATION'; the main lease and signature block use the correct spelling.",
+      "span": [
+        704,
+        735
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "465 Fairchild Drive, Suite 203, Mountain View, CA 94043",
+      "normalised": "465 Fairchild Drive, Suite 203, Mountain View, CA 94043",
+      "quote": "465 Fairchild Drive",
+      "confidence": "medium",
+      "note": "Suite 203 comes from the Premises line in the Basic Lease Information. The city, state and zip come from the Building line.",
+      "span": [
+        218,
+        237
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rentable_area_sqft": {
+      "value": "2,442 rentable square feet (Suite 203)",
+      "normalised": "2442",
+      "quote": "203 2,442",
+      "confidence": "high",
+      "note": "The Basic Lease Information gives the figure in r.s.f. Paragraph 2(b) says the stated square footage is final and binding, though Landlord may remeasure the Building.",
+      "span": [
+        933,
+        942
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "Scheduled Commencement Date is September 1, 2007. The Term commences on the later of that date and delivery of the Premises with Landlord's Tenant Improvements substantially complete. If Tenant takes approved early occupancy (Early Occupancy Date August 1, 2007), the Term commences on the date of occupancy.",
+      "normalised": null,
+      "quote": "The Term shall commence on the later of (i) the Scheduled Commencement Date, and (ii) if this Lease provides that Landlord is to construct any improvements in and to the Premises prior to the Scheduled Commencement Date, on such date Landlord delivers possession of the Premises with such improvements substantially complete (subject to punchlist items)",
+      "confidence": "low",
+      "note": "The actual Commencement Date is conditional. It depends on TI delivery and on whether Tenant takes early occupancy from August 1, 2007 under Para 3(b). The Rent Commencement Date is fixed at September 1, 2007. No commencement amendment is in the text.",
+      "span": [
+        10549,
+        10902
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "August 30, 2012 (five-year Lease Term)",
+      "normalised": "2012-08-30",
+      "quote": "EXPIRATION DATE:",
+      "confidence": "medium",
+      "note": "The Basic Lease Information states August 30, 2012. A five-year term from September 1, 2007 would normally end August 31, 2012, and the Commencement Date is conditional. The stated date is used as written.",
+      "span": [
+        1342,
+        1358
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$4,395.60 per month ($52,747.20 per year)",
+      "normalised": "4395.60",
+      "quote": "$4,395.60 (per month); $52,747.20 (per year);",
+      "confidence": "high",
+      "note": "This is the first rent period, from the Commencement Date to the month of the first anniversary. Tenant pays no rent during the Early Occupancy Period.",
+      "span": [
+        1612,
+        1657
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped annual schedule of monthly Base Rent: $4,395.60 (Yr 1), $4,571.42 (Yr 2), $4,754.28 (Yr 3), $4,944.45 (Yr 4), $5,142.23 (Yr 5), about 4% per year. Tenant also pays its 3.96% share of increases in Operating Expenses and Property Taxes over a 2007 base year.",
+      "normalised": "Stepped schedule, approx. 4% annual increases",
+      "quote": "$4,571.42 (per month); $54,857.04 (per year);",
+      "confidence": "medium",
+      "note": "The ~4% rate is my own calculation from the stated steps. The lease does not state a percentage. Adjustment dates fall on the first of the month containing each anniversary of the Commencement Date.",
+      "span": [
+        1890,
+        1935
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "One (1) option to extend the Term for one five-year period. Rent is 100% of fair market rent, and not less than the then-current Base Rent. The option is personal to the named Tenant and any Permitted Transferee.",
+      "normalised": "One 5-year extension option at fair market rent (floor: current Base Rent)",
+      "quote": "Tenant shall have the right to extend the Term of this Lease, one (1) time for one (1), five (5)-year period(s)",
+      "confidence": "medium",
+      "note": "Set out in Rider No. 1, Para 39, which controls over the Lease in a conflict. Conditions: Tenant not in default, and the option is void if more than 50% of the Premises is sublet to a non-Permitted Transferee.",
+      "span": [
+        110851,
+        110962
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_notice_months": {
+      "value": "Not earlier than 12 months and not later than 9 months before expiration of the Term (minimum 9 months)",
+      "normalised": "9",
+      "quote": "not earlier than twelve (12) months, and not later than nine (9) months, before the expiration of the Term of this Lease",
+      "confidence": "high",
+      "note": "The notice window is 12 to 9 months before expiry. 9 is the latest permitted notice. After Landlord proposes the rent, Tenant must also respond within 15 days with a Binding Notice or Rejection Notice.",
+      "span": [
+        111070,
+        111190
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "None. The lease grants Tenant no right to terminate early. Landlord, not Tenant, has termination rights on a proposed assignment or sublease of all or substantially all of the Premises (Para 9(b)), and either party may terminate after casualty (Para 15).",
+      "normalised": "None for Tenant",
+      "quote": null,
+      "confidence": "medium",
+      "note": "No tenant termination option was found in the lease or Rider No. 1. The tenant could not rely on a termination right under Para 15 (destruction), where either party may terminate only in the circumstances stated.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$5,000.00",
+      "normalised": "5000",
+      "quote": "$5,000.00",
+      "confidence": "high",
+      "note": "Para 25 requires Tenant to pay the Security Deposit specified in the Basic Lease Information upon signing. It is a cash deposit with no interest. No letter of credit is mentioned.",
+      "span": [
+        2892,
+        2901
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

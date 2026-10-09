@@ -1,0 +1,183 @@
+{
+  "doc_id": "ampg",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 18.3,
+  "usage": {
+    "input_tokens": 32365,
+    "output_tokens": 3004
+  },
+  "chars": 82432,
+  "fields": {
+    "landlord": {
+      "value": "Stephen J. Faber, as Trustee of the Revocable Trust of Stephen J. Faber dated August 29, 2017",
+      "normalised": "Stephen J. Faber, as Trustee of the Revocable Trust of Stephen J. Faber dated August 29, 2017",
+      "quote": "STEPHEN J. FABER, AS TRUSTEE OF THE REVOCABLE TRUST OF STEPHEN J. FABER DATED AUGUST 29, 2017 (\u201cLandlord\u201d)",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        3717,
+        3823
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Amplitech Group, Inc., a Nevada corporation",
+      "normalised": "Amplitech Group, Inc.",
+      "quote": "AMPLITECH GROUP, INC., a Nevada corporation (\u201cTenant\u201d)",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        3828,
+        3882
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "120 Raynor Avenue, Ronkonkoma, New York 11779 (the Land and the Building; no suite/floor \u2013 single-tenant building)",
+      "normalised": "120 Raynor Avenue, Ronkonkoma, NY 11779",
+      "quote": "The building commonly known as 120 Raynor Avenue, Ronkonkoma, New York 11779.",
+      "confidence": "high",
+      "note": "Premises are defined as 'The Land and the Building'; Tenant's Share is 100%.",
+      "span": [
+        1757,
+        1834
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": null,
+      "normalised": null,
+      "quote": null,
+      "confidence": "high",
+      "note": "No square footage is stated in the lease text provided; Exhibit A (The Land) contains no description.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "September 15, 2019",
+      "normalised": "2019-09-15",
+      "quote": "The Commencement Date shall be September 15, 2019 (the \u201cCommencement Date\u201d).",
+      "confidence": "high",
+      "note": "Basic Lease Information item E defines it as the date Landlord delivers possession, but Section 3.1 fixes a date and Section 1.1 says the detailed provisions control; Rent Commencement Date is also 9/15/2019.",
+      "span": [
+        4921,
+        4997
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "September 30, 2024",
+      "normalised": "2024-09-30",
+      "quote": "F. Expiration Date:\nSeptember 30, 2024",
+      "confidence": "high",
+      "note": "Consistent with Term of approximately five years and final rent period ending 9/30/24 in Exhibit B.",
+      "span": [
+        1935,
+        1973
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$7,500.00 per month ($90,000.00 per annum) for 9/15/2019 to 12/31/2019",
+      "normalised": "7500.00",
+      "quote": "9/15/19 to 12/31/19\n$90,000.00\n$7,500.00",
+      "confidence": "medium",
+      "note": "Stated directly in Exhibit B Rent Schedule; monthly figure given, no division needed.",
+      "span": [
+        82180,
+        82220
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule in Exhibit B: $7,500/mo through 12/31/2020; $7,725.00/mo from 1/1/2021; $7,956.75 from 1/1/2022; $8,195.45 from 1/1/2023; $8,441.31 from 1/1/2024 to 9/30/2024 (approx. 3% annual increases from 2021). Tenant also pays Additional Rent for its share of Real Estate Tax increases over 2019 base year taxes.",
+      "normalised": "Stepped schedule, ~3% per year from 1/1/2021",
+      "quote": "The Base Rent shall be the amounts set forth on the Base Rent Schedule attached hereto as Exhibit B, subject to such increases as may be provided herein.",
+      "confidence": "medium",
+      "note": "Step amounts taken from Exhibit B; the ~3% rate is observed from the figures, not stated in the lease.",
+      "span": [
+        1572,
+        1725
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "None",
+      "normalised": "None",
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal or extension option appears in the lease; Article 18 states a holdover tenant has no right to renew.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal option, so no notice period.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "No discretionary early termination right for Tenant. Tenant may terminate only on casualty/condemnation events: (i) if Premises substantially destroyed and Tenant finds rebuilding uneconomic (notice within 60 days of casualty, Section 14.4); (ii) if Landlord fails to substantially repair within 9 months of casualty notice (Tenant notice within 30 days after that period, Section 14.5); (iii) condemnation that adversely impedes access or Tenant's ability to operate (Sections 15.2/15.3). No termination fee is stated.",
+      "normalised": "None (voluntary); casualty/condemnation termination rights only",
+      "quote": "within nine (9) months of the date that Tenant notifies Landlord of the casualty, Tenant shall have the option to terminate the Lease.",
+      "confidence": "medium",
+      "note": "No fee or voluntary break option found; Section 14.4 wording is garbled ('notice to Tenant') but evidences a Tenant election.",
+      "span": [
+        49899,
+        50033
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$15,000.00",
+      "normalised": "15000.00",
+      "quote": "N. Security Deposit:\n$15,000.00",
+      "confidence": "high",
+      "note": "Cash/LC form not specified; payable on Tenant's execution of the Lease (Article 19).",
+      "span": [
+        3211,
+        3242
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

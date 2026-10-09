@@ -1,0 +1,21 @@
+TEST FIXTURE ONLY. Synthetic lease written to exercise the pipeline. Not a real document.
+
+INDUSTRIAL LEASE AGREEMENT
+
+This Lease is made as of June 15, 2019 between KESTREL LOGISTICS PROPERTIES LP ("Landlord") and BRIGHTLINE FULFILMENT CORP. ("Tenant").
+
+Section 1.1 Premises. The building located at 4400 Commerce Parkway, Building C, Reno, Nevada 89502, containing approximately 126,000 square feet.
+
+Section 1.2 Term. Ten (10) years commencing on August 1, 2019 and ending July 31, 2029.
+
+Section 1.3 Monthly Base Rent.
+Months 1-12: $68,250.00
+Months 13-24: $70,297.50
+Months 25-36: $72,406.43
+Thereafter, Monthly Base Rent shall increase by three percent (3%) annually.
+
+Section 1.4 Security Deposit. An irrevocable letter of credit in the amount of $204,750.00.
+
+Section 18. Early Termination. Tenant may terminate this Lease effective as of the last day of the eighty-fourth (84th) month of the Term by giving Landlord not less than twelve (12) months' prior written notice and paying a termination fee equal to six (6) months of the then-current Monthly Base Rent plus unamortized leasing costs.
+
+The Lease contains no option to renew or extend the Term.

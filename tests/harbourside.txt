@@ -1,0 +1,20 @@
+TEST FIXTURE ONLY. Synthetic lease written to exercise the pipeline. Not a real document.
+
+OFFICE LEASE
+
+BASIC LEASE INFORMATION
+
+Landlord: Harbourside Office Partners, LLC, a Delaware limited liability company
+Tenant: Northwind Analytics, Inc., a California corporation
+Premises: Suite 400, 1200 Harbor Boulevard, Redwood City, California 94063
+Rentable Area of Premises: approximately 18,450 rentable square feet
+
+1. TERM. The Term shall commence on the later of (a) April 1, 2021, or (b) the date Landlord delivers the Premises with the Tenant Improvements substantially complete (the "Commencement Date"), and shall expire on March 31, 2026, unless sooner terminated.
+
+2. BASE RENT. Tenant shall pay annual Base Rent of $553,500.00 for the first Lease Year, payable in equal monthly installments. Base Rent shall increase by three percent (3%) on each anniversary of the Commencement Date.
+
+3. OPTION TO EXTEND. Tenant shall have one (1) option to extend the Term for a period of five (5) years at Fair Market Rent, exercisable by written notice delivered not less than nine (9) months prior to the expiration of the Term.
+
+4. SECURITY DEPOSIT. Concurrently with execution of this Lease, Tenant shall deposit with Landlord the sum of Ninety Two Thousand Two Hundred Fifty Dollars ($92,250.00).
+
+5. RIGHT OF FIRST OFFER. Tenant shall have a right of first offer on any space on the fourth floor of the Building.

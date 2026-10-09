@@ -1,0 +1,15 @@
+TEST FIXTURE ONLY. Synthetic lease written to exercise the pipeline. Not a real document.
+
+OFFICE BUILDING LEASE
+
+Landlord: ALDER STREET HOLDINGS, LLC
+Tenant: Fernbank Software, Inc.
+Premises: Suite 210, 88 Alder Street, Portland, Oregon 97204, consisting of 6,120 rentable square feet.
+
+Term: Commencing January 1, 2022 and expiring December 31, 2024.
+
+Monthly Base Rent: $17,850.00 per month for the first twelve months, increasing by $0.75 per rentable square foot per annum on each anniversary of the Commencement Date.
+
+Renewal: Tenant shall have two (2) options to renew the Term, each for three (3) years, upon written notice given at least six (6) months before expiration.
+
+No security deposit shall be required under this Lease.

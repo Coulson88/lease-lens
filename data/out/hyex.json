@@ -1,0 +1,186 @@
+{
+  "doc_id": "hyex",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 23.6,
+  "usage": {
+    "input_tokens": 38814,
+    "output_tokens": 3695
+  },
+  "chars": 104733,
+  "fields": {
+    "landlord": {
+      "value": "Schnitzer Properties, LLC, an Oregon limited liability company",
+      "normalised": "Schnitzer Properties, LLC",
+      "quote": "made between Schnitzer Properties, LLC, an Oregon limited liability company",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        241,
+        316
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Healthy Extracts Inc., a Nevada corporation",
+      "normalised": "Healthy Extracts Inc.",
+      "quote": "Healthy Extracts Inc., a Nevada corporation",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        335,
+        378
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "7375 Commercial Way, Suite 125, Henderson, Nevada 89011 (Building 7375, Henderson Commerce Center II)",
+      "normalised": "7375 Commercial Way, Suite 125, Henderson, NV 89011",
+      "quote": "7375 Commercial Way, Suite 125, Henderson, Nevada 89011",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        525,
+        580
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 3,632 square feet",
+      "normalised": "3632",
+      "quote": "consisting of approximately 3,632 square feet within Building 7375",
+      "confidence": "high",
+      "note": "Stated as approximate; the lease does not label it 'rentable' specifically.",
+      "span": [
+        621,
+        687
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "February 4, 2022 (anticipated)",
+      "normalised": "2022-02-04",
+      "quote": "COMMENCEMENT DATE (ANTICIPATED): February 4, 2022",
+      "confidence": "medium",
+      "note": "Labelled 'anticipated'; Para 2.2 sets the actual date as the earlier of delivery or Tenant's possession/use if Landlord has not delivered by that date.",
+      "span": [
+        1094,
+        1143
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "January 31, 2025",
+      "normalised": "2025-01-31",
+      "quote": "EXPIRATION DATE: January 31, 2025",
+      "confidence": "high",
+      "note": "Consistent with the stated term of 35 months and 25 days (Feb 4-28, 2022 partial month plus 35 months from Mar 1, 2022).",
+      "span": [
+        1143,
+        1176
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$4,358.00 per month (full-month rate from March 1, 2022); a partial-month amount of $3,891.00 applies to Feb 4-28, 2022",
+      "normalised": "4358",
+      "quote": "$4,358.00 per month",
+      "confidence": "medium",
+      "note": "The first period (Feb 4-28, 2022) shows $3,891.00 with no 'per month' label; it matches a 25/28 proration of $4,358 (about $3,891.07), so $4,358 is taken as the first full monthly rent.",
+      "span": [
+        1470,
+        1489
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule: $4,358.00/month (Mar 2022-Jan 2023); $4,576.00/month (Feb 2023-Jan 2024); $4,805.00/month (Feb 2024-Jan 2025). Increases are about 5% per year.",
+      "normalised": "Stepped: 4358 -> 4576 -> 4805 per month",
+      "quote": "$4,576.00 per month",
+      "confidence": "medium",
+      "note": "The percentage is calculated, not stated in the lease. Tenant also pays Operating Expenses, initially estimated at $1,017.00 per month, as Additional Rent.",
+      "span": [
+        1571,
+        1590
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "None",
+      "normalised": "None",
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal or extension option appears in the Basic Lease Information, Paragraphs 1-31 or the Exhibits.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "There is no renewal option, so no notice period applies.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "No voluntary early termination right for Tenant. Tenant may terminate only after a partial condemnation that makes the Premises untenantable for more than 180 days, by written notice within 30 days after the Taking. No termination fee is stated. Landlord (not Tenant) has termination rights for casualty, demolition and recapture on a transfer request.",
+      "normalised": "No tenant option; condemnation-only termination right",
+      "quote": "then Tenant may terminate this Lease as of the date of such Taking by giving written notice to Landlord within thirty (30) days after the Taking",
+      "confidence": "medium",
+      "note": "Condemnation is the only tenant termination right found; the casualty clause (Para 15) gives termination rights to Landlord only.",
+      "span": [
+        52641,
+        52785
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "$17,466.00 cash security deposit, payable on execution of the Lease",
+      "normalised": "17466",
+      "quote": "$17,466.00",
+      "confidence": "high",
+      "note": "Para 6: Tenant pays the Basic Lease Information amount upon execution. Landlord may require an increase after repeated late payments (Para 18.4).",
+      "span": [
+        1704,
+        1714
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    }
+  }
+}

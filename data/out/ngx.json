@@ -1,0 +1,189 @@
+{
+  "doc_id": "ngx",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 23.9,
+  "usage": {
+    "input_tokens": 39694,
+    "output_tokens": 3609
+  },
+  "chars": 105976,
+  "fields": {
+    "landlord": {
+      "value": "Three Sisters Ranch Enterprises LLC, a California limited liability company",
+      "normalised": "Three Sisters Ranch Enterprises LLC",
+      "quote": "by and between Three Sisters Ranch Enterprises LLC, a California limited liability company (hereinafter called \u201cLandlord\u201d)",
+      "confidence": "high",
+      "note": "",
+      "span": [
+        5841,
+        5963
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "tenant": {
+      "value": "Advanced Analgesics, Inc., a California corporation",
+      "normalised": "Advanced Analgesics, Inc.",
+      "quote": "Advanced Analgesics, Inc, a California corporation (hereinafter called \u201cTenant\u201d)",
+      "confidence": "high",
+      "note": "Body of lease omits the period after 'Inc'; Basic Lease Information shows 'Advanced Analgesics, Inc.'.",
+      "span": [
+        5968,
+        6048
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "premises_address": {
+      "value": "969 Industrial Road, Suite C, San Carlos, California (San Carlos Business Park)",
+      "normalised": "969 Industrial Road, Suite C, San Carlos, CA",
+      "quote": "known as 969 Industrial Road, Suite C, San Carlos, California.",
+      "confidence": "high",
+      "note": "No zip code is given for the premises.",
+      "span": [
+        1021,
+        1083
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 4,812 square feet",
+      "normalised": "4812",
+      "quote": "That approximately 4,812\u00b1 square feet of rentable area",
+      "confidence": "high",
+      "note": "Stated as approximate (\u00b1). The Building is about 17,612 sq ft.",
+      "span": [
+        966,
+        1020
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "Conditional: Term Commencement Date is the earlier of tenant taking possession or Landlord's written notice that Tenant may occupy (Estimated Term Commencement Date: August 15, 2000). Early occupancy is permitted on or after August 1, 2000, subject to conditions.",
+      "normalised": null,
+      "quote": "Estimated Term Commencement Date:\n\nAugust 15, 2000. See Paragraph 2.",
+      "confidence": "low",
+      "note": "The actual date is set by \u00b62.A (existing improvements) as the earlier of possession or Landlord's notice. August 15, 2000 is only an estimate. Tenant may occupy from August 1, 2000 if conditions are met (Letter of Credit, payment).",
+      "span": [
+        1994,
+        2062
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "August 31, 2003 (three-year term)",
+      "normalised": "2003-08-31",
+      "quote": "The term of the lease shall be three (3) years with the expiration date being August 31, 2003.",
+      "confidence": "high",
+      "note": "The stated date is consistent with a mid-August 2000 start plus 3 years plus the remainder of the month under \u00b63. An actual commencement date other than Aug 15 could affect this under \u00b63, but the lease states the date expressly.",
+      "span": [
+        2564,
+        2658
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$21,654.00 per month (NNN), Months 1-12 at $4.50/sq.ft/mo.",
+      "normalised": "21654.00",
+      "quote": "Months 1 - 12: $4.50/sq.ft/mo.\nNNN = $21,654.00/mo.",
+      "confidence": "high",
+      "note": "Stated monthly figure. It equals 4,812 sq ft x $4.50. It excludes operating costs (est. $1,010.52/mo.). Rent for Aug 15-31, 2000 is quoted as $11,332.25 including CAM.",
+      "span": [
+        2693,
+        2744
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped annual schedule: Months 1-12 $4.50/sq.ft/mo. ($21,654.00/mo.); Months 13-24 $4.68/sq.ft/mo. ($22,520.16/mo.); Months 25-36 $4.87/sq.ft/mo. ($23,434.44/mo.). All NNN, so Tenant also pays its proportionate share of Basic Operating Cost.",
+      "normalised": "Stepped: $4.50 -> $4.68 -> $4.87 per sq ft per month (about 4% then 4.1% increases)",
+      "quote": "$4.68/sq.ft/mo. NNN = $22,520.16/mo.",
+      "confidence": "medium",
+      "note": "The schedule is in the Basic Lease Information. The percentage increases are my own calculation and are not stated in the lease.",
+      "span": [
+        2761,
+        2797
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "renewal_option": {
+      "value": "None. The lease grants no renewal or extension option. \u00b640 only sets conditions on any option Landlord may provide now or later.",
+      "normalised": "None",
+      "quote": "In the event that Landlord now or hereafter provides Tenant with any option to renew this Lease for any additional period after the expiration of the Term",
+      "confidence": "medium",
+      "note": "No operative renewal grant appears in the text provided. \u00b640 is conditional and hypothetical.",
+      "span": [
+        102479,
+        102633
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "None",
+      "normalised": null,
+      "quote": null,
+      "confidence": "medium",
+      "note": "No renewal option exists, so no notice period is specified.",
+      "span": null,
+      "citation": "no_quote",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "No voluntary early termination right. Tenant may terminate only after major casualty damage (repairs over 180 days, or Landlord failing to finish repairs in time). No termination fee is stated.",
+      "normalised": "None (casualty-only termination rights, \u00b624.C and 24.D)",
+      "quote": "Tenant shall have the right within ten (10) days after its receipt of notice of same from Landlord",
+      "confidence": "medium",
+      "note": "These are contingent casualty rights, not a discretionary termination option. Landlord has separate termination rights on a sublease request (\u00b621.A) and on casualty (\u00b624).",
+      "span": [
+        74391,
+        74489
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "security_deposit": {
+      "value": "Cash Security Deposit of $23,500 plus CAM, plus an Additional Security Deposit in the form of a standby Letter of Credit of $129,924.00 (six months' rent) as a condition of occupancy. The Letter of Credit is $135,120.96 for year 2 and $140,606.64 for year 3.",
+      "normalised": "23500",
+      "quote": "Twenty Three Thousand Five Hundred plus CAM ($23,500 plus CAM) [equal to last month\u2019s rent].",
+      "confidence": "medium",
+      "note": "The normalised figure is the cash deposit only. The separate $129,924.00 Letter of Credit is additional. The cash deposit is described as equal to last month's rent, but the Year 3 rent is $23,434.44, so the figures differ slightly. The early occupancy payment table lists Security Deposit $23,500.00.",
+      "span": [
+        3035,
+        3127
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    }
+  }
+}

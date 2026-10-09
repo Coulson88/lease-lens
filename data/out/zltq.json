@@ -1,0 +1,192 @@
+{
+  "doc_id": "zltq",
+  "model": "claude-sonnet-5-5",
+  "latency_s": 22.5,
+  "usage": {
+    "input_tokens": 63690,
+    "output_tokens": 3465
+  },
+  "chars": 175850,
+  "fields": {
+    "landlord": {
+      "value": "Crosstown Ventures II, LLC, a Delaware limited liability company",
+      "normalised": "Crosstown Ventures II, LLC",
+      "quote": "CROSSTOWN VENTURES II, LLC",
+      "confidence": "medium",
+      "note": "",
+      "span": [
+        190,
+        216
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "tenant": {
+      "value": "Juniper Medical, Inc., a Delaware corporation",
+      "normalised": "Juniper Medical, Inc.",
+      "quote": "JUNIPER MEDICAL, INC.",
+      "confidence": "medium",
+      "note": "",
+      "span": [
+        354,
+        375
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "premises_address": {
+      "value": "Saratoga Center, 4696-4698 Willow Road (Building One), Pleasanton, California 94588; Tenant's notice address given as 4698 Willow Road, Suite 100",
+      "normalised": "4698 Willow Road, Suite 100, Pleasanton, CA 94588 (Building: 4696-4698 Willow Road)",
+      "quote": "4696-4698 Willow Road,\nPleasanton, California (Building One)",
+      "confidence": "medium",
+      "note": "Suite 100 comes from Tenant's address block, not from the premises description. Exhibit A floor plan is blank in the text provided.",
+      "span": [
+        504,
+        564
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rentable_area_sqft": {
+      "value": "Approximately 16,837 rentable square feet",
+      "normalised": "16837",
+      "quote": "Approximately 16,837 rentable square feet located in the Building",
+      "confidence": "high",
+      "note": "Area is stated as agreed in Section 1.19. Building is about 42,620 RSF and the Project about 84,320 RSF.",
+      "span": [
+        584,
+        649
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "commencement_date": {
+      "value": "The earlier of (i) April 1, 2007, or (ii) the date the Tenant Improvements are Substantially Complete (per Exhibit B)",
+      "normalised": null,
+      "quote": "The earlier of (i) April 1, 2007, or (ii) the date that the Tenant Improvements (as defined in Exhibit B) are Substantially Complete",
+      "confidence": "low",
+      "note": "Conditional date. April 1, 2007 is the outside date. Exhibit B Section 10 moves the date if Tenant Delay delays completion. Exhibit C confirmation is blank.",
+      "span": [
+        857,
+        989
+      ],
+      "citation": "exact",
+      "grounded": true,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "expiration_date": {
+      "value": "Three-year term: the day before the 3rd anniversary of the Term Commencement Date (or the last day of that month if commencement is not on the 1st). If commencement were April 1, 2007, this would be March 31, 2010.",
+      "normalised": null,
+      "quote": "The calendar day preceding the third (3rd) anniversary of the Term Commencement Date",
+      "confidence": "low",
+      "note": "Depends on the conditional Term Commencement Date. The March 31, 2010 example is illustrative only and is not stated in the lease.",
+      "span": [
+        1040,
+        1124
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "low",
+      "flag": ""
+    },
+    "initial_monthly_base_rent": {
+      "value": "$35,357.70 per month ($2.10 per RSF per month x 16,837 RSF)",
+      "normalised": "35357.70",
+      "quote": "Term Commencement Date to end of calendar Month 12\n\n$2.10",
+      "confidence": "medium",
+      "note": "Calculated: the lease gives a monthly rate per RSF, so $2.10 x 16,837 = $35,357.70. This matches the $35,357.70 used in the Section 5.14(c) security deposit reduction. The first month's Base Rent is due on signing (Section 3.3(a)).",
+      "span": [
+        1558,
+        1615
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "rent_escalation": {
+      "value": "Stepped schedule of monthly Base Rent per RSF: $2.10 for months 1-12, $2.16 for months 13-24, $2.23 from month 24 through the Term Expiration Date. The lease is a gross lease with a base year (2007). Tenant also pays its proportionate share of Basic Operating Cost increases over the Base Year, starting January 1, 2008.",
+      "normalised": "Stepped: $2.10 / $2.16 / $2.23 per RSF per month (approx. +2.9% then +3.2%)",
+      "quote": "Month 13 through end of calendar month 24",
+      "confidence": "medium",
+      "note": "The schedule says 'Month 24 through Term Expiration Date' for the third step, which overlaps month 24. It is probably meant to start at month 25. Percentage increases are calculated, not stated.",
+      "span": [
+        1617,
+        1658
+      ],
+      "citation": "exact",
+      "grounded": false,
+      "model_confidence": "medium",
+      "flag": ""
+    },
+    "renewal_option": {
+      "value": "One (1) option to extend for three (3) years, at fair market rental rate (FMRR), with arbitration if the parties disagree",
+      "normalised": "1 x 3 years, at FMRR",
+      "quote": "Landlord hereby grants to Tenant one (1) option (the \u201cOption\u201d) to extend the term of this Lease for an additional period of three (3) years",
+      "confidence": "high",
+      "note": "Not exercisable if Tenant is in default, has assigned the lease (other than to an affiliate or subsidiary), or occupies less than 50% of the premises. Landlord may convert the lease to a net lease during the Option Term.",
+      "span": [
+        124631,
+        124770
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "renewal_notice_months": {
+      "value": "9 months (written notice window is 12 to 9 months before the Term Expiration Date)",
+      "normalised": "9",
+      "quote": "not earlier than twelve (12) months and not later than nine (9) months prior to the Term Expiration Date",
+      "confidence": "high",
+      "note": "Nine months is the latest date for notice. The earliest is 12 months before expiry.",
+      "span": [
+        124982,
+        125086
+      ],
+      "citation": "whitespace",
+      "grounded": true,
+      "model_confidence": "high",
+      "flag": ""
+    },
+    "early_termination": {
+      "value": "One-time Tenant right to terminate on the day before the 2nd anniversary of the Term Commencement Date. Requires at least 9 months' prior written irrevocable notice and no Tenant default. An Early Termination Fee must be paid with the notice. The fee is the unamortized Landlord costs for Tenant Improvements and other lease costs (12% interest, 36-month amortization) plus 3 months' Rent.",
+      "normalised": "Termination at end of month 24 (day before 2nd anniversary); 9 months' notice; fee = unamortized TI and lease costs + 3 months' Rent",
+      "quote": "Tenant shall have the one-time right to terminate this Lease on the day before the second (2nd) anniversary of the Term Commencement Date",
+      "confidence": "medium",
+      "note": "The fee is not a fixed dollar amount. Tenant may request a written breakdown from Landlord, who must deliver it within 10 business days.",
+      "span": [
+        132994,
+        133131
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    },
+    "security_deposit": {
+      "value": "$212,146.20, delivered as an irrevocable letter of credit (not cash). It reduces to $141,430.80 on the 1st anniversary and to $106,073.10 on the 2nd anniversary if Tenant has no material monetary default.",
+      "normalised": "212146.20",
+      "quote": "Tenant shall pay to Landlord the agreed upon Security Deposit of $212,146.20",
+      "confidence": "medium",
+      "note": "Section 5.14(a)-(b) requires a letter of credit, issued by Silicon Valley Bank or another approved bank. The amount is reduced under Section 5.14(c).",
+      "span": [
+        71959,
+        72035
+      ],
+      "citation": "whitespace",
+      "grounded": false,
+      "model_confidence": "high",
+      "flag": "value not visible in quote (derived or calculated)"
+    }
+  }
+}
