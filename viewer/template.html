@@ -412,7 +412,7 @@ function renderMethod() {
   const conf = Object.entries(e.by_confidence).map(([k, v]) => `<tr><td>${k}</td><td class="n">${v.n}</td><td class="n">${v.strict_accuracy}%</td><td><div class="bar"><i style="width:${v.strict_accuracy}%"></i></div></td></tr>`).join("");
   const byf = Object.values(e.by_field).map(v => `<tr><td>${esc(v.label)}</td><td class="n">${v.n}</td><td class="n">${v.strict_accuracy}%</td><td><div class="bar"><i style="width:${v.strict_accuracy}%"></i></div></td></tr>`).join("");
   return `<div class="page"><h1>How it's measured</h1>
-    <p class="lede">I read ${e.docs_scored} leases myself and recorded the right answer for each term without looking at the system's output, then compared.</p>
+    <p class="lede">I read ${e.docs_scored} leases myself and recorded the right answer for each term, then compared. I labelled most leases blind, but saw the system’s answers for some before labelling, and re-checked every disagreement against the lease with the system’s answer in view. Treat the figures as a test of the design, not a benchmark of the model.</p>
     <div class="metrics">
       <div class="metric"><div class="n">${rq.review_burden_pct}%</div><div class="k">of terms sent to a person</div></div>
       <div class="metric"><div class="n">${rq.errors_caught} of ${rq.errors}</div><div class="k">mistakes landed in front of that person</div></div>
@@ -420,7 +420,7 @@ function renderMethod() {
       <div class="metric"><div class="n">${e.overall.strict_accuracy}%</div><div class="k">raw accuracy before review</div></div>
     </div>
     ${how}
-    <div class="section"><h2>Mistakes that got through</h2><p>These passed every check. They show where checking that a quote exists isn't enough: the quote was real but it was the wrong one.</p>
+    <div class="section"><h2>Mistakes that got through</h2><p>These passed every check. Most differ only in wording, such as “a Delaware corporation” after a company name, which my scorer counts strictly.</p>
       <div class="tablewrap"><table><thead><tr><th>Lease</th><th>Term</th><th>System said</th><th>Correct</th></tr></thead><tbody>${escaped || `<tr><td colspan="4">None.</td></tr>`}</tbody></table></div></div>
     <div class="section"><h2>Does confidence mean anything?</h2><p>It's only worth showing a confidence signal if high really is more reliable than low.</p>
       <div class="tablewrap"><table><thead><tr><th>Confidence</th><th>Terms</th><th>Right</th><th></th></tr></thead><tbody>${conf}</tbody></table></div></div>
